@@ -1,5 +1,7 @@
 # TEX Shinobi Keymap Tools
 
+[![PyPI](https://img.shields.io/pypi/v/shinobi-keymap.svg)](https://pypi.org/project/shinobi-keymap/)
+
 Python tools for working with TEX Shinobi keyboard keymap files (`.TEX` format).
 
 ## Features
@@ -14,10 +16,14 @@ Python tools for working with TEX Shinobi keyboard keymap files (`.TEX` format).
 ## Installation
 
 ```bash
-pip install -e .
+pip install shinobi-keymap
 ```
 
-This installs the `shinobi-keymap` command.
+This installs the `shinobi-keymap` command. For a development checkout, install the source tree in editable mode instead:
+
+```bash
+pip install -e .
+```
 
 ## Quick Start
 
