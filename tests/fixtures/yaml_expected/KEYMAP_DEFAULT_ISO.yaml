@@ -1,0 +1,62 @@
+version: 1
+layout: ISO
+website_compat:
+  tex_padding: true
+  fn_order:
+    profile1:
+      fn1:
+      - L_CTRL
+      - G10
+    profile2:
+      fn1:
+      - G12
+      - G10
+    profile3:
+      fn1:
+      - G12
+      - G10
+  fn_overshadowed_maps:
+    profile1:
+      L_CTRL: G12
+  fn_ineffective_maps:
+    profile1:
+      fn1:
+        G10: G10
+        L_CTRL: G12
+      fn2:
+        L_CTRL: G12
+      fn3:
+        L_CTRL: G12
+    profile2:
+      fn1:
+        G10: G10
+    profile3:
+      fn1:
+        G10: G10
+profiles:
+  profile1:
+    base:
+      G10: FN1
+      L_CTRL: FN1
+      G12: NONE
+    fn1:
+      ESC: BAD_ESC
+      MUTE: BAD_MUTE
+      VOL_DEC: BAD_VOL_DEC
+      VOL_INC: BAD_VOL_INC
+  profile2:
+    base:
+      G10: FN1
+    fn1:
+      ESC: BAD_ESC
+      MUTE: BAD_MUTE
+      VOL_DEC: BAD_VOL_DEC
+      VOL_INC: BAD_VOL_INC
+  profile3:
+    base:
+      G10: FN1
+    fn1:
+      ESC: BAD_ESC
+      MUTE: BAD_MUTE
+      VOL_DEC: BAD_VOL_DEC
+      VOL_INC: BAD_VOL_INC

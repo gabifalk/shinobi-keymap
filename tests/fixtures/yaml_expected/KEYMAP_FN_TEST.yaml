@@ -1,0 +1,30 @@
+version: 1
+layout: ANSI
+profiles:
+  profile1:
+    base:
+      # FN keys for testing
+      G12: FN1
+      END: FN2
+      PGDN: FN3
+    fn1:
+      # FN1 + A = F1 (to identify layer)
+      A: F1
+      # FN1 + S = F11
+      S: F11
+    fn2:
+      # FN2 + A = F2 (to identify layer)
+      A: F2
+      # FN2 + S = F12
+      S: F12
+    fn3:
+      # FN3 + A = F3 (to identify layer)
+      A: F3
+      # FN3 + S = F13
+      S: F13
+  profile2:
+    base:
+      G12: FN1
+  profile3:
+    base:
+      G12: FN1

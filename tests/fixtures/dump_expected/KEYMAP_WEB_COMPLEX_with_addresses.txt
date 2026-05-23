@@ -1,0 +1,2496 @@
+File: tests/fixtures/tex_files/KEYMAP_WEB_COMPLEX.TEX
+Size: 18816 bytes
+
+Header:
+--------------------------------------------------------------------------------
+0x0000  435946490000      magic='CYFI\0\0'
+0x0006  1200              ptr_entry_count=18
+
+Pointers:
+--------------------------------------------------------------------------------
+0x0008  0001000098000000  PROFILE_PTR id=1 offset=0x0098
+0x0010  00020000980c0000  PROFILE_PTR id=2 offset=0x0C98
+0x0018  0003000088180000  PROFILE_PTR id=3 offset=0x1888
+0x0020  0101000078240000  MACRO_PTR profile1 id=M1(0) -> 0x2478
+0x0028  01010100f8260000  MACRO_PTR profile1 id=M2(1) -> 0x26F8
+0x0030  0101020078290000  MACRO_PTR profile1 id=M3(2) -> 0x2978
+0x0038  01010300f82b0000  MACRO_PTR profile1 id=M4(3) -> 0x2BF8
+0x0040  01010400782e0000  MACRO_PTR profile1 id=M5(4) -> 0x2E78
+0x0048  01020000f8300000  MACRO_PTR profile2 id=M1(0) -> 0x30F8
+0x0050  0102010078330000  MACRO_PTR profile2 id=M2(1) -> 0x3378
+0x0058  01020200f8350000  MACRO_PTR profile2 id=M3(2) -> 0x35F8
+0x0060  0102030078380000  MACRO_PTR profile2 id=M4(3) -> 0x3878
+0x0068  01020400f83a0000  MACRO_PTR profile2 id=M5(4) -> 0x3AF8
+0x0070  01030000783d0000  MACRO_PTR profile3 id=M1(0) -> 0x3D78
+0x0078  01030100f83f0000  MACRO_PTR profile3 id=M2(1) -> 0x3FF8
+0x0080  0103020078420000  MACRO_PTR profile3 id=M3(2) -> 0x4278
+0x0088  01030300f8440000  MACRO_PTR profile3 id=M4(3) -> 0x44F8
+0x0090  0103040078470000  MACRO_PTR profile3 id=M5(4) -> 0x4778
+
+Entries:
+--------------------------------------------------------------------------------
+[profile1] 0x0098  02180000063d0100  MACRO_BINDING fn1: key[C(6)] -> action[M1]
+[profile1] 0x00A0  02180000193d0100  MACRO_BINDING fn1: key[V(25)] -> action[M1]
+[profile1] 0x00A8  021800001b3d0100  MACRO_BINDING fn1: key[X(27)] -> action[M1]
+[profile1] 0x00B0  021800001d3d0100  MACRO_BINDING fn1: key[Z(29)] -> action[M1]
+[profile1] 0x00B8  02201e0131010000  KEY fn1(0x01): key[1(30)] -> action[TP_SPEED1(305)]
+[profile1] 0x00C0  02201f0132010000  KEY fn1(0x01): key[2(31)] -> action[TP_SPEED2(306)]
+[profile1] 0x00C8  0220200133010000  KEY fn1(0x01): key[3(32)] -> action[TP_SPEED3(307)]
+[profile1] 0x00D0  0220210134010000  KEY fn1(0x01): key[4(33)] -> action[TP_SPEED4(308)]
+[profile1] 0x00D8  0220220135010000  KEY fn1(0x01): key[5(34)] -> action[TP_SPEED5(309)]
+[profile1] 0x00E0  0220230136010000  KEY fn1(0x01): key[6(35)] -> action[TP_SPEED6(310)]
+[profile1] 0x00E8  0220240137010000  KEY fn1(0x01): key[7(36)] -> action[TP_SPEED7(311)]
+[profile1] 0x00F0  0220250138010000  KEY fn1(0x01): key[8(37)] -> action[TP_SPEED8(312)]
+[profile1] 0x00F8  0220260139010000  KEY fn1(0x01): key[9(38)] -> action[TP_SPEED9(313)]
+[profile1] 0x0100  022029018d010000  KEY fn1(0x01): key[ESC(41)] -> action[BAD_ESC(397)]
+[profile1] 0x0108  021803004e3d0100  MACRO_BINDING fn1: key[PGDN(78)] -> action[M4]
+[profile1] 0x0110  02204f01f3000000  KEY fn1(0x01): key[R_ARROW(79)] -> action[NEXT_TRACK(243)]
+[profile1] 0x0118  02205001f2000000  KEY fn1(0x01): key[L_ARROW(80)] -> action[PRE_TRACK(242)]
+[profile1] 0x0120  02205101f0000000  KEY fn1(0x01): key[DN_ARROW(81)] -> action[PLAY_PAUSE(240)]
+[profile1] 0x0128  02205201f1000000  KEY fn1(0x01): key[UP_ARROW(82)] -> action[STOP(241)]
+[profile1] 0x0130  02180400653d0100  MACRO_BINDING fn1: key[APP(101)] -> action[M5]
+[profile1] 0x0138  02180100e33d0100  MACRO_BINDING fn1: key[L_WIN(227)] -> action[M2]
+[profile1] 0x0140  0220f4018a010000  KEY fn1(0x01): key[MUTE(244)] -> action[BAD_MUTE(394)]
+[profile1] 0x0148  0220f5018b010000  KEY fn1(0x01): key[VOL_DEC(245)] -> action[BAD_VOL_DEC(395)]
+[profile1] 0x0150  0220f6018c010000  KEY fn1(0x01): key[VOL_INC(246)] -> action[BAD_VOL_INC(396)]
+[profile1] 0x0158  02180200133e0100  MACRO_BINDING fn2: key[P(19)] -> action[M3]
+[profile1] 0x0160  021804004e3f0100  MACRO_BINDING fn3: key[PGDN(78)] -> action[M5]
+[profile1] 0x0168  0220040104000000  KEY fn1(0x01): key[A(4)] -> action[A(4)]
+[profile1] 0x0170  0220050105000000  KEY fn1(0x01): key[B(5)] -> action[B(5)]
+[profile1] 0x0178  0220070107000000  KEY fn1(0x01): key[D(7)] -> action[D(7)]
+[profile1] 0x0180  0220080108000000  KEY fn1(0x01): key[E(8)] -> action[E(8)]
+[profile1] 0x0188  0220090109000000  KEY fn1(0x01): key[F(9)] -> action[F(9)]
+[profile1] 0x0190  02200a010a000000  KEY fn1(0x01): key[G(10)] -> action[G(10)]
+[profile1] 0x0198  02200b010b000000  KEY fn1(0x01): key[H(11)] -> action[H(11)]
+[profile1] 0x01A0  02200c010c000000  KEY fn1(0x01): key[I(12)] -> action[I(12)]
+[profile1] 0x01A8  02200d010d000000  KEY fn1(0x01): key[J(13)] -> action[J(13)]
+[profile1] 0x01B0  02200e010e000000  KEY fn1(0x01): key[K(14)] -> action[K(14)]
+[profile1] 0x01B8  02200f010f000000  KEY fn1(0x01): key[L(15)] -> action[L(15)]
+[profile1] 0x01C0  0220100110000000  KEY fn1(0x01): key[M(16)] -> action[M(16)]
+[profile1] 0x01C8  0220110111000000  KEY fn1(0x01): key[N(17)] -> action[N(17)]
+[profile1] 0x01D0  0220120112000000  KEY fn1(0x01): key[O(18)] -> action[O(18)]
+[profile1] 0x01D8  0220130113000000  KEY fn1(0x01): key[P(19)] -> action[P(19)]
+[profile1] 0x01E0  0220140114000000  KEY fn1(0x01): key[Q(20)] -> action[Q(20)]
+[profile1] 0x01E8  0220150115000000  KEY fn1(0x01): key[R(21)] -> action[R(21)]
+[profile1] 0x01F0  0220160116000000  KEY fn1(0x01): key[S(22)] -> action[S(22)]
+[profile1] 0x01F8  0220170117000000  KEY fn1(0x01): key[T(23)] -> action[T(23)]
+[profile1] 0x0200  0220180118000000  KEY fn1(0x01): key[U(24)] -> action[U(24)]
+[profile1] 0x0208  02201a011a000000  KEY fn1(0x01): key[W(26)] -> action[W(26)]
+[profile1] 0x0210  02201c011c000000  KEY fn1(0x01): key[Y(28)] -> action[Y(28)]
+[profile1] 0x0218  0220270127000000  KEY fn1(0x01): key[0(39)] -> action[0(39)]
+[profile1] 0x0220  0220280128000000  KEY fn1(0x01): key[ENTER(40)] -> action[ENTER(40)]
+[profile1] 0x0228  02202a012a000000  KEY fn1(0x01): key[BACKSPACE(42)] -> action[BACKSPACE(42)]
+[profile1] 0x0230  02202b012b000000  KEY fn1(0x01): key[TAB(43)] -> action[TAB(43)]
+[profile1] 0x0238  02202c012c000000  KEY fn1(0x01): key[SPACE(44)] -> action[SPACE(44)]
+[profile1] 0x0240  02202d012d000000  KEY fn1(0x01): key[NEG(45)] -> action[NEG(45)]
+[profile1] 0x0248  02202e012e000000  KEY fn1(0x01): key[EQUATION(46)] -> action[EQUATION(46)]
+[profile1] 0x0250  02202f012f000000  KEY fn1(0x01): key[L_BRACKETS(47)] -> action[L_BRACKETS(47)]
+[profile1] 0x0258  0220300130000000  KEY fn1(0x01): key[R_BRACKETS(48)] -> action[R_BRACKETS(48)]
+[profile1] 0x0260  0220310131000000  KEY fn1(0x01): key[BACKSLASH(49)] -> action[BACKSLASH(49)]
+[profile1] 0x0268  0220330133000000  KEY fn1(0x01): key[SEMICOLON(51)] -> action[SEMICOLON(51)]
+[profile1] 0x0270  0220340134000000  KEY fn1(0x01): key[APOSTROPHE(52)] -> action[APOSTROPHE(52)]
+[profile1] 0x0278  0220350135000000  KEY fn1(0x01): key[TILDE(53)] -> action[TILDE(53)]
+[profile1] 0x0280  0220360136000000  KEY fn1(0x01): key[COMMA(54)] -> action[COMMA(54)]
+[profile1] 0x0288  0220370137000000  KEY fn1(0x01): key[DOT(55)] -> action[DOT(55)]
+[profile1] 0x0290  0220380138000000  KEY fn1(0x01): key[SLASH(56)] -> action[SLASH(56)]
+[profile1] 0x0298  0220390139000000  KEY fn1(0x01): key[CAPS_LOCK(57)] -> action[CAPS_LOCK(57)]
+[profile1] 0x02A0  02203a013a000000  KEY fn1(0x01): key[F1(58)] -> action[F1(58)]
+[profile1] 0x02A8  02203b013b000000  KEY fn1(0x01): key[F2(59)] -> action[F2(59)]
+[profile1] 0x02B0  02203c013c000000  KEY fn1(0x01): key[F3(60)] -> action[F3(60)]
+[profile1] 0x02B8  02203d013d000000  KEY fn1(0x01): key[F4(61)] -> action[F4(61)]
+[profile1] 0x02C0  02203e013e000000  KEY fn1(0x01): key[F5(62)] -> action[F5(62)]
+[profile1] 0x02C8  02203f013f000000  KEY fn1(0x01): key[F6(63)] -> action[F6(63)]
+[profile1] 0x02D0  0220400140000000  KEY fn1(0x01): key[F7(64)] -> action[F7(64)]
+[profile1] 0x02D8  0220410141000000  KEY fn1(0x01): key[F8(65)] -> action[F8(65)]
+[profile1] 0x02E0  0220420142000000  KEY fn1(0x01): key[F9(66)] -> action[F9(66)]
+[profile1] 0x02E8  0220430143000000  KEY fn1(0x01): key[F10(67)] -> action[F10(67)]
+[profile1] 0x02F0  0220440144000000  KEY fn1(0x01): key[F11(68)] -> action[F11(68)]
+[profile1] 0x02F8  0220450145000000  KEY fn1(0x01): key[F12(69)] -> action[F12(69)]
+[profile1] 0x0300  0220460146000000  KEY fn1(0x01): key[PRINT(70)] -> action[PRINT(70)]
+[profile1] 0x0308  0220470147000000  KEY fn1(0x01): key[SCROLL(71)] -> action[SCROLL(71)]
+[profile1] 0x0310  0220480148000000  KEY fn1(0x01): key[PAUSE(72)] -> action[PAUSE(72)]
+[profile1] 0x0318  0220490149000000  KEY fn1(0x01): key[INSERT(73)] -> action[INSERT(73)]
+[profile1] 0x0320  02204a014a000000  KEY fn1(0x01): key[HOME(74)] -> action[HOME(74)]
+[profile1] 0x0328  02204b014d000000  KEY fn1(0x01): key[PGUP(75)] -> action[END(77)]
+[profile1] 0x0330  02204c014c000000  KEY fn1(0x01): key[DEL(76)] -> action[DEL(76)]
+[profile1] 0x0338  02204d01f9000000  KEY fn1(0x01): key[END(77)] -> action[W3BACK(249)]
+[profile1] 0x0340  0220c801c8000000  KEY fn1(0x01): key[G9(200)] -> action[G9(200)]
+[profile1] 0x0348  0220c901f2010000  KEY fn1(0x01): key[G10(201)] -> action[MOUSE_MIDDLE(498)]
+[profile1] 0x0350  0220ca01ca000000  KEY fn1(0x01): key[G11(202)] -> action[G11(202)]
+[profile1] 0x0358  0220cb01e0000000  KEY fn1(0x01): key[G12(203)] -> action[L_CTRL(224)]
+[profile1] 0x0360  0220e001e0000000  KEY fn1(0x01): key[L_CTRL(224)] -> action[L_CTRL(224)]
+[profile1] 0x0368  0220e101e1000000  KEY fn1(0x01): key[L_SHIFT(225)] -> action[L_SHIFT(225)]
+[profile1] 0x0370  0220e201e2000000  KEY fn1(0x01): key[L_ALT(226)] -> action[L_ALT(226)]
+[profile1] 0x0378  0220e401e4000000  KEY fn1(0x01): key[R_CTRL(228)] -> action[R_CTRL(228)]
+[profile1] 0x0380  0220e501e5000000  KEY fn1(0x01): key[R_SHIFT(229)] -> action[R_SHIFT(229)]
+[profile1] 0x0388  0220e601e6000000  KEY fn1(0x01): key[R_ALT(230)] -> action[R_ALT(230)]
+[profile1] 0x0390  0220f9014e000000  KEY fn1(0x01): key[W3BACK(249)] -> action[PGDN(78)]
+[profile1] 0x0398  0220fa014b000000  KEY fn1(0x01): key[W3FORWARD(250)] -> action[PGUP(75)]
+[profile1] 0x03A0  0220040204000000  KEY fn2(0x02): key[A(4)] -> action[A(4)]
+[profile1] 0x03A8  0220050205000000  KEY fn2(0x02): key[B(5)] -> action[B(5)]
+[profile1] 0x03B0  0220060206000000  KEY fn2(0x02): key[C(6)] -> action[C(6)]
+[profile1] 0x03B8  0220070207000000  KEY fn2(0x02): key[D(7)] -> action[D(7)]
+[profile1] 0x03C0  0220080208000000  KEY fn2(0x02): key[E(8)] -> action[E(8)]
+[profile1] 0x03C8  0220090209000000  KEY fn2(0x02): key[F(9)] -> action[F(9)]
+[profile1] 0x03D0  02200a020a000000  KEY fn2(0x02): key[G(10)] -> action[G(10)]
+[profile1] 0x03D8  02200b020b000000  KEY fn2(0x02): key[H(11)] -> action[H(11)]
+[profile1] 0x03E0  02200c020c000000  KEY fn2(0x02): key[I(12)] -> action[I(12)]
+[profile1] 0x03E8  02200d020d000000  KEY fn2(0x02): key[J(13)] -> action[J(13)]
+[profile1] 0x03F0  02200e020e000000  KEY fn2(0x02): key[K(14)] -> action[K(14)]
+[profile1] 0x03F8  02200f020f000000  KEY fn2(0x02): key[L(15)] -> action[L(15)]
+[profile1] 0x0400  0220100210000000  KEY fn2(0x02): key[M(16)] -> action[M(16)]
+[profile1] 0x0408  0220110211000000  KEY fn2(0x02): key[N(17)] -> action[N(17)]
+[profile1] 0x0410  0220120212000000  KEY fn2(0x02): key[O(18)] -> action[O(18)]
+[profile1] 0x0418  0220140214000000  KEY fn2(0x02): key[Q(20)] -> action[Q(20)]
+[profile1] 0x0420  0220150215000000  KEY fn2(0x02): key[R(21)] -> action[R(21)]
+[profile1] 0x0428  0220160216000000  KEY fn2(0x02): key[S(22)] -> action[S(22)]
+[profile1] 0x0430  0220170217000000  KEY fn2(0x02): key[T(23)] -> action[T(23)]
+[profile1] 0x0438  0220180218000000  KEY fn2(0x02): key[U(24)] -> action[U(24)]
+[profile1] 0x0440  0220190219000000  KEY fn2(0x02): key[V(25)] -> action[V(25)]
+[profile1] 0x0448  02201a021a000000  KEY fn2(0x02): key[W(26)] -> action[W(26)]
+[profile1] 0x0450  02201b021b000000  KEY fn2(0x02): key[X(27)] -> action[X(27)]
+[profile1] 0x0458  02201c021c000000  KEY fn2(0x02): key[Y(28)] -> action[Y(28)]
+[profile1] 0x0460  02201d021d000000  KEY fn2(0x02): key[Z(29)] -> action[Z(29)]
+[profile1] 0x0468  02201e021e000000  KEY fn2(0x02): key[1(30)] -> action[1(30)]
+[profile1] 0x0470  02201f021f000000  KEY fn2(0x02): key[2(31)] -> action[2(31)]
+[profile1] 0x0478  0220200220000000  KEY fn2(0x02): key[3(32)] -> action[3(32)]
+[profile1] 0x0480  0220210221000000  KEY fn2(0x02): key[4(33)] -> action[4(33)]
+[profile1] 0x0488  0220220222000000  KEY fn2(0x02): key[5(34)] -> action[5(34)]
+[profile1] 0x0490  0220230223000000  KEY fn2(0x02): key[6(35)] -> action[6(35)]
+[profile1] 0x0498  0220240224000000  KEY fn2(0x02): key[7(36)] -> action[7(36)]
+[profile1] 0x04A0  0220250225000000  KEY fn2(0x02): key[8(37)] -> action[8(37)]
+[profile1] 0x04A8  0220260226000000  KEY fn2(0x02): key[9(38)] -> action[9(38)]
+[profile1] 0x04B0  0220270227000000  KEY fn2(0x02): key[0(39)] -> action[0(39)]
+[profile1] 0x04B8  0220280228000000  KEY fn2(0x02): key[ENTER(40)] -> action[ENTER(40)]
+[profile1] 0x04C0  0220290229000000  KEY fn2(0x02): key[ESC(41)] -> action[ESC(41)]
+[profile1] 0x04C8  02202a022a000000  KEY fn2(0x02): key[BACKSPACE(42)] -> action[BACKSPACE(42)]
+[profile1] 0x04D0  02202b022b000000  KEY fn2(0x02): key[TAB(43)] -> action[TAB(43)]
+[profile1] 0x04D8  02202c022c000000  KEY fn2(0x02): key[SPACE(44)] -> action[SPACE(44)]
+[profile1] 0x04E0  02202d022d000000  KEY fn2(0x02): key[NEG(45)] -> action[NEG(45)]
+[profile1] 0x04E8  02202e022e000000  KEY fn2(0x02): key[EQUATION(46)] -> action[EQUATION(46)]
+[profile1] 0x04F0  02202f022f000000  KEY fn2(0x02): key[L_BRACKETS(47)] -> action[L_BRACKETS(47)]
+[profile1] 0x04F8  0220300230000000  KEY fn2(0x02): key[R_BRACKETS(48)] -> action[R_BRACKETS(48)]
+[profile1] 0x0500  0220310231000000  KEY fn2(0x02): key[BACKSLASH(49)] -> action[BACKSLASH(49)]
+[profile1] 0x0508  0220330233000000  KEY fn2(0x02): key[SEMICOLON(51)] -> action[SEMICOLON(51)]
+[profile1] 0x0510  0220340234000000  KEY fn2(0x02): key[APOSTROPHE(52)] -> action[APOSTROPHE(52)]
+[profile1] 0x0518  0220350235000000  KEY fn2(0x02): key[TILDE(53)] -> action[TILDE(53)]
+[profile1] 0x0520  0220360236000000  KEY fn2(0x02): key[COMMA(54)] -> action[COMMA(54)]
+[profile1] 0x0528  0220370237000000  KEY fn2(0x02): key[DOT(55)] -> action[DOT(55)]
+[profile1] 0x0530  0220380238000000  KEY fn2(0x02): key[SLASH(56)] -> action[SLASH(56)]
+[profile1] 0x0538  0220390239000000  KEY fn2(0x02): key[CAPS_LOCK(57)] -> action[CAPS_LOCK(57)]
+[profile1] 0x0540  02203a023a000000  KEY fn2(0x02): key[F1(58)] -> action[F1(58)]
+[profile1] 0x0548  02203b023b000000  KEY fn2(0x02): key[F2(59)] -> action[F2(59)]
+[profile1] 0x0550  02203c023c000000  KEY fn2(0x02): key[F3(60)] -> action[F3(60)]
+[profile1] 0x0558  02203d023d000000  KEY fn2(0x02): key[F4(61)] -> action[F4(61)]
+[profile1] 0x0560  02203e023e000000  KEY fn2(0x02): key[F5(62)] -> action[F5(62)]
+[profile1] 0x0568  02203f023f000000  KEY fn2(0x02): key[F6(63)] -> action[F6(63)]
+[profile1] 0x0570  0220400240000000  KEY fn2(0x02): key[F7(64)] -> action[F7(64)]
+[profile1] 0x0578  0220410241000000  KEY fn2(0x02): key[F8(65)] -> action[F8(65)]
+[profile1] 0x0580  0220420242000000  KEY fn2(0x02): key[F9(66)] -> action[F9(66)]
+[profile1] 0x0588  0220430243000000  KEY fn2(0x02): key[F10(67)] -> action[F10(67)]
+[profile1] 0x0590  0220440244000000  KEY fn2(0x02): key[F11(68)] -> action[F11(68)]
+[profile1] 0x0598  0220450245000000  KEY fn2(0x02): key[F12(69)] -> action[F12(69)]
+[profile1] 0x05A0  0220460246000000  KEY fn2(0x02): key[PRINT(70)] -> action[PRINT(70)]
+[profile1] 0x05A8  0220470247000000  KEY fn2(0x02): key[SCROLL(71)] -> action[SCROLL(71)]
+[profile1] 0x05B0  0220480248000000  KEY fn2(0x02): key[PAUSE(72)] -> action[PAUSE(72)]
+[profile1] 0x05B8  0220490249000000  KEY fn2(0x02): key[INSERT(73)] -> action[INSERT(73)]
+[profile1] 0x05C0  02204a024a000000  KEY fn2(0x02): key[HOME(74)] -> action[HOME(74)]
+[profile1] 0x05C8  02204b024d000000  KEY fn2(0x02): key[PGUP(75)] -> action[END(77)]
+[profile1] 0x05D0  02204c024c000000  KEY fn2(0x02): key[DEL(76)] -> action[DEL(76)]
+[profile1] 0x05D8  02204d02f9000000  KEY fn2(0x02): key[END(77)] -> action[W3BACK(249)]
+[profile1] 0x05E0  02204e02fa000000  KEY fn2(0x02): key[PGDN(78)] -> action[W3FORWARD(250)]
+[profile1] 0x05E8  02204f024f000000  KEY fn2(0x02): key[R_ARROW(79)] -> action[R_ARROW(79)]
+[profile1] 0x05F0  0220500250000000  KEY fn2(0x02): key[L_ARROW(80)] -> action[L_ARROW(80)]
+[profile1] 0x05F8  0220510251000000  KEY fn2(0x02): key[DN_ARROW(81)] -> action[DN_ARROW(81)]
+[profile1] 0x0600  0220520252000000  KEY fn2(0x02): key[UP_ARROW(82)] -> action[UP_ARROW(82)]
+[profile1] 0x0608  0220650265000000  KEY fn2(0x02): key[APP(101)] -> action[APP(101)]
+[profile1] 0x0610  0220c802c8000000  KEY fn2(0x02): key[G9(200)] -> action[G9(200)]
+[profile1] 0x0618  0220c902f2010000  KEY fn2(0x02): key[G10(201)] -> action[MOUSE_MIDDLE(498)]
+[profile1] 0x0620  0220ca02ca000000  KEY fn2(0x02): key[G11(202)] -> action[G11(202)]
+[profile1] 0x0628  0220cb02e0000000  KEY fn2(0x02): key[G12(203)] -> action[L_CTRL(224)]
+[profile1] 0x0630  0220e002e0000000  KEY fn2(0x02): key[L_CTRL(224)] -> action[L_CTRL(224)]
+[profile1] 0x0638  0220e102e1000000  KEY fn2(0x02): key[L_SHIFT(225)] -> action[L_SHIFT(225)]
+[profile1] 0x0640  0220e202e2000000  KEY fn2(0x02): key[L_ALT(226)] -> action[L_ALT(226)]
+[profile1] 0x0648  0220e302e3000000  KEY fn2(0x02): key[L_WIN(227)] -> action[L_WIN(227)]
+[profile1] 0x0650  0220e402e4000000  KEY fn2(0x02): key[R_CTRL(228)] -> action[R_CTRL(228)]
+[profile1] 0x0658  0220e502e5000000  KEY fn2(0x02): key[R_SHIFT(229)] -> action[R_SHIFT(229)]
+[profile1] 0x0660  0220e602e6000000  KEY fn2(0x02): key[R_ALT(230)] -> action[R_ALT(230)]
+[profile1] 0x0668  0220f402f4000000  KEY fn2(0x02): key[MUTE(244)] -> action[MUTE(244)]
+[profile1] 0x0670  0220f502f5000000  KEY fn2(0x02): key[VOL_DEC(245)] -> action[VOL_DEC(245)]
+[profile1] 0x0678  0220f602f6000000  KEY fn2(0x02): key[VOL_INC(246)] -> action[VOL_INC(246)]
+[profile1] 0x0680  0220f9024e000000  KEY fn2(0x02): key[W3BACK(249)] -> action[PGDN(78)]
+[profile1] 0x0688  0220fa024b000000  KEY fn2(0x02): key[W3FORWARD(250)] -> action[PGUP(75)]
+[profile1] 0x0690  0220040304000000  KEY fn3(0x03): key[A(4)] -> action[A(4)]
+[profile1] 0x0698  0220050305000000  KEY fn3(0x03): key[B(5)] -> action[B(5)]
+[profile1] 0x06A0  0220060306000000  KEY fn3(0x03): key[C(6)] -> action[C(6)]
+[profile1] 0x06A8  0220070307000000  KEY fn3(0x03): key[D(7)] -> action[D(7)]
+[profile1] 0x06B0  0220080308000000  KEY fn3(0x03): key[E(8)] -> action[E(8)]
+[profile1] 0x06B8  0220090309000000  KEY fn3(0x03): key[F(9)] -> action[F(9)]
+[profile1] 0x06C0  02200a030a000000  KEY fn3(0x03): key[G(10)] -> action[G(10)]
+[profile1] 0x06C8  02200b030b000000  KEY fn3(0x03): key[H(11)] -> action[H(11)]
+[profile1] 0x06D0  02200c030c000000  KEY fn3(0x03): key[I(12)] -> action[I(12)]
+[profile1] 0x06D8  02200d030d000000  KEY fn3(0x03): key[J(13)] -> action[J(13)]
+[profile1] 0x06E0  02200e030e000000  KEY fn3(0x03): key[K(14)] -> action[K(14)]
+[profile1] 0x06E8  02200f030f000000  KEY fn3(0x03): key[L(15)] -> action[L(15)]
+[profile1] 0x06F0  0220100310000000  KEY fn3(0x03): key[M(16)] -> action[M(16)]
+[profile1] 0x06F8  0220110311000000  KEY fn3(0x03): key[N(17)] -> action[N(17)]
+[profile1] 0x0700  0220120312000000  KEY fn3(0x03): key[O(18)] -> action[O(18)]
+[profile1] 0x0708  0220130313000000  KEY fn3(0x03): key[P(19)] -> action[P(19)]
+[profile1] 0x0710  0220140314000000  KEY fn3(0x03): key[Q(20)] -> action[Q(20)]
+[profile1] 0x0718  0220150315000000  KEY fn3(0x03): key[R(21)] -> action[R(21)]
+[profile1] 0x0720  0220160316000000  KEY fn3(0x03): key[S(22)] -> action[S(22)]
+[profile1] 0x0728  0220170317000000  KEY fn3(0x03): key[T(23)] -> action[T(23)]
+[profile1] 0x0730  0220180318000000  KEY fn3(0x03): key[U(24)] -> action[U(24)]
+[profile1] 0x0738  0220190319000000  KEY fn3(0x03): key[V(25)] -> action[V(25)]
+[profile1] 0x0740  02201a031a000000  KEY fn3(0x03): key[W(26)] -> action[W(26)]
+[profile1] 0x0748  02201b031b000000  KEY fn3(0x03): key[X(27)] -> action[X(27)]
+[profile1] 0x0750  02201c031c000000  KEY fn3(0x03): key[Y(28)] -> action[Y(28)]
+[profile1] 0x0758  02201d031d000000  KEY fn3(0x03): key[Z(29)] -> action[Z(29)]
+[profile1] 0x0760  02201e031e000000  KEY fn3(0x03): key[1(30)] -> action[1(30)]
+[profile1] 0x0768  02201f031f000000  KEY fn3(0x03): key[2(31)] -> action[2(31)]
+[profile1] 0x0770  0220200320000000  KEY fn3(0x03): key[3(32)] -> action[3(32)]
+[profile1] 0x0778  0220210321000000  KEY fn3(0x03): key[4(33)] -> action[4(33)]
+[profile1] 0x0780  0220220322000000  KEY fn3(0x03): key[5(34)] -> action[5(34)]
+[profile1] 0x0788  0220230323000000  KEY fn3(0x03): key[6(35)] -> action[6(35)]
+[profile1] 0x0790  0220240324000000  KEY fn3(0x03): key[7(36)] -> action[7(36)]
+[profile1] 0x0798  0220250325000000  KEY fn3(0x03): key[8(37)] -> action[8(37)]
+[profile1] 0x07A0  0220260326000000  KEY fn3(0x03): key[9(38)] -> action[9(38)]
+[profile1] 0x07A8  0220270327000000  KEY fn3(0x03): key[0(39)] -> action[0(39)]
+[profile1] 0x07B0  0220280328000000  KEY fn3(0x03): key[ENTER(40)] -> action[ENTER(40)]
+[profile1] 0x07B8  0220290329000000  KEY fn3(0x03): key[ESC(41)] -> action[ESC(41)]
+[profile1] 0x07C0  02202a032a000000  KEY fn3(0x03): key[BACKSPACE(42)] -> action[BACKSPACE(42)]
+[profile1] 0x07C8  02202b032b000000  KEY fn3(0x03): key[TAB(43)] -> action[TAB(43)]
+[profile1] 0x07D0  02202c032c000000  KEY fn3(0x03): key[SPACE(44)] -> action[SPACE(44)]
+[profile1] 0x07D8  02202d032d000000  KEY fn3(0x03): key[NEG(45)] -> action[NEG(45)]
+[profile1] 0x07E0  02202e032e000000  KEY fn3(0x03): key[EQUATION(46)] -> action[EQUATION(46)]
+[profile1] 0x07E8  02202f032f000000  KEY fn3(0x03): key[L_BRACKETS(47)] -> action[L_BRACKETS(47)]
+[profile1] 0x07F0  0220300330000000  KEY fn3(0x03): key[R_BRACKETS(48)] -> action[R_BRACKETS(48)]
+[profile1] 0x07F8  0220310331000000  KEY fn3(0x03): key[BACKSLASH(49)] -> action[BACKSLASH(49)]
+[profile1] 0x0800  0220330333000000  KEY fn3(0x03): key[SEMICOLON(51)] -> action[SEMICOLON(51)]
+[profile1] 0x0808  0220340334000000  KEY fn3(0x03): key[APOSTROPHE(52)] -> action[APOSTROPHE(52)]
+[profile1] 0x0810  0220350335000000  KEY fn3(0x03): key[TILDE(53)] -> action[TILDE(53)]
+[profile1] 0x0818  0220360336000000  KEY fn3(0x03): key[COMMA(54)] -> action[COMMA(54)]
+[profile1] 0x0820  0220370337000000  KEY fn3(0x03): key[DOT(55)] -> action[DOT(55)]
+[profile1] 0x0828  0220380338000000  KEY fn3(0x03): key[SLASH(56)] -> action[SLASH(56)]
+[profile1] 0x0830  0220390339000000  KEY fn3(0x03): key[CAPS_LOCK(57)] -> action[CAPS_LOCK(57)]
+[profile1] 0x0838  02203a033a000000  KEY fn3(0x03): key[F1(58)] -> action[F1(58)]
+[profile1] 0x0840  02203b033b000000  KEY fn3(0x03): key[F2(59)] -> action[F2(59)]
+[profile1] 0x0848  02203c033c000000  KEY fn3(0x03): key[F3(60)] -> action[F3(60)]
+[profile1] 0x0850  02203d033d000000  KEY fn3(0x03): key[F4(61)] -> action[F4(61)]
+[profile1] 0x0858  02203e033e000000  KEY fn3(0x03): key[F5(62)] -> action[F5(62)]
+[profile1] 0x0860  02203f033f000000  KEY fn3(0x03): key[F6(63)] -> action[F6(63)]
+[profile1] 0x0868  0220400340000000  KEY fn3(0x03): key[F7(64)] -> action[F7(64)]
+[profile1] 0x0870  0220410341000000  KEY fn3(0x03): key[F8(65)] -> action[F8(65)]
+[profile1] 0x0878  0220420342000000  KEY fn3(0x03): key[F9(66)] -> action[F9(66)]
+[profile1] 0x0880  0220430343000000  KEY fn3(0x03): key[F10(67)] -> action[F10(67)]
+[profile1] 0x0888  0220440344000000  KEY fn3(0x03): key[F11(68)] -> action[F11(68)]
+[profile1] 0x0890  0220450345000000  KEY fn3(0x03): key[F12(69)] -> action[F12(69)]
+[profile1] 0x0898  0220460346000000  KEY fn3(0x03): key[PRINT(70)] -> action[PRINT(70)]
+[profile1] 0x08A0  0220470347000000  KEY fn3(0x03): key[SCROLL(71)] -> action[SCROLL(71)]
+[profile1] 0x08A8  0220480348000000  KEY fn3(0x03): key[PAUSE(72)] -> action[PAUSE(72)]
+[profile1] 0x08B0  0220490349000000  KEY fn3(0x03): key[INSERT(73)] -> action[INSERT(73)]
+[profile1] 0x08B8  02204a034a000000  KEY fn3(0x03): key[HOME(74)] -> action[HOME(74)]
+[profile1] 0x08C0  02204b034d000000  KEY fn3(0x03): key[PGUP(75)] -> action[END(77)]
+[profile1] 0x08C8  02204c034c000000  KEY fn3(0x03): key[DEL(76)] -> action[DEL(76)]
+[profile1] 0x08D0  02204d03f9000000  KEY fn3(0x03): key[END(77)] -> action[W3BACK(249)]
+[profile1] 0x08D8  02204f034f000000  KEY fn3(0x03): key[R_ARROW(79)] -> action[R_ARROW(79)]
+[profile1] 0x08E0  0220500350000000  KEY fn3(0x03): key[L_ARROW(80)] -> action[L_ARROW(80)]
+[profile1] 0x08E8  0220510351000000  KEY fn3(0x03): key[DN_ARROW(81)] -> action[DN_ARROW(81)]
+[profile1] 0x08F0  0220520352000000  KEY fn3(0x03): key[UP_ARROW(82)] -> action[UP_ARROW(82)]
+[profile1] 0x08F8  0220650365000000  KEY fn3(0x03): key[APP(101)] -> action[APP(101)]
+[profile1] 0x0900  0220c803c8000000  KEY fn3(0x03): key[G9(200)] -> action[G9(200)]
+[profile1] 0x0908  0220c903f2010000  KEY fn3(0x03): key[G10(201)] -> action[MOUSE_MIDDLE(498)]
+[profile1] 0x0910  0220ca03ca000000  KEY fn3(0x03): key[G11(202)] -> action[G11(202)]
+[profile1] 0x0918  0220cb03e0000000  KEY fn3(0x03): key[G12(203)] -> action[L_CTRL(224)]
+[profile1] 0x0920  0220e003e0000000  KEY fn3(0x03): key[L_CTRL(224)] -> action[L_CTRL(224)]
+[profile1] 0x0928  0220e103e1000000  KEY fn3(0x03): key[L_SHIFT(225)] -> action[L_SHIFT(225)]
+[profile1] 0x0930  0220e203e2000000  KEY fn3(0x03): key[L_ALT(226)] -> action[L_ALT(226)]
+[profile1] 0x0938  0220e303e3000000  KEY fn3(0x03): key[L_WIN(227)] -> action[L_WIN(227)]
+[profile1] 0x0940  0220e403e4000000  KEY fn3(0x03): key[R_CTRL(228)] -> action[R_CTRL(228)]
+[profile1] 0x0948  0220e503e5000000  KEY fn3(0x03): key[R_SHIFT(229)] -> action[R_SHIFT(229)]
+[profile1] 0x0950  0220e603e6000000  KEY fn3(0x03): key[R_ALT(230)] -> action[R_ALT(230)]
+[profile1] 0x0958  0220f403f4000000  KEY fn3(0x03): key[MUTE(244)] -> action[MUTE(244)]
+[profile1] 0x0960  0220f503f5000000  KEY fn3(0x03): key[VOL_DEC(245)] -> action[VOL_DEC(245)]
+[profile1] 0x0968  0220f603f6000000  KEY fn3(0x03): key[VOL_INC(246)] -> action[VOL_INC(246)]
+[profile1] 0x0970  0220f9034e000000  KEY fn3(0x03): key[W3BACK(249)] -> action[PGDN(78)]
+[profile1] 0x0978  0220fa034b000000  KEY fn3(0x03): key[W3FORWARD(250)] -> action[PGUP(75)]
+[profile1] 0x0980  0220040004000000  KEY base(0x00): key[A(4)] -> action[A(4)]
+[profile1] 0x0988  0220050005000000  KEY base(0x00): key[B(5)] -> action[B(5)]
+[profile1] 0x0990  0220060006000000  KEY base(0x00): key[C(6)] -> action[C(6)]
+[profile1] 0x0998  0220070007000000  KEY base(0x00): key[D(7)] -> action[D(7)]
+[profile1] 0x09A0  0220080008000000  KEY base(0x00): key[E(8)] -> action[E(8)]
+[profile1] 0x09A8  0220090009000000  KEY base(0x00): key[F(9)] -> action[F(9)]
+[profile1] 0x09B0  02200a000a000000  KEY base(0x00): key[G(10)] -> action[G(10)]
+[profile1] 0x09B8  02200b000b000000  KEY base(0x00): key[H(11)] -> action[H(11)]
+[profile1] 0x09C0  02200c000c000000  KEY base(0x00): key[I(12)] -> action[I(12)]
+[profile1] 0x09C8  02200d000d000000  KEY base(0x00): key[J(13)] -> action[J(13)]
+[profile1] 0x09D0  02200e000e000000  KEY base(0x00): key[K(14)] -> action[K(14)]
+[profile1] 0x09D8  02200f000f000000  KEY base(0x00): key[L(15)] -> action[L(15)]
+[profile1] 0x09E0  0220100010000000  KEY base(0x00): key[M(16)] -> action[M(16)]
+[profile1] 0x09E8  0220110011000000  KEY base(0x00): key[N(17)] -> action[N(17)]
+[profile1] 0x09F0  0220120012000000  KEY base(0x00): key[O(18)] -> action[O(18)]
+[profile1] 0x09F8  0220130013000000  KEY base(0x00): key[P(19)] -> action[P(19)]
+[profile1] 0x0A00  0220140014000000  KEY base(0x00): key[Q(20)] -> action[Q(20)]
+[profile1] 0x0A08  0220150015000000  KEY base(0x00): key[R(21)] -> action[R(21)]
+[profile1] 0x0A10  0220160016000000  KEY base(0x00): key[S(22)] -> action[S(22)]
+[profile1] 0x0A18  0220170017000000  KEY base(0x00): key[T(23)] -> action[T(23)]
+[profile1] 0x0A20  0220180018000000  KEY base(0x00): key[U(24)] -> action[U(24)]
+[profile1] 0x0A28  0220190019000000  KEY base(0x00): key[V(25)] -> action[V(25)]
+[profile1] 0x0A30  02201a001a000000  KEY base(0x00): key[W(26)] -> action[W(26)]
+[profile1] 0x0A38  02201b001b000000  KEY base(0x00): key[X(27)] -> action[X(27)]
+[profile1] 0x0A40  02201c001c000000  KEY base(0x00): key[Y(28)] -> action[Y(28)]
+[profile1] 0x0A48  02201d001d000000  KEY base(0x00): key[Z(29)] -> action[Z(29)]
+[profile1] 0x0A50  02201e001e000000  KEY base(0x00): key[1(30)] -> action[1(30)]
+[profile1] 0x0A58  02201f001f000000  KEY base(0x00): key[2(31)] -> action[2(31)]
+[profile1] 0x0A60  0220200020000000  KEY base(0x00): key[3(32)] -> action[3(32)]
+[profile1] 0x0A68  0220210021000000  KEY base(0x00): key[4(33)] -> action[4(33)]
+[profile1] 0x0A70  0220220022000000  KEY base(0x00): key[5(34)] -> action[5(34)]
+[profile1] 0x0A78  0220230023000000  KEY base(0x00): key[6(35)] -> action[6(35)]
+[profile1] 0x0A80  0220240024000000  KEY base(0x00): key[7(36)] -> action[7(36)]
+[profile1] 0x0A88  0220250025000000  KEY base(0x00): key[8(37)] -> action[8(37)]
+[profile1] 0x0A90  0220260026000000  KEY base(0x00): key[9(38)] -> action[9(38)]
+[profile1] 0x0A98  0220270027000000  KEY base(0x00): key[0(39)] -> action[0(39)]
+[profile1] 0x0AA0  0220280028000000  KEY base(0x00): key[ENTER(40)] -> action[ENTER(40)]
+[profile1] 0x0AA8  0220290029000000  KEY base(0x00): key[ESC(41)] -> action[ESC(41)]
+[profile1] 0x0AB0  02202a002a000000  KEY base(0x00): key[BACKSPACE(42)] -> action[BACKSPACE(42)]
+[profile1] 0x0AB8  02202b002b000000  KEY base(0x00): key[TAB(43)] -> action[TAB(43)]
+[profile1] 0x0AC0  02202c002c000000  KEY base(0x00): key[SPACE(44)] -> action[SPACE(44)]
+[profile1] 0x0AC8  02202d002d000000  KEY base(0x00): key[NEG(45)] -> action[NEG(45)]
+[profile1] 0x0AD0  02202e002e000000  KEY base(0x00): key[EQUATION(46)] -> action[EQUATION(46)]
+[profile1] 0x0AD8  02202f002f000000  KEY base(0x00): key[L_BRACKETS(47)] -> action[L_BRACKETS(47)]
+[profile1] 0x0AE0  0220300030000000  KEY base(0x00): key[R_BRACKETS(48)] -> action[R_BRACKETS(48)]
+[profile1] 0x0AE8  0220310031000000  KEY base(0x00): key[BACKSLASH(49)] -> action[BACKSLASH(49)]
+[profile1] 0x0AF0  0220330033000000  KEY base(0x00): key[SEMICOLON(51)] -> action[SEMICOLON(51)]
+[profile1] 0x0AF8  0220340034000000  KEY base(0x00): key[APOSTROPHE(52)] -> action[APOSTROPHE(52)]
+[profile1] 0x0B00  0220350035000000  KEY base(0x00): key[TILDE(53)] -> action[TILDE(53)]
+[profile1] 0x0B08  0220360036000000  KEY base(0x00): key[COMMA(54)] -> action[COMMA(54)]
+[profile1] 0x0B10  0220370037000000  KEY base(0x00): key[DOT(55)] -> action[DOT(55)]
+[profile1] 0x0B18  0220380038000000  KEY base(0x00): key[SLASH(56)] -> action[SLASH(56)]
+[profile1] 0x0B20  0220390039000000  KEY base(0x00): key[CAPS_LOCK(57)] -> action[CAPS_LOCK(57)]
+[profile1] 0x0B28  02203a003a000000  KEY base(0x00): key[F1(58)] -> action[F1(58)]
+[profile1] 0x0B30  02203b003b000000  KEY base(0x00): key[F2(59)] -> action[F2(59)]
+[profile1] 0x0B38  02203c003c000000  KEY base(0x00): key[F3(60)] -> action[F3(60)]
+[profile1] 0x0B40  02203d003d000000  KEY base(0x00): key[F4(61)] -> action[F4(61)]
+[profile1] 0x0B48  02203e003e000000  KEY base(0x00): key[F5(62)] -> action[F5(62)]
+[profile1] 0x0B50  02203f003f000000  KEY base(0x00): key[F6(63)] -> action[F6(63)]
+[profile1] 0x0B58  0220400040000000  KEY base(0x00): key[F7(64)] -> action[F7(64)]
+[profile1] 0x0B60  0220410041000000  KEY base(0x00): key[F8(65)] -> action[F8(65)]
+[profile1] 0x0B68  0220420042000000  KEY base(0x00): key[F9(66)] -> action[F9(66)]
+[profile1] 0x0B70  0220430043000000  KEY base(0x00): key[F10(67)] -> action[F10(67)]
+[profile1] 0x0B78  0220440044000000  KEY base(0x00): key[F11(68)] -> action[F11(68)]
+[profile1] 0x0B80  0220450045000000  KEY base(0x00): key[F12(69)] -> action[F12(69)]
+[profile1] 0x0B88  0220460046000000  KEY base(0x00): key[PRINT(70)] -> action[PRINT(70)]
+[profile1] 0x0B90  0220470047000000  KEY base(0x00): key[SCROLL(71)] -> action[SCROLL(71)]
+[profile1] 0x0B98  0220480048000000  KEY base(0x00): key[PAUSE(72)] -> action[PAUSE(72)]
+[profile1] 0x0BA0  0220490049000000  KEY base(0x00): key[INSERT(73)] -> action[INSERT(73)]
+[profile1] 0x0BA8  02204a004a000000  KEY base(0x00): key[HOME(74)] -> action[HOME(74)]
+[profile1] 0x0BB0  02204b004d000000  KEY base(0x00): key[PGUP(75)] -> action[END(77)]
+[profile1] 0x0BB8  02204c004c000000  KEY base(0x00): key[DEL(76)] -> action[DEL(76)]
+[profile1] 0x0BC0  02204d00f9000000  KEY base(0x00): key[END(77)] -> action[W3BACK(249)]
+[profile1] 0x0BC8  02204e00fa000000  KEY base(0x00): key[PGDN(78)] -> action[W3FORWARD(250)]
+[profile1] 0x0BD0  02204f004f000000  KEY base(0x00): key[R_ARROW(79)] -> action[R_ARROW(79)]
+[profile1] 0x0BD8  0220500050000000  KEY base(0x00): key[L_ARROW(80)] -> action[L_ARROW(80)]
+[profile1] 0x0BE0  0220510051000000  KEY base(0x00): key[DN_ARROW(81)] -> action[DN_ARROW(81)]
+[profile1] 0x0BE8  0220520052000000  KEY base(0x00): key[UP_ARROW(82)] -> action[UP_ARROW(82)]
+[profile1] 0x0BF0  0220650065000000  KEY base(0x00): key[APP(101)] -> action[APP(101)]
+[profile1] 0x0BF8  0220c800c8000000  KEY base(0x00): key[G9(200)] -> action[G9(200)]
+[profile1] 0x0C00  0220c900f2010000  KEY base(0x00): key[G10(201)] -> action[MOUSE_MIDDLE(498)]
+[profile1] 0x0C08  0220ca00ca000000  KEY base(0x00): key[G11(202)] -> action[G11(202)]
+[profile1] 0x0C10  0220cb00e0000000  KEY base(0x00): key[G12(203)] -> action[L_CTRL(224)]
+[profile1] 0x0C18  0220e000e0000000  KEY base(0x00): key[L_CTRL(224)] -> action[L_CTRL(224)]
+[profile1] 0x0C20  0220e100e1000000  KEY base(0x00): key[L_SHIFT(225)] -> action[L_SHIFT(225)]
+[profile1] 0x0C28  0220e200e2000000  KEY base(0x00): key[L_ALT(226)] -> action[L_ALT(226)]
+[profile1] 0x0C30  0220e300e3000000  KEY base(0x00): key[L_WIN(227)] -> action[L_WIN(227)]
+[profile1] 0x0C38  0220e400e4000000  KEY base(0x00): key[R_CTRL(228)] -> action[R_CTRL(228)]
+[profile1] 0x0C40  0220e500e5000000  KEY base(0x00): key[R_SHIFT(229)] -> action[R_SHIFT(229)]
+[profile1] 0x0C48  0220e600e6000000  KEY base(0x00): key[R_ALT(230)] -> action[R_ALT(230)]
+[profile1] 0x0C50  0220f400f4000000  KEY base(0x00): key[MUTE(244)] -> action[MUTE(244)]
+[profile1] 0x0C58  0220f500f5000000  KEY base(0x00): key[VOL_DEC(245)] -> action[VOL_DEC(245)]
+[profile1] 0x0C60  0220f600f6000000  KEY base(0x00): key[VOL_INC(246)] -> action[VOL_INC(246)]
+[profile1] 0x0C68  0220f9004e000000  KEY base(0x00): key[W3BACK(249)] -> action[PGDN(78)]
+[profile1] 0x0C70  0220fa004b000000  KEY base(0x00): key[W3FORWARD(250)] -> action[PGUP(75)]
+[profile1] 0x0C78  02940200b430ffff  FN_POS fn1(0x94): count=2 [NULL(180), G12(6,0)=48]
+[profile1] 0x0C80  0295010028ffffff  FN_POS fn2(0x95): count=1 [APP(5,0)=40]
+[profile1] 0x0C88  0296010051ffffff  FN_POS fn3(0x96): count=1 [END(10,1)=81]
+[profile1] 0x0C90  0000000000000000  SEPARATOR
+
+[profile2] 0x0C98  02201e0131010000  KEY fn1(0x01): key[1(30)] -> action[TP_SPEED1(305)]
+[profile2] 0x0CA0  02201f0132010000  KEY fn1(0x01): key[2(31)] -> action[TP_SPEED2(306)]
+[profile2] 0x0CA8  0220200133010000  KEY fn1(0x01): key[3(32)] -> action[TP_SPEED3(307)]
+[profile2] 0x0CB0  0220210134010000  KEY fn1(0x01): key[4(33)] -> action[TP_SPEED4(308)]
+[profile2] 0x0CB8  0220220135010000  KEY fn1(0x01): key[5(34)] -> action[TP_SPEED5(309)]
+[profile2] 0x0CC0  0220230136010000  KEY fn1(0x01): key[6(35)] -> action[TP_SPEED6(310)]
+[profile2] 0x0CC8  0220240137010000  KEY fn1(0x01): key[7(36)] -> action[TP_SPEED7(311)]
+[profile2] 0x0CD0  0220250138010000  KEY fn1(0x01): key[8(37)] -> action[TP_SPEED8(312)]
+[profile2] 0x0CD8  0220260139010000  KEY fn1(0x01): key[9(38)] -> action[TP_SPEED9(313)]
+[profile2] 0x0CE0  022029018d010000  KEY fn1(0x01): key[ESC(41)] -> action[BAD_ESC(397)]
+[profile2] 0x0CE8  02204f01f3000000  KEY fn1(0x01): key[R_ARROW(79)] -> action[NEXT_TRACK(243)]
+[profile2] 0x0CF0  02205001f2000000  KEY fn1(0x01): key[L_ARROW(80)] -> action[PRE_TRACK(242)]
+[profile2] 0x0CF8  02205101f0000000  KEY fn1(0x01): key[DN_ARROW(81)] -> action[PLAY_PAUSE(240)]
+[profile2] 0x0D00  02205201f1000000  KEY fn1(0x01): key[UP_ARROW(82)] -> action[STOP(241)]
+[profile2] 0x0D08  0220f4018a010000  KEY fn1(0x01): key[MUTE(244)] -> action[BAD_MUTE(394)]
+[profile2] 0x0D10  0220f5018b010000  KEY fn1(0x01): key[VOL_DEC(245)] -> action[BAD_VOL_DEC(395)]
+[profile2] 0x0D18  0220f6018c010000  KEY fn1(0x01): key[VOL_INC(246)] -> action[BAD_VOL_INC(396)]
+[profile2] 0x0D20  0220040104000000  KEY fn1(0x01): key[A(4)] -> action[A(4)]
+[profile2] 0x0D28  0220050105000000  KEY fn1(0x01): key[B(5)] -> action[B(5)]
+[profile2] 0x0D30  0220060106000000  KEY fn1(0x01): key[C(6)] -> action[C(6)]
+[profile2] 0x0D38  0220070107000000  KEY fn1(0x01): key[D(7)] -> action[D(7)]
+[profile2] 0x0D40  0220080108000000  KEY fn1(0x01): key[E(8)] -> action[E(8)]
+[profile2] 0x0D48  0220090109000000  KEY fn1(0x01): key[F(9)] -> action[F(9)]
+[profile2] 0x0D50  02200a010a000000  KEY fn1(0x01): key[G(10)] -> action[G(10)]
+[profile2] 0x0D58  02200b010b000000  KEY fn1(0x01): key[H(11)] -> action[H(11)]
+[profile2] 0x0D60  02200c010c000000  KEY fn1(0x01): key[I(12)] -> action[I(12)]
+[profile2] 0x0D68  02200d010d000000  KEY fn1(0x01): key[J(13)] -> action[J(13)]
+[profile2] 0x0D70  02200e010e000000  KEY fn1(0x01): key[K(14)] -> action[K(14)]
+[profile2] 0x0D78  02200f010f000000  KEY fn1(0x01): key[L(15)] -> action[L(15)]
+[profile2] 0x0D80  0220100110000000  KEY fn1(0x01): key[M(16)] -> action[M(16)]
+[profile2] 0x0D88  0220110111000000  KEY fn1(0x01): key[N(17)] -> action[N(17)]
+[profile2] 0x0D90  0220120112000000  KEY fn1(0x01): key[O(18)] -> action[O(18)]
+[profile2] 0x0D98  0220130113000000  KEY fn1(0x01): key[P(19)] -> action[P(19)]
+[profile2] 0x0DA0  0220140114000000  KEY fn1(0x01): key[Q(20)] -> action[Q(20)]
+[profile2] 0x0DA8  0220150115000000  KEY fn1(0x01): key[R(21)] -> action[R(21)]
+[profile2] 0x0DB0  0220160116000000  KEY fn1(0x01): key[S(22)] -> action[S(22)]
+[profile2] 0x0DB8  0220170117000000  KEY fn1(0x01): key[T(23)] -> action[T(23)]
+[profile2] 0x0DC0  0220180118000000  KEY fn1(0x01): key[U(24)] -> action[U(24)]
+[profile2] 0x0DC8  0220190119000000  KEY fn1(0x01): key[V(25)] -> action[V(25)]
+[profile2] 0x0DD0  02201a011a000000  KEY fn1(0x01): key[W(26)] -> action[W(26)]
+[profile2] 0x0DD8  02201b011b000000  KEY fn1(0x01): key[X(27)] -> action[X(27)]
+[profile2] 0x0DE0  02201c011c000000  KEY fn1(0x01): key[Y(28)] -> action[Y(28)]
+[profile2] 0x0DE8  02201d011d000000  KEY fn1(0x01): key[Z(29)] -> action[Z(29)]
+[profile2] 0x0DF0  0220270127000000  KEY fn1(0x01): key[0(39)] -> action[0(39)]
+[profile2] 0x0DF8  0220280128000000  KEY fn1(0x01): key[ENTER(40)] -> action[ENTER(40)]
+[profile2] 0x0E00  02202a012a000000  KEY fn1(0x01): key[BACKSPACE(42)] -> action[BACKSPACE(42)]
+[profile2] 0x0E08  02202b012b000000  KEY fn1(0x01): key[TAB(43)] -> action[TAB(43)]
+[profile2] 0x0E10  02202c012c000000  KEY fn1(0x01): key[SPACE(44)] -> action[SPACE(44)]
+[profile2] 0x0E18  02202d012d000000  KEY fn1(0x01): key[NEG(45)] -> action[NEG(45)]
+[profile2] 0x0E20  02202e012e000000  KEY fn1(0x01): key[EQUATION(46)] -> action[EQUATION(46)]
+[profile2] 0x0E28  02202f012f000000  KEY fn1(0x01): key[L_BRACKETS(47)] -> action[L_BRACKETS(47)]
+[profile2] 0x0E30  0220300130000000  KEY fn1(0x01): key[R_BRACKETS(48)] -> action[R_BRACKETS(48)]
+[profile2] 0x0E38  0220310131000000  KEY fn1(0x01): key[BACKSLASH(49)] -> action[BACKSLASH(49)]
+[profile2] 0x0E40  0220330133000000  KEY fn1(0x01): key[SEMICOLON(51)] -> action[SEMICOLON(51)]
+[profile2] 0x0E48  0220340134000000  KEY fn1(0x01): key[APOSTROPHE(52)] -> action[APOSTROPHE(52)]
+[profile2] 0x0E50  0220350135000000  KEY fn1(0x01): key[TILDE(53)] -> action[TILDE(53)]
+[profile2] 0x0E58  0220360136000000  KEY fn1(0x01): key[COMMA(54)] -> action[COMMA(54)]
+[profile2] 0x0E60  0220370137000000  KEY fn1(0x01): key[DOT(55)] -> action[DOT(55)]
+[profile2] 0x0E68  0220380138000000  KEY fn1(0x01): key[SLASH(56)] -> action[SLASH(56)]
+[profile2] 0x0E70  0220390139000000  KEY fn1(0x01): key[CAPS_LOCK(57)] -> action[CAPS_LOCK(57)]
+[profile2] 0x0E78  02203a013a000000  KEY fn1(0x01): key[F1(58)] -> action[F1(58)]
+[profile2] 0x0E80  02203b013b000000  KEY fn1(0x01): key[F2(59)] -> action[F2(59)]
+[profile2] 0x0E88  02203c013c000000  KEY fn1(0x01): key[F3(60)] -> action[F3(60)]
+[profile2] 0x0E90  02203d013d000000  KEY fn1(0x01): key[F4(61)] -> action[F4(61)]
+[profile2] 0x0E98  02203e013e000000  KEY fn1(0x01): key[F5(62)] -> action[F5(62)]
+[profile2] 0x0EA0  02203f013f000000  KEY fn1(0x01): key[F6(63)] -> action[F6(63)]
+[profile2] 0x0EA8  0220400140000000  KEY fn1(0x01): key[F7(64)] -> action[F7(64)]
+[profile2] 0x0EB0  0220410141000000  KEY fn1(0x01): key[F8(65)] -> action[F8(65)]
+[profile2] 0x0EB8  0220420142000000  KEY fn1(0x01): key[F9(66)] -> action[F9(66)]
+[profile2] 0x0EC0  0220430143000000  KEY fn1(0x01): key[F10(67)] -> action[F10(67)]
+[profile2] 0x0EC8  0220440144000000  KEY fn1(0x01): key[F11(68)] -> action[F11(68)]
+[profile2] 0x0ED0  0220450145000000  KEY fn1(0x01): key[F12(69)] -> action[F12(69)]
+[profile2] 0x0ED8  0220460146000000  KEY fn1(0x01): key[PRINT(70)] -> action[PRINT(70)]
+[profile2] 0x0EE0  0220470147000000  KEY fn1(0x01): key[SCROLL(71)] -> action[SCROLL(71)]
+[profile2] 0x0EE8  0220480148000000  KEY fn1(0x01): key[PAUSE(72)] -> action[PAUSE(72)]
+[profile2] 0x0EF0  0220490149000000  KEY fn1(0x01): key[INSERT(73)] -> action[INSERT(73)]
+[profile2] 0x0EF8  02204a014a000000  KEY fn1(0x01): key[HOME(74)] -> action[HOME(74)]
+[profile2] 0x0F00  02204b014b000000  KEY fn1(0x01): key[PGUP(75)] -> action[PGUP(75)]
+[profile2] 0x0F08  02204c014c000000  KEY fn1(0x01): key[DEL(76)] -> action[DEL(76)]
+[profile2] 0x0F10  02204d014d000000  KEY fn1(0x01): key[END(77)] -> action[END(77)]
+[profile2] 0x0F18  02204e014e000000  KEY fn1(0x01): key[PGDN(78)] -> action[PGDN(78)]
+[profile2] 0x0F20  0220650165000000  KEY fn1(0x01): key[APP(101)] -> action[APP(101)]
+[profile2] 0x0F28  0220c801c8000000  KEY fn1(0x01): key[G9(200)] -> action[G9(200)]
+[profile2] 0x0F30  0220c901c9000000  KEY fn1(0x01): key[G10(201)] -> action[G10(201)]
+[profile2] 0x0F38  0220ca01ca000000  KEY fn1(0x01): key[G11(202)] -> action[G11(202)]
+[profile2] 0x0F40  0220cb01cb000000  KEY fn1(0x01): key[G12(203)] -> action[G12(203)]
+[profile2] 0x0F48  0220e001e0000000  KEY fn1(0x01): key[L_CTRL(224)] -> action[L_CTRL(224)]
+[profile2] 0x0F50  0220e101e1000000  KEY fn1(0x01): key[L_SHIFT(225)] -> action[L_SHIFT(225)]
+[profile2] 0x0F58  0220e201e2000000  KEY fn1(0x01): key[L_ALT(226)] -> action[L_ALT(226)]
+[profile2] 0x0F60  0220e301e3000000  KEY fn1(0x01): key[L_WIN(227)] -> action[L_WIN(227)]
+[profile2] 0x0F68  0220e401e4000000  KEY fn1(0x01): key[R_CTRL(228)] -> action[R_CTRL(228)]
+[profile2] 0x0F70  0220e501e5000000  KEY fn1(0x01): key[R_SHIFT(229)] -> action[R_SHIFT(229)]
+[profile2] 0x0F78  0220e601e6000000  KEY fn1(0x01): key[R_ALT(230)] -> action[R_ALT(230)]
+[profile2] 0x0F80  0220f901f9000000  KEY fn1(0x01): key[W3BACK(249)] -> action[W3BACK(249)]
+[profile2] 0x0F88  0220fa01fa000000  KEY fn1(0x01): key[W3FORWARD(250)] -> action[W3FORWARD(250)]
+[profile2] 0x0F90  0220040204000000  KEY fn2(0x02): key[A(4)] -> action[A(4)]
+[profile2] 0x0F98  0220050205000000  KEY fn2(0x02): key[B(5)] -> action[B(5)]
+[profile2] 0x0FA0  0220060206000000  KEY fn2(0x02): key[C(6)] -> action[C(6)]
+[profile2] 0x0FA8  0220070207000000  KEY fn2(0x02): key[D(7)] -> action[D(7)]
+[profile2] 0x0FB0  0220080208000000  KEY fn2(0x02): key[E(8)] -> action[E(8)]
+[profile2] 0x0FB8  0220090209000000  KEY fn2(0x02): key[F(9)] -> action[F(9)]
+[profile2] 0x0FC0  02200a020a000000  KEY fn2(0x02): key[G(10)] -> action[G(10)]
+[profile2] 0x0FC8  02200b020b000000  KEY fn2(0x02): key[H(11)] -> action[H(11)]
+[profile2] 0x0FD0  02200c020c000000  KEY fn2(0x02): key[I(12)] -> action[I(12)]
+[profile2] 0x0FD8  02200d020d000000  KEY fn2(0x02): key[J(13)] -> action[J(13)]
+[profile2] 0x0FE0  02200e020e000000  KEY fn2(0x02): key[K(14)] -> action[K(14)]
+[profile2] 0x0FE8  02200f020f000000  KEY fn2(0x02): key[L(15)] -> action[L(15)]
+[profile2] 0x0FF0  0220100210000000  KEY fn2(0x02): key[M(16)] -> action[M(16)]
+[profile2] 0x0FF8  0220110211000000  KEY fn2(0x02): key[N(17)] -> action[N(17)]
+[profile2] 0x1000  0220120212000000  KEY fn2(0x02): key[O(18)] -> action[O(18)]
+[profile2] 0x1008  0220130213000000  KEY fn2(0x02): key[P(19)] -> action[P(19)]
+[profile2] 0x1010  0220140214000000  KEY fn2(0x02): key[Q(20)] -> action[Q(20)]
+[profile2] 0x1018  0220150215000000  KEY fn2(0x02): key[R(21)] -> action[R(21)]
+[profile2] 0x1020  0220160216000000  KEY fn2(0x02): key[S(22)] -> action[S(22)]
+[profile2] 0x1028  0220170217000000  KEY fn2(0x02): key[T(23)] -> action[T(23)]
+[profile2] 0x1030  0220180218000000  KEY fn2(0x02): key[U(24)] -> action[U(24)]
+[profile2] 0x1038  0220190219000000  KEY fn2(0x02): key[V(25)] -> action[V(25)]
+[profile2] 0x1040  02201a021a000000  KEY fn2(0x02): key[W(26)] -> action[W(26)]
+[profile2] 0x1048  02201b021b000000  KEY fn2(0x02): key[X(27)] -> action[X(27)]
+[profile2] 0x1050  02201c021c000000  KEY fn2(0x02): key[Y(28)] -> action[Y(28)]
+[profile2] 0x1058  02201d021d000000  KEY fn2(0x02): key[Z(29)] -> action[Z(29)]
+[profile2] 0x1060  02201e021e000000  KEY fn2(0x02): key[1(30)] -> action[1(30)]
+[profile2] 0x1068  02201f021f000000  KEY fn2(0x02): key[2(31)] -> action[2(31)]
+[profile2] 0x1070  0220200220000000  KEY fn2(0x02): key[3(32)] -> action[3(32)]
+[profile2] 0x1078  0220210221000000  KEY fn2(0x02): key[4(33)] -> action[4(33)]
+[profile2] 0x1080  0220220222000000  KEY fn2(0x02): key[5(34)] -> action[5(34)]
+[profile2] 0x1088  0220230223000000  KEY fn2(0x02): key[6(35)] -> action[6(35)]
+[profile2] 0x1090  0220240224000000  KEY fn2(0x02): key[7(36)] -> action[7(36)]
+[profile2] 0x1098  0220250225000000  KEY fn2(0x02): key[8(37)] -> action[8(37)]
+[profile2] 0x10A0  0220260226000000  KEY fn2(0x02): key[9(38)] -> action[9(38)]
+[profile2] 0x10A8  0220270227000000  KEY fn2(0x02): key[0(39)] -> action[0(39)]
+[profile2] 0x10B0  0220280228000000  KEY fn2(0x02): key[ENTER(40)] -> action[ENTER(40)]
+[profile2] 0x10B8  0220290229000000  KEY fn2(0x02): key[ESC(41)] -> action[ESC(41)]
+[profile2] 0x10C0  02202a022a000000  KEY fn2(0x02): key[BACKSPACE(42)] -> action[BACKSPACE(42)]
+[profile2] 0x10C8  02202b022b000000  KEY fn2(0x02): key[TAB(43)] -> action[TAB(43)]
+[profile2] 0x10D0  02202c022c000000  KEY fn2(0x02): key[SPACE(44)] -> action[SPACE(44)]
+[profile2] 0x10D8  02202d022d000000  KEY fn2(0x02): key[NEG(45)] -> action[NEG(45)]
+[profile2] 0x10E0  02202e022e000000  KEY fn2(0x02): key[EQUATION(46)] -> action[EQUATION(46)]
+[profile2] 0x10E8  02202f022f000000  KEY fn2(0x02): key[L_BRACKETS(47)] -> action[L_BRACKETS(47)]
+[profile2] 0x10F0  0220300230000000  KEY fn2(0x02): key[R_BRACKETS(48)] -> action[R_BRACKETS(48)]
+[profile2] 0x10F8  0220310231000000  KEY fn2(0x02): key[BACKSLASH(49)] -> action[BACKSLASH(49)]
+[profile2] 0x1100  0220330233000000  KEY fn2(0x02): key[SEMICOLON(51)] -> action[SEMICOLON(51)]
+[profile2] 0x1108  0220340234000000  KEY fn2(0x02): key[APOSTROPHE(52)] -> action[APOSTROPHE(52)]
+[profile2] 0x1110  0220350235000000  KEY fn2(0x02): key[TILDE(53)] -> action[TILDE(53)]
+[profile2] 0x1118  0220360236000000  KEY fn2(0x02): key[COMMA(54)] -> action[COMMA(54)]
+[profile2] 0x1120  0220370237000000  KEY fn2(0x02): key[DOT(55)] -> action[DOT(55)]
+[profile2] 0x1128  0220380238000000  KEY fn2(0x02): key[SLASH(56)] -> action[SLASH(56)]
+[profile2] 0x1130  0220390239000000  KEY fn2(0x02): key[CAPS_LOCK(57)] -> action[CAPS_LOCK(57)]
+[profile2] 0x1138  02203a023a000000  KEY fn2(0x02): key[F1(58)] -> action[F1(58)]
+[profile2] 0x1140  02203b023b000000  KEY fn2(0x02): key[F2(59)] -> action[F2(59)]
+[profile2] 0x1148  02203c023c000000  KEY fn2(0x02): key[F3(60)] -> action[F3(60)]
+[profile2] 0x1150  02203d023d000000  KEY fn2(0x02): key[F4(61)] -> action[F4(61)]
+[profile2] 0x1158  02203e023e000000  KEY fn2(0x02): key[F5(62)] -> action[F5(62)]
+[profile2] 0x1160  02203f023f000000  KEY fn2(0x02): key[F6(63)] -> action[F6(63)]
+[profile2] 0x1168  0220400240000000  KEY fn2(0x02): key[F7(64)] -> action[F7(64)]
+[profile2] 0x1170  0220410241000000  KEY fn2(0x02): key[F8(65)] -> action[F8(65)]
+[profile2] 0x1178  0220420242000000  KEY fn2(0x02): key[F9(66)] -> action[F9(66)]
+[profile2] 0x1180  0220430243000000  KEY fn2(0x02): key[F10(67)] -> action[F10(67)]
+[profile2] 0x1188  0220440244000000  KEY fn2(0x02): key[F11(68)] -> action[F11(68)]
+[profile2] 0x1190  0220450245000000  KEY fn2(0x02): key[F12(69)] -> action[F12(69)]
+[profile2] 0x1198  0220460246000000  KEY fn2(0x02): key[PRINT(70)] -> action[PRINT(70)]
+[profile2] 0x11A0  0220470247000000  KEY fn2(0x02): key[SCROLL(71)] -> action[SCROLL(71)]
+[profile2] 0x11A8  0220480248000000  KEY fn2(0x02): key[PAUSE(72)] -> action[PAUSE(72)]
+[profile2] 0x11B0  0220490249000000  KEY fn2(0x02): key[INSERT(73)] -> action[INSERT(73)]
+[profile2] 0x11B8  02204a024a000000  KEY fn2(0x02): key[HOME(74)] -> action[HOME(74)]
+[profile2] 0x11C0  02204b024b000000  KEY fn2(0x02): key[PGUP(75)] -> action[PGUP(75)]
+[profile2] 0x11C8  02204c024c000000  KEY fn2(0x02): key[DEL(76)] -> action[DEL(76)]
+[profile2] 0x11D0  02204d024d000000  KEY fn2(0x02): key[END(77)] -> action[END(77)]
+[profile2] 0x11D8  02204e024e000000  KEY fn2(0x02): key[PGDN(78)] -> action[PGDN(78)]
+[profile2] 0x11E0  02204f024f000000  KEY fn2(0x02): key[R_ARROW(79)] -> action[R_ARROW(79)]
+[profile2] 0x11E8  0220500250000000  KEY fn2(0x02): key[L_ARROW(80)] -> action[L_ARROW(80)]
+[profile2] 0x11F0  0220510251000000  KEY fn2(0x02): key[DN_ARROW(81)] -> action[DN_ARROW(81)]
+[profile2] 0x11F8  0220520252000000  KEY fn2(0x02): key[UP_ARROW(82)] -> action[UP_ARROW(82)]
+[profile2] 0x1200  0220650265000000  KEY fn2(0x02): key[APP(101)] -> action[APP(101)]
+[profile2] 0x1208  0220c802c8000000  KEY fn2(0x02): key[G9(200)] -> action[G9(200)]
+[profile2] 0x1210  0220c902c9000000  KEY fn2(0x02): key[G10(201)] -> action[G10(201)]
+[profile2] 0x1218  0220ca02ca000000  KEY fn2(0x02): key[G11(202)] -> action[G11(202)]
+[profile2] 0x1220  0220cb02cb000000  KEY fn2(0x02): key[G12(203)] -> action[G12(203)]
+[profile2] 0x1228  0220e002e0000000  KEY fn2(0x02): key[L_CTRL(224)] -> action[L_CTRL(224)]
+[profile2] 0x1230  0220e102e1000000  KEY fn2(0x02): key[L_SHIFT(225)] -> action[L_SHIFT(225)]
+[profile2] 0x1238  0220e202e2000000  KEY fn2(0x02): key[L_ALT(226)] -> action[L_ALT(226)]
+[profile2] 0x1240  0220e302e3000000  KEY fn2(0x02): key[L_WIN(227)] -> action[L_WIN(227)]
+[profile2] 0x1248  0220e402e4000000  KEY fn2(0x02): key[R_CTRL(228)] -> action[R_CTRL(228)]
+[profile2] 0x1250  0220e502e5000000  KEY fn2(0x02): key[R_SHIFT(229)] -> action[R_SHIFT(229)]
+[profile2] 0x1258  0220e602e6000000  KEY fn2(0x02): key[R_ALT(230)] -> action[R_ALT(230)]
+[profile2] 0x1260  0220f402f4000000  KEY fn2(0x02): key[MUTE(244)] -> action[MUTE(244)]
+[profile2] 0x1268  0220f502f5000000  KEY fn2(0x02): key[VOL_DEC(245)] -> action[VOL_DEC(245)]
+[profile2] 0x1270  0220f602f6000000  KEY fn2(0x02): key[VOL_INC(246)] -> action[VOL_INC(246)]
+[profile2] 0x1278  0220f902f9000000  KEY fn2(0x02): key[W3BACK(249)] -> action[W3BACK(249)]
+[profile2] 0x1280  0220fa02fa000000  KEY fn2(0x02): key[W3FORWARD(250)] -> action[W3FORWARD(250)]
+[profile2] 0x1288  0220040304000000  KEY fn3(0x03): key[A(4)] -> action[A(4)]
+[profile2] 0x1290  0220050305000000  KEY fn3(0x03): key[B(5)] -> action[B(5)]
+[profile2] 0x1298  0220060306000000  KEY fn3(0x03): key[C(6)] -> action[C(6)]
+[profile2] 0x12A0  0220070307000000  KEY fn3(0x03): key[D(7)] -> action[D(7)]
+[profile2] 0x12A8  0220080308000000  KEY fn3(0x03): key[E(8)] -> action[E(8)]
+[profile2] 0x12B0  0220090309000000  KEY fn3(0x03): key[F(9)] -> action[F(9)]
+[profile2] 0x12B8  02200a030a000000  KEY fn3(0x03): key[G(10)] -> action[G(10)]
+[profile2] 0x12C0  02200b030b000000  KEY fn3(0x03): key[H(11)] -> action[H(11)]
+[profile2] 0x12C8  02200c030c000000  KEY fn3(0x03): key[I(12)] -> action[I(12)]
+[profile2] 0x12D0  02200d030d000000  KEY fn3(0x03): key[J(13)] -> action[J(13)]
+[profile2] 0x12D8  02200e030e000000  KEY fn3(0x03): key[K(14)] -> action[K(14)]
+[profile2] 0x12E0  02200f030f000000  KEY fn3(0x03): key[L(15)] -> action[L(15)]
+[profile2] 0x12E8  0220100310000000  KEY fn3(0x03): key[M(16)] -> action[M(16)]
+[profile2] 0x12F0  0220110311000000  KEY fn3(0x03): key[N(17)] -> action[N(17)]
+[profile2] 0x12F8  0220120312000000  KEY fn3(0x03): key[O(18)] -> action[O(18)]
+[profile2] 0x1300  0220130313000000  KEY fn3(0x03): key[P(19)] -> action[P(19)]
+[profile2] 0x1308  0220140314000000  KEY fn3(0x03): key[Q(20)] -> action[Q(20)]
+[profile2] 0x1310  0220150315000000  KEY fn3(0x03): key[R(21)] -> action[R(21)]
+[profile2] 0x1318  0220160316000000  KEY fn3(0x03): key[S(22)] -> action[S(22)]
+[profile2] 0x1320  0220170317000000  KEY fn3(0x03): key[T(23)] -> action[T(23)]
+[profile2] 0x1328  0220180318000000  KEY fn3(0x03): key[U(24)] -> action[U(24)]
+[profile2] 0x1330  0220190319000000  KEY fn3(0x03): key[V(25)] -> action[V(25)]
+[profile2] 0x1338  02201a031a000000  KEY fn3(0x03): key[W(26)] -> action[W(26)]
+[profile2] 0x1340  02201b031b000000  KEY fn3(0x03): key[X(27)] -> action[X(27)]
+[profile2] 0x1348  02201c031c000000  KEY fn3(0x03): key[Y(28)] -> action[Y(28)]
+[profile2] 0x1350  02201d031d000000  KEY fn3(0x03): key[Z(29)] -> action[Z(29)]
+[profile2] 0x1358  02201e031e000000  KEY fn3(0x03): key[1(30)] -> action[1(30)]
+[profile2] 0x1360  02201f031f000000  KEY fn3(0x03): key[2(31)] -> action[2(31)]
+[profile2] 0x1368  0220200320000000  KEY fn3(0x03): key[3(32)] -> action[3(32)]
+[profile2] 0x1370  0220210321000000  KEY fn3(0x03): key[4(33)] -> action[4(33)]
+[profile2] 0x1378  0220220322000000  KEY fn3(0x03): key[5(34)] -> action[5(34)]
+[profile2] 0x1380  0220230323000000  KEY fn3(0x03): key[6(35)] -> action[6(35)]
+[profile2] 0x1388  0220240324000000  KEY fn3(0x03): key[7(36)] -> action[7(36)]
+[profile2] 0x1390  0220250325000000  KEY fn3(0x03): key[8(37)] -> action[8(37)]
+[profile2] 0x1398  0220260326000000  KEY fn3(0x03): key[9(38)] -> action[9(38)]
+[profile2] 0x13A0  0220270327000000  KEY fn3(0x03): key[0(39)] -> action[0(39)]
+[profile2] 0x13A8  0220280328000000  KEY fn3(0x03): key[ENTER(40)] -> action[ENTER(40)]
+[profile2] 0x13B0  0220290329000000  KEY fn3(0x03): key[ESC(41)] -> action[ESC(41)]
+[profile2] 0x13B8  02202a032a000000  KEY fn3(0x03): key[BACKSPACE(42)] -> action[BACKSPACE(42)]
+[profile2] 0x13C0  02202b032b000000  KEY fn3(0x03): key[TAB(43)] -> action[TAB(43)]
+[profile2] 0x13C8  02202c032c000000  KEY fn3(0x03): key[SPACE(44)] -> action[SPACE(44)]
+[profile2] 0x13D0  02202d032d000000  KEY fn3(0x03): key[NEG(45)] -> action[NEG(45)]
+[profile2] 0x13D8  02202e032e000000  KEY fn3(0x03): key[EQUATION(46)] -> action[EQUATION(46)]
+[profile2] 0x13E0  02202f032f000000  KEY fn3(0x03): key[L_BRACKETS(47)] -> action[L_BRACKETS(47)]
+[profile2] 0x13E8  0220300330000000  KEY fn3(0x03): key[R_BRACKETS(48)] -> action[R_BRACKETS(48)]
+[profile2] 0x13F0  0220310331000000  KEY fn3(0x03): key[BACKSLASH(49)] -> action[BACKSLASH(49)]
+[profile2] 0x13F8  0220330333000000  KEY fn3(0x03): key[SEMICOLON(51)] -> action[SEMICOLON(51)]
+[profile2] 0x1400  0220340334000000  KEY fn3(0x03): key[APOSTROPHE(52)] -> action[APOSTROPHE(52)]
+[profile2] 0x1408  0220350335000000  KEY fn3(0x03): key[TILDE(53)] -> action[TILDE(53)]
+[profile2] 0x1410  0220360336000000  KEY fn3(0x03): key[COMMA(54)] -> action[COMMA(54)]
+[profile2] 0x1418  0220370337000000  KEY fn3(0x03): key[DOT(55)] -> action[DOT(55)]
+[profile2] 0x1420  0220380338000000  KEY fn3(0x03): key[SLASH(56)] -> action[SLASH(56)]
+[profile2] 0x1428  0220390339000000  KEY fn3(0x03): key[CAPS_LOCK(57)] -> action[CAPS_LOCK(57)]
+[profile2] 0x1430  02203a033a000000  KEY fn3(0x03): key[F1(58)] -> action[F1(58)]
+[profile2] 0x1438  02203b033b000000  KEY fn3(0x03): key[F2(59)] -> action[F2(59)]
+[profile2] 0x1440  02203c033c000000  KEY fn3(0x03): key[F3(60)] -> action[F3(60)]
+[profile2] 0x1448  02203d033d000000  KEY fn3(0x03): key[F4(61)] -> action[F4(61)]
+[profile2] 0x1450  02203e033e000000  KEY fn3(0x03): key[F5(62)] -> action[F5(62)]
+[profile2] 0x1458  02203f033f000000  KEY fn3(0x03): key[F6(63)] -> action[F6(63)]
+[profile2] 0x1460  0220400340000000  KEY fn3(0x03): key[F7(64)] -> action[F7(64)]
+[profile2] 0x1468  0220410341000000  KEY fn3(0x03): key[F8(65)] -> action[F8(65)]
+[profile2] 0x1470  0220420342000000  KEY fn3(0x03): key[F9(66)] -> action[F9(66)]
+[profile2] 0x1478  0220430343000000  KEY fn3(0x03): key[F10(67)] -> action[F10(67)]
+[profile2] 0x1480  0220440344000000  KEY fn3(0x03): key[F11(68)] -> action[F11(68)]
+[profile2] 0x1488  0220450345000000  KEY fn3(0x03): key[F12(69)] -> action[F12(69)]
+[profile2] 0x1490  0220460346000000  KEY fn3(0x03): key[PRINT(70)] -> action[PRINT(70)]
+[profile2] 0x1498  0220470347000000  KEY fn3(0x03): key[SCROLL(71)] -> action[SCROLL(71)]
+[profile2] 0x14A0  0220480348000000  KEY fn3(0x03): key[PAUSE(72)] -> action[PAUSE(72)]
+[profile2] 0x14A8  0220490349000000  KEY fn3(0x03): key[INSERT(73)] -> action[INSERT(73)]
+[profile2] 0x14B0  02204a034a000000  KEY fn3(0x03): key[HOME(74)] -> action[HOME(74)]
+[profile2] 0x14B8  02204b034b000000  KEY fn3(0x03): key[PGUP(75)] -> action[PGUP(75)]
+[profile2] 0x14C0  02204c034c000000  KEY fn3(0x03): key[DEL(76)] -> action[DEL(76)]
+[profile2] 0x14C8  02204d034d000000  KEY fn3(0x03): key[END(77)] -> action[END(77)]
+[profile2] 0x14D0  02204e034e000000  KEY fn3(0x03): key[PGDN(78)] -> action[PGDN(78)]
+[profile2] 0x14D8  02204f034f000000  KEY fn3(0x03): key[R_ARROW(79)] -> action[R_ARROW(79)]
+[profile2] 0x14E0  0220500350000000  KEY fn3(0x03): key[L_ARROW(80)] -> action[L_ARROW(80)]
+[profile2] 0x14E8  0220510351000000  KEY fn3(0x03): key[DN_ARROW(81)] -> action[DN_ARROW(81)]
+[profile2] 0x14F0  0220520352000000  KEY fn3(0x03): key[UP_ARROW(82)] -> action[UP_ARROW(82)]
+[profile2] 0x14F8  0220650365000000  KEY fn3(0x03): key[APP(101)] -> action[APP(101)]
+[profile2] 0x1500  0220c803c8000000  KEY fn3(0x03): key[G9(200)] -> action[G9(200)]
+[profile2] 0x1508  0220c903c9000000  KEY fn3(0x03): key[G10(201)] -> action[G10(201)]
+[profile2] 0x1510  0220ca03ca000000  KEY fn3(0x03): key[G11(202)] -> action[G11(202)]
+[profile2] 0x1518  0220cb03cb000000  KEY fn3(0x03): key[G12(203)] -> action[G12(203)]
+[profile2] 0x1520  0220e003e0000000  KEY fn3(0x03): key[L_CTRL(224)] -> action[L_CTRL(224)]
+[profile2] 0x1528  0220e103e1000000  KEY fn3(0x03): key[L_SHIFT(225)] -> action[L_SHIFT(225)]
+[profile2] 0x1530  0220e203e2000000  KEY fn3(0x03): key[L_ALT(226)] -> action[L_ALT(226)]
+[profile2] 0x1538  0220e303e3000000  KEY fn3(0x03): key[L_WIN(227)] -> action[L_WIN(227)]
+[profile2] 0x1540  0220e403e4000000  KEY fn3(0x03): key[R_CTRL(228)] -> action[R_CTRL(228)]
+[profile2] 0x1548  0220e503e5000000  KEY fn3(0x03): key[R_SHIFT(229)] -> action[R_SHIFT(229)]
+[profile2] 0x1550  0220e603e6000000  KEY fn3(0x03): key[R_ALT(230)] -> action[R_ALT(230)]
+[profile2] 0x1558  0220f403f4000000  KEY fn3(0x03): key[MUTE(244)] -> action[MUTE(244)]
+[profile2] 0x1560  0220f503f5000000  KEY fn3(0x03): key[VOL_DEC(245)] -> action[VOL_DEC(245)]
+[profile2] 0x1568  0220f603f6000000  KEY fn3(0x03): key[VOL_INC(246)] -> action[VOL_INC(246)]
+[profile2] 0x1570  0220f903f9000000  KEY fn3(0x03): key[W3BACK(249)] -> action[W3BACK(249)]
+[profile2] 0x1578  0220fa03fa000000  KEY fn3(0x03): key[W3FORWARD(250)] -> action[W3FORWARD(250)]
+[profile2] 0x1580  0220040004000000  KEY base(0x00): key[A(4)] -> action[A(4)]
+[profile2] 0x1588  0220050005000000  KEY base(0x00): key[B(5)] -> action[B(5)]
+[profile2] 0x1590  0220060006000000  KEY base(0x00): key[C(6)] -> action[C(6)]
+[profile2] 0x1598  0220070007000000  KEY base(0x00): key[D(7)] -> action[D(7)]
+[profile2] 0x15A0  0220080008000000  KEY base(0x00): key[E(8)] -> action[E(8)]
+[profile2] 0x15A8  0220090009000000  KEY base(0x00): key[F(9)] -> action[F(9)]
+[profile2] 0x15B0  02200a000a000000  KEY base(0x00): key[G(10)] -> action[G(10)]
+[profile2] 0x15B8  02200b000b000000  KEY base(0x00): key[H(11)] -> action[H(11)]
+[profile2] 0x15C0  02200c000c000000  KEY base(0x00): key[I(12)] -> action[I(12)]
+[profile2] 0x15C8  02200d000d000000  KEY base(0x00): key[J(13)] -> action[J(13)]
+[profile2] 0x15D0  02200e000e000000  KEY base(0x00): key[K(14)] -> action[K(14)]
+[profile2] 0x15D8  02200f000f000000  KEY base(0x00): key[L(15)] -> action[L(15)]
+[profile2] 0x15E0  0220100010000000  KEY base(0x00): key[M(16)] -> action[M(16)]
+[profile2] 0x15E8  0220110011000000  KEY base(0x00): key[N(17)] -> action[N(17)]
+[profile2] 0x15F0  0220120012000000  KEY base(0x00): key[O(18)] -> action[O(18)]
+[profile2] 0x15F8  0220130013000000  KEY base(0x00): key[P(19)] -> action[P(19)]
+[profile2] 0x1600  0220140014000000  KEY base(0x00): key[Q(20)] -> action[Q(20)]
+[profile2] 0x1608  0220150015000000  KEY base(0x00): key[R(21)] -> action[R(21)]
+[profile2] 0x1610  0220160016000000  KEY base(0x00): key[S(22)] -> action[S(22)]
+[profile2] 0x1618  0220170017000000  KEY base(0x00): key[T(23)] -> action[T(23)]
+[profile2] 0x1620  0220180018000000  KEY base(0x00): key[U(24)] -> action[U(24)]
+[profile2] 0x1628  0220190019000000  KEY base(0x00): key[V(25)] -> action[V(25)]
+[profile2] 0x1630  02201a001a000000  KEY base(0x00): key[W(26)] -> action[W(26)]
+[profile2] 0x1638  02201b001b000000  KEY base(0x00): key[X(27)] -> action[X(27)]
+[profile2] 0x1640  02201c001c000000  KEY base(0x00): key[Y(28)] -> action[Y(28)]
+[profile2] 0x1648  02201d001d000000  KEY base(0x00): key[Z(29)] -> action[Z(29)]
+[profile2] 0x1650  02201e001e000000  KEY base(0x00): key[1(30)] -> action[1(30)]
+[profile2] 0x1658  02201f001f000000  KEY base(0x00): key[2(31)] -> action[2(31)]
+[profile2] 0x1660  0220200020000000  KEY base(0x00): key[3(32)] -> action[3(32)]
+[profile2] 0x1668  0220210021000000  KEY base(0x00): key[4(33)] -> action[4(33)]
+[profile2] 0x1670  0220220022000000  KEY base(0x00): key[5(34)] -> action[5(34)]
+[profile2] 0x1678  0220230023000000  KEY base(0x00): key[6(35)] -> action[6(35)]
+[profile2] 0x1680  0220240024000000  KEY base(0x00): key[7(36)] -> action[7(36)]
+[profile2] 0x1688  0220250025000000  KEY base(0x00): key[8(37)] -> action[8(37)]
+[profile2] 0x1690  0220260026000000  KEY base(0x00): key[9(38)] -> action[9(38)]
+[profile2] 0x1698  0220270027000000  KEY base(0x00): key[0(39)] -> action[0(39)]
+[profile2] 0x16A0  0220280028000000  KEY base(0x00): key[ENTER(40)] -> action[ENTER(40)]
+[profile2] 0x16A8  0220290029000000  KEY base(0x00): key[ESC(41)] -> action[ESC(41)]
+[profile2] 0x16B0  02202a002a000000  KEY base(0x00): key[BACKSPACE(42)] -> action[BACKSPACE(42)]
+[profile2] 0x16B8  02202b002b000000  KEY base(0x00): key[TAB(43)] -> action[TAB(43)]
+[profile2] 0x16C0  02202c002c000000  KEY base(0x00): key[SPACE(44)] -> action[SPACE(44)]
+[profile2] 0x16C8  02202d002d000000  KEY base(0x00): key[NEG(45)] -> action[NEG(45)]
+[profile2] 0x16D0  02202e002e000000  KEY base(0x00): key[EQUATION(46)] -> action[EQUATION(46)]
+[profile2] 0x16D8  02202f002f000000  KEY base(0x00): key[L_BRACKETS(47)] -> action[L_BRACKETS(47)]
+[profile2] 0x16E0  0220300030000000  KEY base(0x00): key[R_BRACKETS(48)] -> action[R_BRACKETS(48)]
+[profile2] 0x16E8  0220310031000000  KEY base(0x00): key[BACKSLASH(49)] -> action[BACKSLASH(49)]
+[profile2] 0x16F0  0220330033000000  KEY base(0x00): key[SEMICOLON(51)] -> action[SEMICOLON(51)]
+[profile2] 0x16F8  0220340034000000  KEY base(0x00): key[APOSTROPHE(52)] -> action[APOSTROPHE(52)]
+[profile2] 0x1700  0220350035000000  KEY base(0x00): key[TILDE(53)] -> action[TILDE(53)]
+[profile2] 0x1708  0220360036000000  KEY base(0x00): key[COMMA(54)] -> action[COMMA(54)]
+[profile2] 0x1710  0220370037000000  KEY base(0x00): key[DOT(55)] -> action[DOT(55)]
+[profile2] 0x1718  0220380038000000  KEY base(0x00): key[SLASH(56)] -> action[SLASH(56)]
+[profile2] 0x1720  0220390039000000  KEY base(0x00): key[CAPS_LOCK(57)] -> action[CAPS_LOCK(57)]
+[profile2] 0x1728  02203a003a000000  KEY base(0x00): key[F1(58)] -> action[F1(58)]
+[profile2] 0x1730  02203b003b000000  KEY base(0x00): key[F2(59)] -> action[F2(59)]
+[profile2] 0x1738  02203c003c000000  KEY base(0x00): key[F3(60)] -> action[F3(60)]
+[profile2] 0x1740  02203d003d000000  KEY base(0x00): key[F4(61)] -> action[F4(61)]
+[profile2] 0x1748  02203e003e000000  KEY base(0x00): key[F5(62)] -> action[F5(62)]
+[profile2] 0x1750  02203f003f000000  KEY base(0x00): key[F6(63)] -> action[F6(63)]
+[profile2] 0x1758  0220400040000000  KEY base(0x00): key[F7(64)] -> action[F7(64)]
+[profile2] 0x1760  0220410041000000  KEY base(0x00): key[F8(65)] -> action[F8(65)]
+[profile2] 0x1768  0220420042000000  KEY base(0x00): key[F9(66)] -> action[F9(66)]
+[profile2] 0x1770  0220430043000000  KEY base(0x00): key[F10(67)] -> action[F10(67)]
+[profile2] 0x1778  0220440044000000  KEY base(0x00): key[F11(68)] -> action[F11(68)]
+[profile2] 0x1780  0220450045000000  KEY base(0x00): key[F12(69)] -> action[F12(69)]
+[profile2] 0x1788  0220460046000000  KEY base(0x00): key[PRINT(70)] -> action[PRINT(70)]
+[profile2] 0x1790  0220470047000000  KEY base(0x00): key[SCROLL(71)] -> action[SCROLL(71)]
+[profile2] 0x1798  0220480048000000  KEY base(0x00): key[PAUSE(72)] -> action[PAUSE(72)]
+[profile2] 0x17A0  0220490049000000  KEY base(0x00): key[INSERT(73)] -> action[INSERT(73)]
+[profile2] 0x17A8  02204a004a000000  KEY base(0x00): key[HOME(74)] -> action[HOME(74)]
+[profile2] 0x17B0  02204b004b000000  KEY base(0x00): key[PGUP(75)] -> action[PGUP(75)]
+[profile2] 0x17B8  02204c004c000000  KEY base(0x00): key[DEL(76)] -> action[DEL(76)]
+[profile2] 0x17C0  02204d004d000000  KEY base(0x00): key[END(77)] -> action[END(77)]
+[profile2] 0x17C8  02204e004e000000  KEY base(0x00): key[PGDN(78)] -> action[PGDN(78)]
+[profile2] 0x17D0  02204f004f000000  KEY base(0x00): key[R_ARROW(79)] -> action[R_ARROW(79)]
+[profile2] 0x17D8  0220500050000000  KEY base(0x00): key[L_ARROW(80)] -> action[L_ARROW(80)]
+[profile2] 0x17E0  0220510051000000  KEY base(0x00): key[DN_ARROW(81)] -> action[DN_ARROW(81)]
+[profile2] 0x17E8  0220520052000000  KEY base(0x00): key[UP_ARROW(82)] -> action[UP_ARROW(82)]
+[profile2] 0x17F0  0220650065000000  KEY base(0x00): key[APP(101)] -> action[APP(101)]
+[profile2] 0x17F8  0220c800c8000000  KEY base(0x00): key[G9(200)] -> action[G9(200)]
+[profile2] 0x1800  0220c900c9000000  KEY base(0x00): key[G10(201)] -> action[G10(201)]
+[profile2] 0x1808  0220ca00ca000000  KEY base(0x00): key[G11(202)] -> action[G11(202)]
+[profile2] 0x1810  0220cb00cb000000  KEY base(0x00): key[G12(203)] -> action[G12(203)]
+[profile2] 0x1818  0220e000e0000000  KEY base(0x00): key[L_CTRL(224)] -> action[L_CTRL(224)]
+[profile2] 0x1820  0220e100e1000000  KEY base(0x00): key[L_SHIFT(225)] -> action[L_SHIFT(225)]
+[profile2] 0x1828  0220e200e2000000  KEY base(0x00): key[L_ALT(226)] -> action[L_ALT(226)]
+[profile2] 0x1830  0220e300e3000000  KEY base(0x00): key[L_WIN(227)] -> action[L_WIN(227)]
+[profile2] 0x1838  0220e400e4000000  KEY base(0x00): key[R_CTRL(228)] -> action[R_CTRL(228)]
+[profile2] 0x1840  0220e500e5000000  KEY base(0x00): key[R_SHIFT(229)] -> action[R_SHIFT(229)]
+[profile2] 0x1848  0220e600e6000000  KEY base(0x00): key[R_ALT(230)] -> action[R_ALT(230)]
+[profile2] 0x1850  0220f400f4000000  KEY base(0x00): key[MUTE(244)] -> action[MUTE(244)]
+[profile2] 0x1858  0220f500f5000000  KEY base(0x00): key[VOL_DEC(245)] -> action[VOL_DEC(245)]
+[profile2] 0x1860  0220f600f6000000  KEY base(0x00): key[VOL_INC(246)] -> action[VOL_INC(246)]
+[profile2] 0x1868  0220f900f9000000  KEY base(0x00): key[W3BACK(249)] -> action[W3BACK(249)]
+[profile2] 0x1870  0220fa00fa000000  KEY base(0x00): key[W3FORWARD(250)] -> action[W3FORWARD(250)]
+[profile2] 0x1878  029402003046ffff  FN_POS fn1(0x94): count=2 [G12(6,0)=48, G10(8,6)=70]
+[profile2] 0x1880  0000000000000000  SEPARATOR
+
+[profile3] 0x1888  02201e0131010000  KEY fn1(0x01): key[1(30)] -> action[TP_SPEED1(305)]
+[profile3] 0x1890  02201f0132010000  KEY fn1(0x01): key[2(31)] -> action[TP_SPEED2(306)]
+[profile3] 0x1898  0220200133010000  KEY fn1(0x01): key[3(32)] -> action[TP_SPEED3(307)]
+[profile3] 0x18A0  0220210134010000  KEY fn1(0x01): key[4(33)] -> action[TP_SPEED4(308)]
+[profile3] 0x18A8  0220220135010000  KEY fn1(0x01): key[5(34)] -> action[TP_SPEED5(309)]
+[profile3] 0x18B0  0220230136010000  KEY fn1(0x01): key[6(35)] -> action[TP_SPEED6(310)]
+[profile3] 0x18B8  0220240137010000  KEY fn1(0x01): key[7(36)] -> action[TP_SPEED7(311)]
+[profile3] 0x18C0  0220250138010000  KEY fn1(0x01): key[8(37)] -> action[TP_SPEED8(312)]
+[profile3] 0x18C8  0220260139010000  KEY fn1(0x01): key[9(38)] -> action[TP_SPEED9(313)]
+[profile3] 0x18D0  022029018d010000  KEY fn1(0x01): key[ESC(41)] -> action[BAD_ESC(397)]
+[profile3] 0x18D8  02204f01f3000000  KEY fn1(0x01): key[R_ARROW(79)] -> action[NEXT_TRACK(243)]
+[profile3] 0x18E0  02205001f2000000  KEY fn1(0x01): key[L_ARROW(80)] -> action[PRE_TRACK(242)]
+[profile3] 0x18E8  02205101f0000000  KEY fn1(0x01): key[DN_ARROW(81)] -> action[PLAY_PAUSE(240)]
+[profile3] 0x18F0  02205201f1000000  KEY fn1(0x01): key[UP_ARROW(82)] -> action[STOP(241)]
+[profile3] 0x18F8  0220f4018a010000  KEY fn1(0x01): key[MUTE(244)] -> action[BAD_MUTE(394)]
+[profile3] 0x1900  0220f5018b010000  KEY fn1(0x01): key[VOL_DEC(245)] -> action[BAD_VOL_DEC(395)]
+[profile3] 0x1908  0220f6018c010000  KEY fn1(0x01): key[VOL_INC(246)] -> action[BAD_VOL_INC(396)]
+[profile3] 0x1910  0220040104000000  KEY fn1(0x01): key[A(4)] -> action[A(4)]
+[profile3] 0x1918  0220050105000000  KEY fn1(0x01): key[B(5)] -> action[B(5)]
+[profile3] 0x1920  0220060106000000  KEY fn1(0x01): key[C(6)] -> action[C(6)]
+[profile3] 0x1928  0220070107000000  KEY fn1(0x01): key[D(7)] -> action[D(7)]
+[profile3] 0x1930  0220080108000000  KEY fn1(0x01): key[E(8)] -> action[E(8)]
+[profile3] 0x1938  0220090109000000  KEY fn1(0x01): key[F(9)] -> action[F(9)]
+[profile3] 0x1940  02200a010a000000  KEY fn1(0x01): key[G(10)] -> action[G(10)]
+[profile3] 0x1948  02200b010b000000  KEY fn1(0x01): key[H(11)] -> action[H(11)]
+[profile3] 0x1950  02200c010c000000  KEY fn1(0x01): key[I(12)] -> action[I(12)]
+[profile3] 0x1958  02200d010d000000  KEY fn1(0x01): key[J(13)] -> action[J(13)]
+[profile3] 0x1960  02200e010e000000  KEY fn1(0x01): key[K(14)] -> action[K(14)]
+[profile3] 0x1968  02200f010f000000  KEY fn1(0x01): key[L(15)] -> action[L(15)]
+[profile3] 0x1970  0220100110000000  KEY fn1(0x01): key[M(16)] -> action[M(16)]
+[profile3] 0x1978  0220110111000000  KEY fn1(0x01): key[N(17)] -> action[N(17)]
+[profile3] 0x1980  0220120112000000  KEY fn1(0x01): key[O(18)] -> action[O(18)]
+[profile3] 0x1988  0220130113000000  KEY fn1(0x01): key[P(19)] -> action[P(19)]
+[profile3] 0x1990  0220140114000000  KEY fn1(0x01): key[Q(20)] -> action[Q(20)]
+[profile3] 0x1998  0220150115000000  KEY fn1(0x01): key[R(21)] -> action[R(21)]
+[profile3] 0x19A0  0220160116000000  KEY fn1(0x01): key[S(22)] -> action[S(22)]
+[profile3] 0x19A8  0220170117000000  KEY fn1(0x01): key[T(23)] -> action[T(23)]
+[profile3] 0x19B0  0220180118000000  KEY fn1(0x01): key[U(24)] -> action[U(24)]
+[profile3] 0x19B8  0220190119000000  KEY fn1(0x01): key[V(25)] -> action[V(25)]
+[profile3] 0x19C0  02201a011a000000  KEY fn1(0x01): key[W(26)] -> action[W(26)]
+[profile3] 0x19C8  02201b011b000000  KEY fn1(0x01): key[X(27)] -> action[X(27)]
+[profile3] 0x19D0  02201c011c000000  KEY fn1(0x01): key[Y(28)] -> action[Y(28)]
+[profile3] 0x19D8  02201d011d000000  KEY fn1(0x01): key[Z(29)] -> action[Z(29)]
+[profile3] 0x19E0  0220270127000000  KEY fn1(0x01): key[0(39)] -> action[0(39)]
+[profile3] 0x19E8  0220280128000000  KEY fn1(0x01): key[ENTER(40)] -> action[ENTER(40)]
+[profile3] 0x19F0  02202a012a000000  KEY fn1(0x01): key[BACKSPACE(42)] -> action[BACKSPACE(42)]
+[profile3] 0x19F8  02202b012b000000  KEY fn1(0x01): key[TAB(43)] -> action[TAB(43)]
+[profile3] 0x1A00  02202c012c000000  KEY fn1(0x01): key[SPACE(44)] -> action[SPACE(44)]
+[profile3] 0x1A08  02202d012d000000  KEY fn1(0x01): key[NEG(45)] -> action[NEG(45)]
+[profile3] 0x1A10  02202e012e000000  KEY fn1(0x01): key[EQUATION(46)] -> action[EQUATION(46)]
+[profile3] 0x1A18  02202f012f000000  KEY fn1(0x01): key[L_BRACKETS(47)] -> action[L_BRACKETS(47)]
+[profile3] 0x1A20  0220300130000000  KEY fn1(0x01): key[R_BRACKETS(48)] -> action[R_BRACKETS(48)]
+[profile3] 0x1A28  0220310131000000  KEY fn1(0x01): key[BACKSLASH(49)] -> action[BACKSLASH(49)]
+[profile3] 0x1A30  0220330133000000  KEY fn1(0x01): key[SEMICOLON(51)] -> action[SEMICOLON(51)]
+[profile3] 0x1A38  0220340134000000  KEY fn1(0x01): key[APOSTROPHE(52)] -> action[APOSTROPHE(52)]
+[profile3] 0x1A40  0220350135000000  KEY fn1(0x01): key[TILDE(53)] -> action[TILDE(53)]
+[profile3] 0x1A48  0220360136000000  KEY fn1(0x01): key[COMMA(54)] -> action[COMMA(54)]
+[profile3] 0x1A50  0220370137000000  KEY fn1(0x01): key[DOT(55)] -> action[DOT(55)]
+[profile3] 0x1A58  0220380138000000  KEY fn1(0x01): key[SLASH(56)] -> action[SLASH(56)]
+[profile3] 0x1A60  0220390139000000  KEY fn1(0x01): key[CAPS_LOCK(57)] -> action[CAPS_LOCK(57)]
+[profile3] 0x1A68  02203a013a000000  KEY fn1(0x01): key[F1(58)] -> action[F1(58)]
+[profile3] 0x1A70  02203b013b000000  KEY fn1(0x01): key[F2(59)] -> action[F2(59)]
+[profile3] 0x1A78  02203c013c000000  KEY fn1(0x01): key[F3(60)] -> action[F3(60)]
+[profile3] 0x1A80  02203d013d000000  KEY fn1(0x01): key[F4(61)] -> action[F4(61)]
+[profile3] 0x1A88  02203e013e000000  KEY fn1(0x01): key[F5(62)] -> action[F5(62)]
+[profile3] 0x1A90  02203f013f000000  KEY fn1(0x01): key[F6(63)] -> action[F6(63)]
+[profile3] 0x1A98  0220400140000000  KEY fn1(0x01): key[F7(64)] -> action[F7(64)]
+[profile3] 0x1AA0  0220410141000000  KEY fn1(0x01): key[F8(65)] -> action[F8(65)]
+[profile3] 0x1AA8  0220420142000000  KEY fn1(0x01): key[F9(66)] -> action[F9(66)]
+[profile3] 0x1AB0  0220430143000000  KEY fn1(0x01): key[F10(67)] -> action[F10(67)]
+[profile3] 0x1AB8  0220440144000000  KEY fn1(0x01): key[F11(68)] -> action[F11(68)]
+[profile3] 0x1AC0  0220450145000000  KEY fn1(0x01): key[F12(69)] -> action[F12(69)]
+[profile3] 0x1AC8  0220460146000000  KEY fn1(0x01): key[PRINT(70)] -> action[PRINT(70)]
+[profile3] 0x1AD0  0220470147000000  KEY fn1(0x01): key[SCROLL(71)] -> action[SCROLL(71)]
+[profile3] 0x1AD8  0220480148000000  KEY fn1(0x01): key[PAUSE(72)] -> action[PAUSE(72)]
+[profile3] 0x1AE0  0220490149000000  KEY fn1(0x01): key[INSERT(73)] -> action[INSERT(73)]
+[profile3] 0x1AE8  02204a014a000000  KEY fn1(0x01): key[HOME(74)] -> action[HOME(74)]
+[profile3] 0x1AF0  02204b014b000000  KEY fn1(0x01): key[PGUP(75)] -> action[PGUP(75)]
+[profile3] 0x1AF8  02204c014c000000  KEY fn1(0x01): key[DEL(76)] -> action[DEL(76)]
+[profile3] 0x1B00  02204d014d000000  KEY fn1(0x01): key[END(77)] -> action[END(77)]
+[profile3] 0x1B08  02204e014e000000  KEY fn1(0x01): key[PGDN(78)] -> action[PGDN(78)]
+[profile3] 0x1B10  0220650165000000  KEY fn1(0x01): key[APP(101)] -> action[APP(101)]
+[profile3] 0x1B18  0220c801c8000000  KEY fn1(0x01): key[G9(200)] -> action[G9(200)]
+[profile3] 0x1B20  0220c901c9000000  KEY fn1(0x01): key[G10(201)] -> action[G10(201)]
+[profile3] 0x1B28  0220ca01ca000000  KEY fn1(0x01): key[G11(202)] -> action[G11(202)]
+[profile3] 0x1B30  0220cb01cb000000  KEY fn1(0x01): key[G12(203)] -> action[G12(203)]
+[profile3] 0x1B38  0220e001e0000000  KEY fn1(0x01): key[L_CTRL(224)] -> action[L_CTRL(224)]
+[profile3] 0x1B40  0220e101e1000000  KEY fn1(0x01): key[L_SHIFT(225)] -> action[L_SHIFT(225)]
+[profile3] 0x1B48  0220e201e2000000  KEY fn1(0x01): key[L_ALT(226)] -> action[L_ALT(226)]
+[profile3] 0x1B50  0220e301e3000000  KEY fn1(0x01): key[L_WIN(227)] -> action[L_WIN(227)]
+[profile3] 0x1B58  0220e401e4000000  KEY fn1(0x01): key[R_CTRL(228)] -> action[R_CTRL(228)]
+[profile3] 0x1B60  0220e501e5000000  KEY fn1(0x01): key[R_SHIFT(229)] -> action[R_SHIFT(229)]
+[profile3] 0x1B68  0220e601e6000000  KEY fn1(0x01): key[R_ALT(230)] -> action[R_ALT(230)]
+[profile3] 0x1B70  0220f901f9000000  KEY fn1(0x01): key[W3BACK(249)] -> action[W3BACK(249)]
+[profile3] 0x1B78  0220fa01fa000000  KEY fn1(0x01): key[W3FORWARD(250)] -> action[W3FORWARD(250)]
+[profile3] 0x1B80  0220040204000000  KEY fn2(0x02): key[A(4)] -> action[A(4)]
+[profile3] 0x1B88  0220050205000000  KEY fn2(0x02): key[B(5)] -> action[B(5)]
+[profile3] 0x1B90  0220060206000000  KEY fn2(0x02): key[C(6)] -> action[C(6)]
+[profile3] 0x1B98  0220070207000000  KEY fn2(0x02): key[D(7)] -> action[D(7)]
+[profile3] 0x1BA0  0220080208000000  KEY fn2(0x02): key[E(8)] -> action[E(8)]
+[profile3] 0x1BA8  0220090209000000  KEY fn2(0x02): key[F(9)] -> action[F(9)]
+[profile3] 0x1BB0  02200a020a000000  KEY fn2(0x02): key[G(10)] -> action[G(10)]
+[profile3] 0x1BB8  02200b020b000000  KEY fn2(0x02): key[H(11)] -> action[H(11)]
+[profile3] 0x1BC0  02200c020c000000  KEY fn2(0x02): key[I(12)] -> action[I(12)]
+[profile3] 0x1BC8  02200d020d000000  KEY fn2(0x02): key[J(13)] -> action[J(13)]
+[profile3] 0x1BD0  02200e020e000000  KEY fn2(0x02): key[K(14)] -> action[K(14)]
+[profile3] 0x1BD8  02200f020f000000  KEY fn2(0x02): key[L(15)] -> action[L(15)]
+[profile3] 0x1BE0  0220100210000000  KEY fn2(0x02): key[M(16)] -> action[M(16)]
+[profile3] 0x1BE8  0220110211000000  KEY fn2(0x02): key[N(17)] -> action[N(17)]
+[profile3] 0x1BF0  0220120212000000  KEY fn2(0x02): key[O(18)] -> action[O(18)]
+[profile3] 0x1BF8  0220130213000000  KEY fn2(0x02): key[P(19)] -> action[P(19)]
+[profile3] 0x1C00  0220140214000000  KEY fn2(0x02): key[Q(20)] -> action[Q(20)]
+[profile3] 0x1C08  0220150215000000  KEY fn2(0x02): key[R(21)] -> action[R(21)]
+[profile3] 0x1C10  0220160216000000  KEY fn2(0x02): key[S(22)] -> action[S(22)]
+[profile3] 0x1C18  0220170217000000  KEY fn2(0x02): key[T(23)] -> action[T(23)]
+[profile3] 0x1C20  0220180218000000  KEY fn2(0x02): key[U(24)] -> action[U(24)]
+[profile3] 0x1C28  0220190219000000  KEY fn2(0x02): key[V(25)] -> action[V(25)]
+[profile3] 0x1C30  02201a021a000000  KEY fn2(0x02): key[W(26)] -> action[W(26)]
+[profile3] 0x1C38  02201b021b000000  KEY fn2(0x02): key[X(27)] -> action[X(27)]
+[profile3] 0x1C40  02201c021c000000  KEY fn2(0x02): key[Y(28)] -> action[Y(28)]
+[profile3] 0x1C48  02201d021d000000  KEY fn2(0x02): key[Z(29)] -> action[Z(29)]
+[profile3] 0x1C50  02201e021e000000  KEY fn2(0x02): key[1(30)] -> action[1(30)]
+[profile3] 0x1C58  02201f021f000000  KEY fn2(0x02): key[2(31)] -> action[2(31)]
+[profile3] 0x1C60  0220200220000000  KEY fn2(0x02): key[3(32)] -> action[3(32)]
+[profile3] 0x1C68  0220210221000000  KEY fn2(0x02): key[4(33)] -> action[4(33)]
+[profile3] 0x1C70  0220220222000000  KEY fn2(0x02): key[5(34)] -> action[5(34)]
+[profile3] 0x1C78  0220230223000000  KEY fn2(0x02): key[6(35)] -> action[6(35)]
+[profile3] 0x1C80  0220240224000000  KEY fn2(0x02): key[7(36)] -> action[7(36)]
+[profile3] 0x1C88  0220250225000000  KEY fn2(0x02): key[8(37)] -> action[8(37)]
+[profile3] 0x1C90  0220260226000000  KEY fn2(0x02): key[9(38)] -> action[9(38)]
+[profile3] 0x1C98  0220270227000000  KEY fn2(0x02): key[0(39)] -> action[0(39)]
+[profile3] 0x1CA0  0220280228000000  KEY fn2(0x02): key[ENTER(40)] -> action[ENTER(40)]
+[profile3] 0x1CA8  0220290229000000  KEY fn2(0x02): key[ESC(41)] -> action[ESC(41)]
+[profile3] 0x1CB0  02202a022a000000  KEY fn2(0x02): key[BACKSPACE(42)] -> action[BACKSPACE(42)]
+[profile3] 0x1CB8  02202b022b000000  KEY fn2(0x02): key[TAB(43)] -> action[TAB(43)]
+[profile3] 0x1CC0  02202c022c000000  KEY fn2(0x02): key[SPACE(44)] -> action[SPACE(44)]
+[profile3] 0x1CC8  02202d022d000000  KEY fn2(0x02): key[NEG(45)] -> action[NEG(45)]
+[profile3] 0x1CD0  02202e022e000000  KEY fn2(0x02): key[EQUATION(46)] -> action[EQUATION(46)]
+[profile3] 0x1CD8  02202f022f000000  KEY fn2(0x02): key[L_BRACKETS(47)] -> action[L_BRACKETS(47)]
+[profile3] 0x1CE0  0220300230000000  KEY fn2(0x02): key[R_BRACKETS(48)] -> action[R_BRACKETS(48)]
+[profile3] 0x1CE8  0220310231000000  KEY fn2(0x02): key[BACKSLASH(49)] -> action[BACKSLASH(49)]
+[profile3] 0x1CF0  0220330233000000  KEY fn2(0x02): key[SEMICOLON(51)] -> action[SEMICOLON(51)]
+[profile3] 0x1CF8  0220340234000000  KEY fn2(0x02): key[APOSTROPHE(52)] -> action[APOSTROPHE(52)]
+[profile3] 0x1D00  0220350235000000  KEY fn2(0x02): key[TILDE(53)] -> action[TILDE(53)]
+[profile3] 0x1D08  0220360236000000  KEY fn2(0x02): key[COMMA(54)] -> action[COMMA(54)]
+[profile3] 0x1D10  0220370237000000  KEY fn2(0x02): key[DOT(55)] -> action[DOT(55)]
+[profile3] 0x1D18  0220380238000000  KEY fn2(0x02): key[SLASH(56)] -> action[SLASH(56)]
+[profile3] 0x1D20  0220390239000000  KEY fn2(0x02): key[CAPS_LOCK(57)] -> action[CAPS_LOCK(57)]
+[profile3] 0x1D28  02203a023a000000  KEY fn2(0x02): key[F1(58)] -> action[F1(58)]
+[profile3] 0x1D30  02203b023b000000  KEY fn2(0x02): key[F2(59)] -> action[F2(59)]
+[profile3] 0x1D38  02203c023c000000  KEY fn2(0x02): key[F3(60)] -> action[F3(60)]
+[profile3] 0x1D40  02203d023d000000  KEY fn2(0x02): key[F4(61)] -> action[F4(61)]
+[profile3] 0x1D48  02203e023e000000  KEY fn2(0x02): key[F5(62)] -> action[F5(62)]
+[profile3] 0x1D50  02203f023f000000  KEY fn2(0x02): key[F6(63)] -> action[F6(63)]
+[profile3] 0x1D58  0220400240000000  KEY fn2(0x02): key[F7(64)] -> action[F7(64)]
+[profile3] 0x1D60  0220410241000000  KEY fn2(0x02): key[F8(65)] -> action[F8(65)]
+[profile3] 0x1D68  0220420242000000  KEY fn2(0x02): key[F9(66)] -> action[F9(66)]
+[profile3] 0x1D70  0220430243000000  KEY fn2(0x02): key[F10(67)] -> action[F10(67)]
+[profile3] 0x1D78  0220440244000000  KEY fn2(0x02): key[F11(68)] -> action[F11(68)]
+[profile3] 0x1D80  0220450245000000  KEY fn2(0x02): key[F12(69)] -> action[F12(69)]
+[profile3] 0x1D88  0220460246000000  KEY fn2(0x02): key[PRINT(70)] -> action[PRINT(70)]
+[profile3] 0x1D90  0220470247000000  KEY fn2(0x02): key[SCROLL(71)] -> action[SCROLL(71)]
+[profile3] 0x1D98  0220480248000000  KEY fn2(0x02): key[PAUSE(72)] -> action[PAUSE(72)]
+[profile3] 0x1DA0  0220490249000000  KEY fn2(0x02): key[INSERT(73)] -> action[INSERT(73)]
+[profile3] 0x1DA8  02204a024a000000  KEY fn2(0x02): key[HOME(74)] -> action[HOME(74)]
+[profile3] 0x1DB0  02204b024b000000  KEY fn2(0x02): key[PGUP(75)] -> action[PGUP(75)]
+[profile3] 0x1DB8  02204c024c000000  KEY fn2(0x02): key[DEL(76)] -> action[DEL(76)]
+[profile3] 0x1DC0  02204d024d000000  KEY fn2(0x02): key[END(77)] -> action[END(77)]
+[profile3] 0x1DC8  02204e024e000000  KEY fn2(0x02): key[PGDN(78)] -> action[PGDN(78)]
+[profile3] 0x1DD0  02204f024f000000  KEY fn2(0x02): key[R_ARROW(79)] -> action[R_ARROW(79)]
+[profile3] 0x1DD8  0220500250000000  KEY fn2(0x02): key[L_ARROW(80)] -> action[L_ARROW(80)]
+[profile3] 0x1DE0  0220510251000000  KEY fn2(0x02): key[DN_ARROW(81)] -> action[DN_ARROW(81)]
+[profile3] 0x1DE8  0220520252000000  KEY fn2(0x02): key[UP_ARROW(82)] -> action[UP_ARROW(82)]
+[profile3] 0x1DF0  0220650265000000  KEY fn2(0x02): key[APP(101)] -> action[APP(101)]
+[profile3] 0x1DF8  0220c802c8000000  KEY fn2(0x02): key[G9(200)] -> action[G9(200)]
+[profile3] 0x1E00  0220c902c9000000  KEY fn2(0x02): key[G10(201)] -> action[G10(201)]
+[profile3] 0x1E08  0220ca02ca000000  KEY fn2(0x02): key[G11(202)] -> action[G11(202)]
+[profile3] 0x1E10  0220cb02cb000000  KEY fn2(0x02): key[G12(203)] -> action[G12(203)]
+[profile3] 0x1E18  0220e002e0000000  KEY fn2(0x02): key[L_CTRL(224)] -> action[L_CTRL(224)]
+[profile3] 0x1E20  0220e102e1000000  KEY fn2(0x02): key[L_SHIFT(225)] -> action[L_SHIFT(225)]
+[profile3] 0x1E28  0220e202e2000000  KEY fn2(0x02): key[L_ALT(226)] -> action[L_ALT(226)]
+[profile3] 0x1E30  0220e302e3000000  KEY fn2(0x02): key[L_WIN(227)] -> action[L_WIN(227)]
+[profile3] 0x1E38  0220e402e4000000  KEY fn2(0x02): key[R_CTRL(228)] -> action[R_CTRL(228)]
+[profile3] 0x1E40  0220e502e5000000  KEY fn2(0x02): key[R_SHIFT(229)] -> action[R_SHIFT(229)]
+[profile3] 0x1E48  0220e602e6000000  KEY fn2(0x02): key[R_ALT(230)] -> action[R_ALT(230)]
+[profile3] 0x1E50  0220f402f4000000  KEY fn2(0x02): key[MUTE(244)] -> action[MUTE(244)]
+[profile3] 0x1E58  0220f502f5000000  KEY fn2(0x02): key[VOL_DEC(245)] -> action[VOL_DEC(245)]
+[profile3] 0x1E60  0220f602f6000000  KEY fn2(0x02): key[VOL_INC(246)] -> action[VOL_INC(246)]
+[profile3] 0x1E68  0220f902f9000000  KEY fn2(0x02): key[W3BACK(249)] -> action[W3BACK(249)]
+[profile3] 0x1E70  0220fa02fa000000  KEY fn2(0x02): key[W3FORWARD(250)] -> action[W3FORWARD(250)]
+[profile3] 0x1E78  0220040304000000  KEY fn3(0x03): key[A(4)] -> action[A(4)]
+[profile3] 0x1E80  0220050305000000  KEY fn3(0x03): key[B(5)] -> action[B(5)]
+[profile3] 0x1E88  0220060306000000  KEY fn3(0x03): key[C(6)] -> action[C(6)]
+[profile3] 0x1E90  0220070307000000  KEY fn3(0x03): key[D(7)] -> action[D(7)]
+[profile3] 0x1E98  0220080308000000  KEY fn3(0x03): key[E(8)] -> action[E(8)]
+[profile3] 0x1EA0  0220090309000000  KEY fn3(0x03): key[F(9)] -> action[F(9)]
+[profile3] 0x1EA8  02200a030a000000  KEY fn3(0x03): key[G(10)] -> action[G(10)]
+[profile3] 0x1EB0  02200b030b000000  KEY fn3(0x03): key[H(11)] -> action[H(11)]
+[profile3] 0x1EB8  02200c030c000000  KEY fn3(0x03): key[I(12)] -> action[I(12)]
+[profile3] 0x1EC0  02200d030d000000  KEY fn3(0x03): key[J(13)] -> action[J(13)]
+[profile3] 0x1EC8  02200e030e000000  KEY fn3(0x03): key[K(14)] -> action[K(14)]
+[profile3] 0x1ED0  02200f030f000000  KEY fn3(0x03): key[L(15)] -> action[L(15)]
+[profile3] 0x1ED8  0220100310000000  KEY fn3(0x03): key[M(16)] -> action[M(16)]
+[profile3] 0x1EE0  0220110311000000  KEY fn3(0x03): key[N(17)] -> action[N(17)]
+[profile3] 0x1EE8  0220120312000000  KEY fn3(0x03): key[O(18)] -> action[O(18)]
+[profile3] 0x1EF0  0220130313000000  KEY fn3(0x03): key[P(19)] -> action[P(19)]
+[profile3] 0x1EF8  0220140314000000  KEY fn3(0x03): key[Q(20)] -> action[Q(20)]
+[profile3] 0x1F00  0220150315000000  KEY fn3(0x03): key[R(21)] -> action[R(21)]
+[profile3] 0x1F08  0220160316000000  KEY fn3(0x03): key[S(22)] -> action[S(22)]
+[profile3] 0x1F10  0220170317000000  KEY fn3(0x03): key[T(23)] -> action[T(23)]
+[profile3] 0x1F18  0220180318000000  KEY fn3(0x03): key[U(24)] -> action[U(24)]
+[profile3] 0x1F20  0220190319000000  KEY fn3(0x03): key[V(25)] -> action[V(25)]
+[profile3] 0x1F28  02201a031a000000  KEY fn3(0x03): key[W(26)] -> action[W(26)]
+[profile3] 0x1F30  02201b031b000000  KEY fn3(0x03): key[X(27)] -> action[X(27)]
+[profile3] 0x1F38  02201c031c000000  KEY fn3(0x03): key[Y(28)] -> action[Y(28)]
+[profile3] 0x1F40  02201d031d000000  KEY fn3(0x03): key[Z(29)] -> action[Z(29)]
+[profile3] 0x1F48  02201e031e000000  KEY fn3(0x03): key[1(30)] -> action[1(30)]
+[profile3] 0x1F50  02201f031f000000  KEY fn3(0x03): key[2(31)] -> action[2(31)]
+[profile3] 0x1F58  0220200320000000  KEY fn3(0x03): key[3(32)] -> action[3(32)]
+[profile3] 0x1F60  0220210321000000  KEY fn3(0x03): key[4(33)] -> action[4(33)]
+[profile3] 0x1F68  0220220322000000  KEY fn3(0x03): key[5(34)] -> action[5(34)]
+[profile3] 0x1F70  0220230323000000  KEY fn3(0x03): key[6(35)] -> action[6(35)]
+[profile3] 0x1F78  0220240324000000  KEY fn3(0x03): key[7(36)] -> action[7(36)]
+[profile3] 0x1F80  0220250325000000  KEY fn3(0x03): key[8(37)] -> action[8(37)]
+[profile3] 0x1F88  0220260326000000  KEY fn3(0x03): key[9(38)] -> action[9(38)]
+[profile3] 0x1F90  0220270327000000  KEY fn3(0x03): key[0(39)] -> action[0(39)]
+[profile3] 0x1F98  0220280328000000  KEY fn3(0x03): key[ENTER(40)] -> action[ENTER(40)]
+[profile3] 0x1FA0  0220290329000000  KEY fn3(0x03): key[ESC(41)] -> action[ESC(41)]
+[profile3] 0x1FA8  02202a032a000000  KEY fn3(0x03): key[BACKSPACE(42)] -> action[BACKSPACE(42)]
+[profile3] 0x1FB0  02202b032b000000  KEY fn3(0x03): key[TAB(43)] -> action[TAB(43)]
+[profile3] 0x1FB8  02202c032c000000  KEY fn3(0x03): key[SPACE(44)] -> action[SPACE(44)]
+[profile3] 0x1FC0  02202d032d000000  KEY fn3(0x03): key[NEG(45)] -> action[NEG(45)]
+[profile3] 0x1FC8  02202e032e000000  KEY fn3(0x03): key[EQUATION(46)] -> action[EQUATION(46)]
+[profile3] 0x1FD0  02202f032f000000  KEY fn3(0x03): key[L_BRACKETS(47)] -> action[L_BRACKETS(47)]
+[profile3] 0x1FD8  0220300330000000  KEY fn3(0x03): key[R_BRACKETS(48)] -> action[R_BRACKETS(48)]
+[profile3] 0x1FE0  0220310331000000  KEY fn3(0x03): key[BACKSLASH(49)] -> action[BACKSLASH(49)]
+[profile3] 0x1FE8  0220330333000000  KEY fn3(0x03): key[SEMICOLON(51)] -> action[SEMICOLON(51)]
+[profile3] 0x1FF0  0220340334000000  KEY fn3(0x03): key[APOSTROPHE(52)] -> action[APOSTROPHE(52)]
+[profile3] 0x1FF8  0220350335000000  KEY fn3(0x03): key[TILDE(53)] -> action[TILDE(53)]
+[profile3] 0x2000  0220360336000000  KEY fn3(0x03): key[COMMA(54)] -> action[COMMA(54)]
+[profile3] 0x2008  0220370337000000  KEY fn3(0x03): key[DOT(55)] -> action[DOT(55)]
+[profile3] 0x2010  0220380338000000  KEY fn3(0x03): key[SLASH(56)] -> action[SLASH(56)]
+[profile3] 0x2018  0220390339000000  KEY fn3(0x03): key[CAPS_LOCK(57)] -> action[CAPS_LOCK(57)]
+[profile3] 0x2020  02203a033a000000  KEY fn3(0x03): key[F1(58)] -> action[F1(58)]
+[profile3] 0x2028  02203b033b000000  KEY fn3(0x03): key[F2(59)] -> action[F2(59)]
+[profile3] 0x2030  02203c033c000000  KEY fn3(0x03): key[F3(60)] -> action[F3(60)]
+[profile3] 0x2038  02203d033d000000  KEY fn3(0x03): key[F4(61)] -> action[F4(61)]
+[profile3] 0x2040  02203e033e000000  KEY fn3(0x03): key[F5(62)] -> action[F5(62)]
+[profile3] 0x2048  02203f033f000000  KEY fn3(0x03): key[F6(63)] -> action[F6(63)]
+[profile3] 0x2050  0220400340000000  KEY fn3(0x03): key[F7(64)] -> action[F7(64)]
+[profile3] 0x2058  0220410341000000  KEY fn3(0x03): key[F8(65)] -> action[F8(65)]
+[profile3] 0x2060  0220420342000000  KEY fn3(0x03): key[F9(66)] -> action[F9(66)]
+[profile3] 0x2068  0220430343000000  KEY fn3(0x03): key[F10(67)] -> action[F10(67)]
+[profile3] 0x2070  0220440344000000  KEY fn3(0x03): key[F11(68)] -> action[F11(68)]
+[profile3] 0x2078  0220450345000000  KEY fn3(0x03): key[F12(69)] -> action[F12(69)]
+[profile3] 0x2080  0220460346000000  KEY fn3(0x03): key[PRINT(70)] -> action[PRINT(70)]
+[profile3] 0x2088  0220470347000000  KEY fn3(0x03): key[SCROLL(71)] -> action[SCROLL(71)]
+[profile3] 0x2090  0220480348000000  KEY fn3(0x03): key[PAUSE(72)] -> action[PAUSE(72)]
+[profile3] 0x2098  0220490349000000  KEY fn3(0x03): key[INSERT(73)] -> action[INSERT(73)]
+[profile3] 0x20A0  02204a034a000000  KEY fn3(0x03): key[HOME(74)] -> action[HOME(74)]
+[profile3] 0x20A8  02204b034b000000  KEY fn3(0x03): key[PGUP(75)] -> action[PGUP(75)]
+[profile3] 0x20B0  02204c034c000000  KEY fn3(0x03): key[DEL(76)] -> action[DEL(76)]
+[profile3] 0x20B8  02204d034d000000  KEY fn3(0x03): key[END(77)] -> action[END(77)]
+[profile3] 0x20C0  02204e034e000000  KEY fn3(0x03): key[PGDN(78)] -> action[PGDN(78)]
+[profile3] 0x20C8  02204f034f000000  KEY fn3(0x03): key[R_ARROW(79)] -> action[R_ARROW(79)]
+[profile3] 0x20D0  0220500350000000  KEY fn3(0x03): key[L_ARROW(80)] -> action[L_ARROW(80)]
+[profile3] 0x20D8  0220510351000000  KEY fn3(0x03): key[DN_ARROW(81)] -> action[DN_ARROW(81)]
+[profile3] 0x20E0  0220520352000000  KEY fn3(0x03): key[UP_ARROW(82)] -> action[UP_ARROW(82)]
+[profile3] 0x20E8  0220650365000000  KEY fn3(0x03): key[APP(101)] -> action[APP(101)]
+[profile3] 0x20F0  0220c803c8000000  KEY fn3(0x03): key[G9(200)] -> action[G9(200)]
+[profile3] 0x20F8  0220c903c9000000  KEY fn3(0x03): key[G10(201)] -> action[G10(201)]
+[profile3] 0x2100  0220ca03ca000000  KEY fn3(0x03): key[G11(202)] -> action[G11(202)]
+[profile3] 0x2108  0220cb03cb000000  KEY fn3(0x03): key[G12(203)] -> action[G12(203)]
+[profile3] 0x2110  0220e003e0000000  KEY fn3(0x03): key[L_CTRL(224)] -> action[L_CTRL(224)]
+[profile3] 0x2118  0220e103e1000000  KEY fn3(0x03): key[L_SHIFT(225)] -> action[L_SHIFT(225)]
+[profile3] 0x2120  0220e203e2000000  KEY fn3(0x03): key[L_ALT(226)] -> action[L_ALT(226)]
+[profile3] 0x2128  0220e303e3000000  KEY fn3(0x03): key[L_WIN(227)] -> action[L_WIN(227)]
+[profile3] 0x2130  0220e403e4000000  KEY fn3(0x03): key[R_CTRL(228)] -> action[R_CTRL(228)]
+[profile3] 0x2138  0220e503e5000000  KEY fn3(0x03): key[R_SHIFT(229)] -> action[R_SHIFT(229)]
+[profile3] 0x2140  0220e603e6000000  KEY fn3(0x03): key[R_ALT(230)] -> action[R_ALT(230)]
+[profile3] 0x2148  0220f403f4000000  KEY fn3(0x03): key[MUTE(244)] -> action[MUTE(244)]
+[profile3] 0x2150  0220f503f5000000  KEY fn3(0x03): key[VOL_DEC(245)] -> action[VOL_DEC(245)]
+[profile3] 0x2158  0220f603f6000000  KEY fn3(0x03): key[VOL_INC(246)] -> action[VOL_INC(246)]
+[profile3] 0x2160  0220f903f9000000  KEY fn3(0x03): key[W3BACK(249)] -> action[W3BACK(249)]
+[profile3] 0x2168  0220fa03fa000000  KEY fn3(0x03): key[W3FORWARD(250)] -> action[W3FORWARD(250)]
+[profile3] 0x2170  0220040004000000  KEY base(0x00): key[A(4)] -> action[A(4)]
+[profile3] 0x2178  0220050005000000  KEY base(0x00): key[B(5)] -> action[B(5)]
+[profile3] 0x2180  0220060006000000  KEY base(0x00): key[C(6)] -> action[C(6)]
+[profile3] 0x2188  0220070007000000  KEY base(0x00): key[D(7)] -> action[D(7)]
+[profile3] 0x2190  0220080008000000  KEY base(0x00): key[E(8)] -> action[E(8)]
+[profile3] 0x2198  0220090009000000  KEY base(0x00): key[F(9)] -> action[F(9)]
+[profile3] 0x21A0  02200a000a000000  KEY base(0x00): key[G(10)] -> action[G(10)]
+[profile3] 0x21A8  02200b000b000000  KEY base(0x00): key[H(11)] -> action[H(11)]
+[profile3] 0x21B0  02200c000c000000  KEY base(0x00): key[I(12)] -> action[I(12)]
+[profile3] 0x21B8  02200d000d000000  KEY base(0x00): key[J(13)] -> action[J(13)]
+[profile3] 0x21C0  02200e000e000000  KEY base(0x00): key[K(14)] -> action[K(14)]
+[profile3] 0x21C8  02200f000f000000  KEY base(0x00): key[L(15)] -> action[L(15)]
+[profile3] 0x21D0  0220100010000000  KEY base(0x00): key[M(16)] -> action[M(16)]
+[profile3] 0x21D8  0220110011000000  KEY base(0x00): key[N(17)] -> action[N(17)]
+[profile3] 0x21E0  0220120012000000  KEY base(0x00): key[O(18)] -> action[O(18)]
+[profile3] 0x21E8  0220130013000000  KEY base(0x00): key[P(19)] -> action[P(19)]
+[profile3] 0x21F0  0220140014000000  KEY base(0x00): key[Q(20)] -> action[Q(20)]
+[profile3] 0x21F8  0220150015000000  KEY base(0x00): key[R(21)] -> action[R(21)]
+[profile3] 0x2200  0220160016000000  KEY base(0x00): key[S(22)] -> action[S(22)]
+[profile3] 0x2208  0220170017000000  KEY base(0x00): key[T(23)] -> action[T(23)]
+[profile3] 0x2210  0220180018000000  KEY base(0x00): key[U(24)] -> action[U(24)]
+[profile3] 0x2218  0220190019000000  KEY base(0x00): key[V(25)] -> action[V(25)]
+[profile3] 0x2220  02201a001a000000  KEY base(0x00): key[W(26)] -> action[W(26)]
+[profile3] 0x2228  02201b001b000000  KEY base(0x00): key[X(27)] -> action[X(27)]
+[profile3] 0x2230  02201c001c000000  KEY base(0x00): key[Y(28)] -> action[Y(28)]
+[profile3] 0x2238  02201d001d000000  KEY base(0x00): key[Z(29)] -> action[Z(29)]
+[profile3] 0x2240  02201e001e000000  KEY base(0x00): key[1(30)] -> action[1(30)]
+[profile3] 0x2248  02201f001f000000  KEY base(0x00): key[2(31)] -> action[2(31)]
+[profile3] 0x2250  0220200020000000  KEY base(0x00): key[3(32)] -> action[3(32)]
+[profile3] 0x2258  0220210021000000  KEY base(0x00): key[4(33)] -> action[4(33)]
+[profile3] 0x2260  0220220022000000  KEY base(0x00): key[5(34)] -> action[5(34)]
+[profile3] 0x2268  0220230023000000  KEY base(0x00): key[6(35)] -> action[6(35)]
+[profile3] 0x2270  0220240024000000  KEY base(0x00): key[7(36)] -> action[7(36)]
+[profile3] 0x2278  0220250025000000  KEY base(0x00): key[8(37)] -> action[8(37)]
+[profile3] 0x2280  0220260026000000  KEY base(0x00): key[9(38)] -> action[9(38)]
+[profile3] 0x2288  0220270027000000  KEY base(0x00): key[0(39)] -> action[0(39)]
+[profile3] 0x2290  0220280028000000  KEY base(0x00): key[ENTER(40)] -> action[ENTER(40)]
+[profile3] 0x2298  0220290029000000  KEY base(0x00): key[ESC(41)] -> action[ESC(41)]
+[profile3] 0x22A0  02202a002a000000  KEY base(0x00): key[BACKSPACE(42)] -> action[BACKSPACE(42)]
+[profile3] 0x22A8  02202b002b000000  KEY base(0x00): key[TAB(43)] -> action[TAB(43)]
+[profile3] 0x22B0  02202c002c000000  KEY base(0x00): key[SPACE(44)] -> action[SPACE(44)]
+[profile3] 0x22B8  02202d002d000000  KEY base(0x00): key[NEG(45)] -> action[NEG(45)]
+[profile3] 0x22C0  02202e002e000000  KEY base(0x00): key[EQUATION(46)] -> action[EQUATION(46)]
+[profile3] 0x22C8  02202f002f000000  KEY base(0x00): key[L_BRACKETS(47)] -> action[L_BRACKETS(47)]
+[profile3] 0x22D0  0220300030000000  KEY base(0x00): key[R_BRACKETS(48)] -> action[R_BRACKETS(48)]
+[profile3] 0x22D8  0220310031000000  KEY base(0x00): key[BACKSLASH(49)] -> action[BACKSLASH(49)]
+[profile3] 0x22E0  0220330033000000  KEY base(0x00): key[SEMICOLON(51)] -> action[SEMICOLON(51)]
+[profile3] 0x22E8  0220340034000000  KEY base(0x00): key[APOSTROPHE(52)] -> action[APOSTROPHE(52)]
+[profile3] 0x22F0  0220350035000000  KEY base(0x00): key[TILDE(53)] -> action[TILDE(53)]
+[profile3] 0x22F8  0220360036000000  KEY base(0x00): key[COMMA(54)] -> action[COMMA(54)]
+[profile3] 0x2300  0220370037000000  KEY base(0x00): key[DOT(55)] -> action[DOT(55)]
+[profile3] 0x2308  0220380038000000  KEY base(0x00): key[SLASH(56)] -> action[SLASH(56)]
+[profile3] 0x2310  0220390039000000  KEY base(0x00): key[CAPS_LOCK(57)] -> action[CAPS_LOCK(57)]
+[profile3] 0x2318  02203a003a000000  KEY base(0x00): key[F1(58)] -> action[F1(58)]
+[profile3] 0x2320  02203b003b000000  KEY base(0x00): key[F2(59)] -> action[F2(59)]
+[profile3] 0x2328  02203c003c000000  KEY base(0x00): key[F3(60)] -> action[F3(60)]
+[profile3] 0x2330  02203d003d000000  KEY base(0x00): key[F4(61)] -> action[F4(61)]
+[profile3] 0x2338  02203e003e000000  KEY base(0x00): key[F5(62)] -> action[F5(62)]
+[profile3] 0x2340  02203f003f000000  KEY base(0x00): key[F6(63)] -> action[F6(63)]
+[profile3] 0x2348  0220400040000000  KEY base(0x00): key[F7(64)] -> action[F7(64)]
+[profile3] 0x2350  0220410041000000  KEY base(0x00): key[F8(65)] -> action[F8(65)]
+[profile3] 0x2358  0220420042000000  KEY base(0x00): key[F9(66)] -> action[F9(66)]
+[profile3] 0x2360  0220430043000000  KEY base(0x00): key[F10(67)] -> action[F10(67)]
+[profile3] 0x2368  0220440044000000  KEY base(0x00): key[F11(68)] -> action[F11(68)]
+[profile3] 0x2370  0220450045000000  KEY base(0x00): key[F12(69)] -> action[F12(69)]
+[profile3] 0x2378  0220460046000000  KEY base(0x00): key[PRINT(70)] -> action[PRINT(70)]
+[profile3] 0x2380  0220470047000000  KEY base(0x00): key[SCROLL(71)] -> action[SCROLL(71)]
+[profile3] 0x2388  0220480048000000  KEY base(0x00): key[PAUSE(72)] -> action[PAUSE(72)]
+[profile3] 0x2390  0220490049000000  KEY base(0x00): key[INSERT(73)] -> action[INSERT(73)]
+[profile3] 0x2398  02204a004a000000  KEY base(0x00): key[HOME(74)] -> action[HOME(74)]
+[profile3] 0x23A0  02204b004b000000  KEY base(0x00): key[PGUP(75)] -> action[PGUP(75)]
+[profile3] 0x23A8  02204c004c000000  KEY base(0x00): key[DEL(76)] -> action[DEL(76)]
+[profile3] 0x23B0  02204d004d000000  KEY base(0x00): key[END(77)] -> action[END(77)]
+[profile3] 0x23B8  02204e004e000000  KEY base(0x00): key[PGDN(78)] -> action[PGDN(78)]
+[profile3] 0x23C0  02204f004f000000  KEY base(0x00): key[R_ARROW(79)] -> action[R_ARROW(79)]
+[profile3] 0x23C8  0220500050000000  KEY base(0x00): key[L_ARROW(80)] -> action[L_ARROW(80)]
+[profile3] 0x23D0  0220510051000000  KEY base(0x00): key[DN_ARROW(81)] -> action[DN_ARROW(81)]
+[profile3] 0x23D8  0220520052000000  KEY base(0x00): key[UP_ARROW(82)] -> action[UP_ARROW(82)]
+[profile3] 0x23E0  0220650065000000  KEY base(0x00): key[APP(101)] -> action[APP(101)]
+[profile3] 0x23E8  0220c800c8000000  KEY base(0x00): key[G9(200)] -> action[G9(200)]
+[profile3] 0x23F0  0220c900c9000000  KEY base(0x00): key[G10(201)] -> action[G10(201)]
+[profile3] 0x23F8  0220ca00ca000000  KEY base(0x00): key[G11(202)] -> action[G11(202)]
+[profile3] 0x2400  0220cb00cb000000  KEY base(0x00): key[G12(203)] -> action[G12(203)]
+[profile3] 0x2408  0220e000e0000000  KEY base(0x00): key[L_CTRL(224)] -> action[L_CTRL(224)]
+[profile3] 0x2410  0220e100e1000000  KEY base(0x00): key[L_SHIFT(225)] -> action[L_SHIFT(225)]
+[profile3] 0x2418  0220e200e2000000  KEY base(0x00): key[L_ALT(226)] -> action[L_ALT(226)]
+[profile3] 0x2420  0220e300e3000000  KEY base(0x00): key[L_WIN(227)] -> action[L_WIN(227)]
+[profile3] 0x2428  0220e400e4000000  KEY base(0x00): key[R_CTRL(228)] -> action[R_CTRL(228)]
+[profile3] 0x2430  0220e500e5000000  KEY base(0x00): key[R_SHIFT(229)] -> action[R_SHIFT(229)]
+[profile3] 0x2438  0220e600e6000000  KEY base(0x00): key[R_ALT(230)] -> action[R_ALT(230)]
+[profile3] 0x2440  0220f400f4000000  KEY base(0x00): key[MUTE(244)] -> action[MUTE(244)]
+[profile3] 0x2448  0220f500f5000000  KEY base(0x00): key[VOL_DEC(245)] -> action[VOL_DEC(245)]
+[profile3] 0x2450  0220f600f6000000  KEY base(0x00): key[VOL_INC(246)] -> action[VOL_INC(246)]
+[profile3] 0x2458  0220f900f9000000  KEY base(0x00): key[W3BACK(249)] -> action[W3BACK(249)]
+[profile3] 0x2460  0220fa00fa000000  KEY base(0x00): key[W3FORWARD(250)] -> action[W3FORWARD(250)]
+[profile3] 0x2468  029402003046ffff  FN_POS fn1(0x94): count=2 [G12(6,0)=48, G10(8,6)=70]
+[profile3] 0x2470  0000000000000000  SEPARATOR
+
+
+Macros:
+--------------------------------------------------------------------------------
+[profile1] [M1] 0x2478  e23c0001  PRESS L_ALT delay=256ms
+[profile1] [M1] 0x247C  e13c0001  PRESS L_SHIFT delay=256ms
+[profile1] [M1] 0x2480  283c0001  PRESS ENTER delay=256ms
+[profile1] [M1] 0x2484  285c0001  RELEASE ENTER delay=256ms
+[profile1] [M1] 0x2488  e15c0001  RELEASE L_SHIFT delay=256ms
+[profile1] [M1] 0x248C  e25c0001  RELEASE L_ALT delay=256ms
+[profile1] [M1] 0x2490  00fcc800  END
+
+
+Padding:
+--------------------------------------------------------------------------------
+0x2494  ffffffffffffffff  PADDING
+0x249C  ffffffffffffffff  PADDING
+0x24A4  ffffffffffffffff  PADDING
+0x24AC  ffffffffffffffff  PADDING
+0x24B4  ffffffffffffffff  PADDING
+0x24BC  ffffffffffffffff  PADDING
+0x24C4  ffffffffffffffff  PADDING
+0x24CC  ffffffffffffffff  PADDING
+0x24D4  ffffffffffffffff  PADDING
+0x24DC  ffffffffffffffff  PADDING
+0x24E4  ffffffffffffffff  PADDING
+0x24EC  ffffffffffffffff  PADDING
+0x24F4  ffffffffffffffff  PADDING
+0x24FC  ffffffffffffffff  PADDING
+0x2504  ffffffffffffffff  PADDING
+0x250C  ffffffffffffffff  PADDING
+0x2514  ffffffffffffffff  PADDING
+0x251C  ffffffffffffffff  PADDING
+0x2524  ffffffffffffffff  PADDING
+0x252C  ffffffffffffffff  PADDING
+0x2534  ffffffffffffffff  PADDING
+0x253C  ffffffffffffffff  PADDING
+0x2544  ffffffffffffffff  PADDING
+0x254C  ffffffffffffffff  PADDING
+0x2554  ffffffffffffffff  PADDING
+0x255C  ffffffffffffffff  PADDING
+0x2564  ffffffffffffffff  PADDING
+0x256C  ffffffffffffffff  PADDING
+0x2574  ffffffffffffffff  PADDING
+0x257C  ffffffffffffffff  PADDING
+0x2584  ffffffffffffffff  PADDING
+0x258C  ffffffffffffffff  PADDING
+0x2594  ffffffffffffffff  PADDING
+0x259C  ffffffffffffffff  PADDING
+0x25A4  ffffffffffffffff  PADDING
+0x25AC  ffffffffffffffff  PADDING
+0x25B4  ffffffffffffffff  PADDING
+0x25BC  ffffffffffffffff  PADDING
+0x25C4  ffffffffffffffff  PADDING
+0x25CC  ffffffffffffffff  PADDING
+0x25D4  ffffffffffffffff  PADDING
+0x25DC  ffffffffffffffff  PADDING
+0x25E4  ffffffffffffffff  PADDING
+0x25EC  ffffffffffffffff  PADDING
+0x25F4  ffffffffffffffff  PADDING
+0x25FC  ffffffffffffffff  PADDING
+0x2604  ffffffffffffffff  PADDING
+0x260C  ffffffffffffffff  PADDING
+0x2614  ffffffffffffffff  PADDING
+0x261C  ffffffffffffffff  PADDING
+0x2624  ffffffffffffffff  PADDING
+0x262C  ffffffffffffffff  PADDING
+0x2634  ffffffffffffffff  PADDING
+0x263C  ffffffffffffffff  PADDING
+0x2644  ffffffffffffffff  PADDING
+0x264C  ffffffffffffffff  PADDING
+0x2654  ffffffffffffffff  PADDING
+0x265C  ffffffffffffffff  PADDING
+0x2664  ffffffffffffffff  PADDING
+0x266C  ffffffffffffffff  PADDING
+0x2674  ffffffffffffffff  PADDING
+0x267C  ffffffffffffffff  PADDING
+0x2684  ffffffffffffffff  PADDING
+0x268C  ffffffffffffffff  PADDING
+0x2694  ffffffffffffffff  PADDING
+0x269C  ffffffffffffffff  PADDING
+0x26A4  ffffffffffffffff  PADDING
+0x26AC  ffffffffffffffff  PADDING
+0x26B4  ffffffffffffffff  PADDING
+0x26BC  ffffffffffffffff  PADDING
+0x26C4  ffffffffffffffff  PADDING
+0x26CC  ffffffffffffffff  PADDING
+0x26D4  ffffffffffffffff  PADDING
+0x26DC  ffffffffffffffff  PADDING
+0x26E4  ffffffffffffffff  PADDING
+0x26EC  ffffffffffffffff  PADDING
+
+Macros:
+--------------------------------------------------------------------------------
+[profile1] [M2] 0x26F8  e23c8000  PRESS L_ALT delay=128ms
+[profile1] [M2] 0x26FC  2b3c8000  PRESS TAB delay=128ms
+[profile1] [M2] 0x2700  2b5c8000  RELEASE TAB delay=128ms
+[profile1] [M2] 0x2704  e25c8000  RELEASE L_ALT delay=128ms
+[profile1] [M2] 0x2708  00fcc800  END
+
+
+Padding:
+--------------------------------------------------------------------------------
+0x270C  ffffffffffffffff  PADDING
+0x2714  ffffffffffffffff  PADDING
+0x271C  ffffffffffffffff  PADDING
+0x2724  ffffffffffffffff  PADDING
+0x272C  ffffffffffffffff  PADDING
+0x2734  ffffffffffffffff  PADDING
+0x273C  ffffffffffffffff  PADDING
+0x2744  ffffffffffffffff  PADDING
+0x274C  ffffffffffffffff  PADDING
+0x2754  ffffffffffffffff  PADDING
+0x275C  ffffffffffffffff  PADDING
+0x2764  ffffffffffffffff  PADDING
+0x276C  ffffffffffffffff  PADDING
+0x2774  ffffffffffffffff  PADDING
+0x277C  ffffffffffffffff  PADDING
+0x2784  ffffffffffffffff  PADDING
+0x278C  ffffffffffffffff  PADDING
+0x2794  ffffffffffffffff  PADDING
+0x279C  ffffffffffffffff  PADDING
+0x27A4  ffffffffffffffff  PADDING
+0x27AC  ffffffffffffffff  PADDING
+0x27B4  ffffffffffffffff  PADDING
+0x27BC  ffffffffffffffff  PADDING
+0x27C4  ffffffffffffffff  PADDING
+0x27CC  ffffffffffffffff  PADDING
+0x27D4  ffffffffffffffff  PADDING
+0x27DC  ffffffffffffffff  PADDING
+0x27E4  ffffffffffffffff  PADDING
+0x27EC  ffffffffffffffff  PADDING
+0x27F4  ffffffffffffffff  PADDING
+0x27FC  ffffffffffffffff  PADDING
+0x2804  ffffffffffffffff  PADDING
+0x280C  ffffffffffffffff  PADDING
+0x2814  ffffffffffffffff  PADDING
+0x281C  ffffffffffffffff  PADDING
+0x2824  ffffffffffffffff  PADDING
+0x282C  ffffffffffffffff  PADDING
+0x2834  ffffffffffffffff  PADDING
+0x283C  ffffffffffffffff  PADDING
+0x2844  ffffffffffffffff  PADDING
+0x284C  ffffffffffffffff  PADDING
+0x2854  ffffffffffffffff  PADDING
+0x285C  ffffffffffffffff  PADDING
+0x2864  ffffffffffffffff  PADDING
+0x286C  ffffffffffffffff  PADDING
+0x2874  ffffffffffffffff  PADDING
+0x287C  ffffffffffffffff  PADDING
+0x2884  ffffffffffffffff  PADDING
+0x288C  ffffffffffffffff  PADDING
+0x2894  ffffffffffffffff  PADDING
+0x289C  ffffffffffffffff  PADDING
+0x28A4  ffffffffffffffff  PADDING
+0x28AC  ffffffffffffffff  PADDING
+0x28B4  ffffffffffffffff  PADDING
+0x28BC  ffffffffffffffff  PADDING
+0x28C4  ffffffffffffffff  PADDING
+0x28CC  ffffffffffffffff  PADDING
+0x28D4  ffffffffffffffff  PADDING
+0x28DC  ffffffffffffffff  PADDING
+0x28E4  ffffffffffffffff  PADDING
+0x28EC  ffffffffffffffff  PADDING
+0x28F4  ffffffffffffffff  PADDING
+0x28FC  ffffffffffffffff  PADDING
+0x2904  ffffffffffffffff  PADDING
+0x290C  ffffffffffffffff  PADDING
+0x2914  ffffffffffffffff  PADDING
+0x291C  ffffffffffffffff  PADDING
+0x2924  ffffffffffffffff  PADDING
+0x292C  ffffffffffffffff  PADDING
+0x2934  ffffffffffffffff  PADDING
+0x293C  ffffffffffffffff  PADDING
+0x2944  ffffffffffffffff  PADDING
+0x294C  ffffffffffffffff  PADDING
+0x2954  ffffffffffffffff  PADDING
+0x295C  ffffffffffffffff  PADDING
+0x2964  ffffffffffffffff  PADDING
+0x296C  ffffffffffffffff  PADDING
+
+Macros:
+--------------------------------------------------------------------------------
+[profile1] [M3] 0x2978  f63c8000  PRESS VOL_INC delay=128ms
+[profile1] [M3] 0x297C  f65c8000  RELEASE VOL_INC delay=128ms
+[profile1] [M3] 0x2980  00fcc800  END
+
+
+Padding:
+--------------------------------------------------------------------------------
+0x2984  ffffffffffffffff  PADDING
+0x298C  ffffffffffffffff  PADDING
+0x2994  ffffffffffffffff  PADDING
+0x299C  ffffffffffffffff  PADDING
+0x29A4  ffffffffffffffff  PADDING
+0x29AC  ffffffffffffffff  PADDING
+0x29B4  ffffffffffffffff  PADDING
+0x29BC  ffffffffffffffff  PADDING
+0x29C4  ffffffffffffffff  PADDING
+0x29CC  ffffffffffffffff  PADDING
+0x29D4  ffffffffffffffff  PADDING
+0x29DC  ffffffffffffffff  PADDING
+0x29E4  ffffffffffffffff  PADDING
+0x29EC  ffffffffffffffff  PADDING
+0x29F4  ffffffffffffffff  PADDING
+0x29FC  ffffffffffffffff  PADDING
+0x2A04  ffffffffffffffff  PADDING
+0x2A0C  ffffffffffffffff  PADDING
+0x2A14  ffffffffffffffff  PADDING
+0x2A1C  ffffffffffffffff  PADDING
+0x2A24  ffffffffffffffff  PADDING
+0x2A2C  ffffffffffffffff  PADDING
+0x2A34  ffffffffffffffff  PADDING
+0x2A3C  ffffffffffffffff  PADDING
+0x2A44  ffffffffffffffff  PADDING
+0x2A4C  ffffffffffffffff  PADDING
+0x2A54  ffffffffffffffff  PADDING
+0x2A5C  ffffffffffffffff  PADDING
+0x2A64  ffffffffffffffff  PADDING
+0x2A6C  ffffffffffffffff  PADDING
+0x2A74  ffffffffffffffff  PADDING
+0x2A7C  ffffffffffffffff  PADDING
+0x2A84  ffffffffffffffff  PADDING
+0x2A8C  ffffffffffffffff  PADDING
+0x2A94  ffffffffffffffff  PADDING
+0x2A9C  ffffffffffffffff  PADDING
+0x2AA4  ffffffffffffffff  PADDING
+0x2AAC  ffffffffffffffff  PADDING
+0x2AB4  ffffffffffffffff  PADDING
+0x2ABC  ffffffffffffffff  PADDING
+0x2AC4  ffffffffffffffff  PADDING
+0x2ACC  ffffffffffffffff  PADDING
+0x2AD4  ffffffffffffffff  PADDING
+0x2ADC  ffffffffffffffff  PADDING
+0x2AE4  ffffffffffffffff  PADDING
+0x2AEC  ffffffffffffffff  PADDING
+0x2AF4  ffffffffffffffff  PADDING
+0x2AFC  ffffffffffffffff  PADDING
+0x2B04  ffffffffffffffff  PADDING
+0x2B0C  ffffffffffffffff  PADDING
+0x2B14  ffffffffffffffff  PADDING
+0x2B1C  ffffffffffffffff  PADDING
+0x2B24  ffffffffffffffff  PADDING
+0x2B2C  ffffffffffffffff  PADDING
+0x2B34  ffffffffffffffff  PADDING
+0x2B3C  ffffffffffffffff  PADDING
+0x2B44  ffffffffffffffff  PADDING
+0x2B4C  ffffffffffffffff  PADDING
+0x2B54  ffffffffffffffff  PADDING
+0x2B5C  ffffffffffffffff  PADDING
+0x2B64  ffffffffffffffff  PADDING
+0x2B6C  ffffffffffffffff  PADDING
+0x2B74  ffffffffffffffff  PADDING
+0x2B7C  ffffffffffffffff  PADDING
+0x2B84  ffffffffffffffff  PADDING
+0x2B8C  ffffffffffffffff  PADDING
+0x2B94  ffffffffffffffff  PADDING
+0x2B9C  ffffffffffffffff  PADDING
+0x2BA4  ffffffffffffffff  PADDING
+0x2BAC  ffffffffffffffff  PADDING
+0x2BB4  ffffffffffffffff  PADDING
+0x2BBC  ffffffffffffffff  PADDING
+0x2BC4  ffffffffffffffff  PADDING
+0x2BCC  ffffffffffffffff  PADDING
+0x2BD4  ffffffffffffffff  PADDING
+0x2BDC  ffffffffffffffff  PADDING
+0x2BE4  ffffffffffffffff  PADDING
+0x2BEC  ffffffffffffffff  PADDING
+
+Macros:
+--------------------------------------------------------------------------------
+[profile1] [M4] 0x2BF8  f43c8000  PRESS MUTE delay=128ms
+[profile1] [M4] 0x2BFC  f45c8000  RELEASE MUTE delay=128ms
+[profile1] [M4] 0x2C00  00fcc800  END
+
+
+Padding:
+--------------------------------------------------------------------------------
+0x2C04  ffffffffffffffff  PADDING
+0x2C0C  ffffffffffffffff  PADDING
+0x2C14  ffffffffffffffff  PADDING
+0x2C1C  ffffffffffffffff  PADDING
+0x2C24  ffffffffffffffff  PADDING
+0x2C2C  ffffffffffffffff  PADDING
+0x2C34  ffffffffffffffff  PADDING
+0x2C3C  ffffffffffffffff  PADDING
+0x2C44  ffffffffffffffff  PADDING
+0x2C4C  ffffffffffffffff  PADDING
+0x2C54  ffffffffffffffff  PADDING
+0x2C5C  ffffffffffffffff  PADDING
+0x2C64  ffffffffffffffff  PADDING
+0x2C6C  ffffffffffffffff  PADDING
+0x2C74  ffffffffffffffff  PADDING
+0x2C7C  ffffffffffffffff  PADDING
+0x2C84  ffffffffffffffff  PADDING
+0x2C8C  ffffffffffffffff  PADDING
+0x2C94  ffffffffffffffff  PADDING
+0x2C9C  ffffffffffffffff  PADDING
+0x2CA4  ffffffffffffffff  PADDING
+0x2CAC  ffffffffffffffff  PADDING
+0x2CB4  ffffffffffffffff  PADDING
+0x2CBC  ffffffffffffffff  PADDING
+0x2CC4  ffffffffffffffff  PADDING
+0x2CCC  ffffffffffffffff  PADDING
+0x2CD4  ffffffffffffffff  PADDING
+0x2CDC  ffffffffffffffff  PADDING
+0x2CE4  ffffffffffffffff  PADDING
+0x2CEC  ffffffffffffffff  PADDING
+0x2CF4  ffffffffffffffff  PADDING
+0x2CFC  ffffffffffffffff  PADDING
+0x2D04  ffffffffffffffff  PADDING
+0x2D0C  ffffffffffffffff  PADDING
+0x2D14  ffffffffffffffff  PADDING
+0x2D1C  ffffffffffffffff  PADDING
+0x2D24  ffffffffffffffff  PADDING
+0x2D2C  ffffffffffffffff  PADDING
+0x2D34  ffffffffffffffff  PADDING
+0x2D3C  ffffffffffffffff  PADDING
+0x2D44  ffffffffffffffff  PADDING
+0x2D4C  ffffffffffffffff  PADDING
+0x2D54  ffffffffffffffff  PADDING
+0x2D5C  ffffffffffffffff  PADDING
+0x2D64  ffffffffffffffff  PADDING
+0x2D6C  ffffffffffffffff  PADDING
+0x2D74  ffffffffffffffff  PADDING
+0x2D7C  ffffffffffffffff  PADDING
+0x2D84  ffffffffffffffff  PADDING
+0x2D8C  ffffffffffffffff  PADDING
+0x2D94  ffffffffffffffff  PADDING
+0x2D9C  ffffffffffffffff  PADDING
+0x2DA4  ffffffffffffffff  PADDING
+0x2DAC  ffffffffffffffff  PADDING
+0x2DB4  ffffffffffffffff  PADDING
+0x2DBC  ffffffffffffffff  PADDING
+0x2DC4  ffffffffffffffff  PADDING
+0x2DCC  ffffffffffffffff  PADDING
+0x2DD4  ffffffffffffffff  PADDING
+0x2DDC  ffffffffffffffff  PADDING
+0x2DE4  ffffffffffffffff  PADDING
+0x2DEC  ffffffffffffffff  PADDING
+0x2DF4  ffffffffffffffff  PADDING
+0x2DFC  ffffffffffffffff  PADDING
+0x2E04  ffffffffffffffff  PADDING
+0x2E0C  ffffffffffffffff  PADDING
+0x2E14  ffffffffffffffff  PADDING
+0x2E1C  ffffffffffffffff  PADDING
+0x2E24  ffffffffffffffff  PADDING
+0x2E2C  ffffffffffffffff  PADDING
+0x2E34  ffffffffffffffff  PADDING
+0x2E3C  ffffffffffffffff  PADDING
+0x2E44  ffffffffffffffff  PADDING
+0x2E4C  ffffffffffffffff  PADDING
+0x2E54  ffffffffffffffff  PADDING
+0x2E5C  ffffffffffffffff  PADDING
+0x2E64  ffffffffffffffff  PADDING
+0x2E6C  ffffffffffffffff  PADDING
+
+Macros:
+--------------------------------------------------------------------------------
+[profile1] [M5] 0x2E78  f03c8000  PRESS PLAY_PAUSE delay=128ms
+[profile1] [M5] 0x2E7C  f05c8000  RELEASE PLAY_PAUSE delay=128ms
+[profile1] [M5] 0x2E80  00fcc800  END
+
+
+Padding:
+--------------------------------------------------------------------------------
+0x2E84  ffffffffffffffff  PADDING
+0x2E8C  ffffffffffffffff  PADDING
+0x2E94  ffffffffffffffff  PADDING
+0x2E9C  ffffffffffffffff  PADDING
+0x2EA4  ffffffffffffffff  PADDING
+0x2EAC  ffffffffffffffff  PADDING
+0x2EB4  ffffffffffffffff  PADDING
+0x2EBC  ffffffffffffffff  PADDING
+0x2EC4  ffffffffffffffff  PADDING
+0x2ECC  ffffffffffffffff  PADDING
+0x2ED4  ffffffffffffffff  PADDING
+0x2EDC  ffffffffffffffff  PADDING
+0x2EE4  ffffffffffffffff  PADDING
+0x2EEC  ffffffffffffffff  PADDING
+0x2EF4  ffffffffffffffff  PADDING
+0x2EFC  ffffffffffffffff  PADDING
+0x2F04  ffffffffffffffff  PADDING
+0x2F0C  ffffffffffffffff  PADDING
+0x2F14  ffffffffffffffff  PADDING
+0x2F1C  ffffffffffffffff  PADDING
+0x2F24  ffffffffffffffff  PADDING
+0x2F2C  ffffffffffffffff  PADDING
+0x2F34  ffffffffffffffff  PADDING
+0x2F3C  ffffffffffffffff  PADDING
+0x2F44  ffffffffffffffff  PADDING
+0x2F4C  ffffffffffffffff  PADDING
+0x2F54  ffffffffffffffff  PADDING
+0x2F5C  ffffffffffffffff  PADDING
+0x2F64  ffffffffffffffff  PADDING
+0x2F6C  ffffffffffffffff  PADDING
+0x2F74  ffffffffffffffff  PADDING
+0x2F7C  ffffffffffffffff  PADDING
+0x2F84  ffffffffffffffff  PADDING
+0x2F8C  ffffffffffffffff  PADDING
+0x2F94  ffffffffffffffff  PADDING
+0x2F9C  ffffffffffffffff  PADDING
+0x2FA4  ffffffffffffffff  PADDING
+0x2FAC  ffffffffffffffff  PADDING
+0x2FB4  ffffffffffffffff  PADDING
+0x2FBC  ffffffffffffffff  PADDING
+0x2FC4  ffffffffffffffff  PADDING
+0x2FCC  ffffffffffffffff  PADDING
+0x2FD4  ffffffffffffffff  PADDING
+0x2FDC  ffffffffffffffff  PADDING
+0x2FE4  ffffffffffffffff  PADDING
+0x2FEC  ffffffffffffffff  PADDING
+0x2FF4  ffffffffffffffff  PADDING
+0x2FFC  ffffffffffffffff  PADDING
+0x3004  ffffffffffffffff  PADDING
+0x300C  ffffffffffffffff  PADDING
+0x3014  ffffffffffffffff  PADDING
+0x301C  ffffffffffffffff  PADDING
+0x3024  ffffffffffffffff  PADDING
+0x302C  ffffffffffffffff  PADDING
+0x3034  ffffffffffffffff  PADDING
+0x303C  ffffffffffffffff  PADDING
+0x3044  ffffffffffffffff  PADDING
+0x304C  ffffffffffffffff  PADDING
+0x3054  ffffffffffffffff  PADDING
+0x305C  ffffffffffffffff  PADDING
+0x3064  ffffffffffffffff  PADDING
+0x306C  ffffffffffffffff  PADDING
+0x3074  ffffffffffffffff  PADDING
+0x307C  ffffffffffffffff  PADDING
+0x3084  ffffffffffffffff  PADDING
+0x308C  ffffffffffffffff  PADDING
+0x3094  ffffffffffffffff  PADDING
+0x309C  ffffffffffffffff  PADDING
+0x30A4  ffffffffffffffff  PADDING
+0x30AC  ffffffffffffffff  PADDING
+0x30B4  ffffffffffffffff  PADDING
+0x30BC  ffffffffffffffff  PADDING
+0x30C4  ffffffffffffffff  PADDING
+0x30CC  ffffffffffffffff  PADDING
+0x30D4  ffffffffffffffff  PADDING
+0x30DC  ffffffffffffffff  PADDING
+0x30E4  ffffffffffffffff  PADDING
+0x30EC  ffffffffffffffff  PADDING
+
+Macros:
+--------------------------------------------------------------------------------
+[profile2] [M1] 0x30F8  e23c0001  PRESS L_ALT delay=256ms
+[profile2] [M1] 0x30FC  e13c0001  PRESS L_SHIFT delay=256ms
+[profile2] [M1] 0x3100  283c0001  PRESS ENTER delay=256ms
+[profile2] [M1] 0x3104  285c0001  RELEASE ENTER delay=256ms
+[profile2] [M1] 0x3108  e15c0001  RELEASE L_SHIFT delay=256ms
+[profile2] [M1] 0x310C  e25c0001  RELEASE L_ALT delay=256ms
+[profile2] [M1] 0x3110  00fcc800  END
+
+
+Padding:
+--------------------------------------------------------------------------------
+0x3114  ffffffffffffffff  PADDING
+0x311C  ffffffffffffffff  PADDING
+0x3124  ffffffffffffffff  PADDING
+0x312C  ffffffffffffffff  PADDING
+0x3134  ffffffffffffffff  PADDING
+0x313C  ffffffffffffffff  PADDING
+0x3144  ffffffffffffffff  PADDING
+0x314C  ffffffffffffffff  PADDING
+0x3154  ffffffffffffffff  PADDING
+0x315C  ffffffffffffffff  PADDING
+0x3164  ffffffffffffffff  PADDING
+0x316C  ffffffffffffffff  PADDING
+0x3174  ffffffffffffffff  PADDING
+0x317C  ffffffffffffffff  PADDING
+0x3184  ffffffffffffffff  PADDING
+0x318C  ffffffffffffffff  PADDING
+0x3194  ffffffffffffffff  PADDING
+0x319C  ffffffffffffffff  PADDING
+0x31A4  ffffffffffffffff  PADDING
+0x31AC  ffffffffffffffff  PADDING
+0x31B4  ffffffffffffffff  PADDING
+0x31BC  ffffffffffffffff  PADDING
+0x31C4  ffffffffffffffff  PADDING
+0x31CC  ffffffffffffffff  PADDING
+0x31D4  ffffffffffffffff  PADDING
+0x31DC  ffffffffffffffff  PADDING
+0x31E4  ffffffffffffffff  PADDING
+0x31EC  ffffffffffffffff  PADDING
+0x31F4  ffffffffffffffff  PADDING
+0x31FC  ffffffffffffffff  PADDING
+0x3204  ffffffffffffffff  PADDING
+0x320C  ffffffffffffffff  PADDING
+0x3214  ffffffffffffffff  PADDING
+0x321C  ffffffffffffffff  PADDING
+0x3224  ffffffffffffffff  PADDING
+0x322C  ffffffffffffffff  PADDING
+0x3234  ffffffffffffffff  PADDING
+0x323C  ffffffffffffffff  PADDING
+0x3244  ffffffffffffffff  PADDING
+0x324C  ffffffffffffffff  PADDING
+0x3254  ffffffffffffffff  PADDING
+0x325C  ffffffffffffffff  PADDING
+0x3264  ffffffffffffffff  PADDING
+0x326C  ffffffffffffffff  PADDING
+0x3274  ffffffffffffffff  PADDING
+0x327C  ffffffffffffffff  PADDING
+0x3284  ffffffffffffffff  PADDING
+0x328C  ffffffffffffffff  PADDING
+0x3294  ffffffffffffffff  PADDING
+0x329C  ffffffffffffffff  PADDING
+0x32A4  ffffffffffffffff  PADDING
+0x32AC  ffffffffffffffff  PADDING
+0x32B4  ffffffffffffffff  PADDING
+0x32BC  ffffffffffffffff  PADDING
+0x32C4  ffffffffffffffff  PADDING
+0x32CC  ffffffffffffffff  PADDING
+0x32D4  ffffffffffffffff  PADDING
+0x32DC  ffffffffffffffff  PADDING
+0x32E4  ffffffffffffffff  PADDING
+0x32EC  ffffffffffffffff  PADDING
+0x32F4  ffffffffffffffff  PADDING
+0x32FC  ffffffffffffffff  PADDING
+0x3304  ffffffffffffffff  PADDING
+0x330C  ffffffffffffffff  PADDING
+0x3314  ffffffffffffffff  PADDING
+0x331C  ffffffffffffffff  PADDING
+0x3324  ffffffffffffffff  PADDING
+0x332C  ffffffffffffffff  PADDING
+0x3334  ffffffffffffffff  PADDING
+0x333C  ffffffffffffffff  PADDING
+0x3344  ffffffffffffffff  PADDING
+0x334C  ffffffffffffffff  PADDING
+0x3354  ffffffffffffffff  PADDING
+0x335C  ffffffffffffffff  PADDING
+0x3364  ffffffffffffffff  PADDING
+0x336C  ffffffffffffffff  PADDING
+
+Macros:
+--------------------------------------------------------------------------------
+[profile2] [M2] 0x3378  e23c8000  PRESS L_ALT delay=128ms
+[profile2] [M2] 0x337C  2b3c8000  PRESS TAB delay=128ms
+[profile2] [M2] 0x3380  2b5c8000  RELEASE TAB delay=128ms
+[profile2] [M2] 0x3384  e25c8000  RELEASE L_ALT delay=128ms
+[profile2] [M2] 0x3388  00fcc800  END
+
+
+Padding:
+--------------------------------------------------------------------------------
+0x338C  ffffffffffffffff  PADDING
+0x3394  ffffffffffffffff  PADDING
+0x339C  ffffffffffffffff  PADDING
+0x33A4  ffffffffffffffff  PADDING
+0x33AC  ffffffffffffffff  PADDING
+0x33B4  ffffffffffffffff  PADDING
+0x33BC  ffffffffffffffff  PADDING
+0x33C4  ffffffffffffffff  PADDING
+0x33CC  ffffffffffffffff  PADDING
+0x33D4  ffffffffffffffff  PADDING
+0x33DC  ffffffffffffffff  PADDING
+0x33E4  ffffffffffffffff  PADDING
+0x33EC  ffffffffffffffff  PADDING
+0x33F4  ffffffffffffffff  PADDING
+0x33FC  ffffffffffffffff  PADDING
+0x3404  ffffffffffffffff  PADDING
+0x340C  ffffffffffffffff  PADDING
+0x3414  ffffffffffffffff  PADDING
+0x341C  ffffffffffffffff  PADDING
+0x3424  ffffffffffffffff  PADDING
+0x342C  ffffffffffffffff  PADDING
+0x3434  ffffffffffffffff  PADDING
+0x343C  ffffffffffffffff  PADDING
+0x3444  ffffffffffffffff  PADDING
+0x344C  ffffffffffffffff  PADDING
+0x3454  ffffffffffffffff  PADDING
+0x345C  ffffffffffffffff  PADDING
+0x3464  ffffffffffffffff  PADDING
+0x346C  ffffffffffffffff  PADDING
+0x3474  ffffffffffffffff  PADDING
+0x347C  ffffffffffffffff  PADDING
+0x3484  ffffffffffffffff  PADDING
+0x348C  ffffffffffffffff  PADDING
+0x3494  ffffffffffffffff  PADDING
+0x349C  ffffffffffffffff  PADDING
+0x34A4  ffffffffffffffff  PADDING
+0x34AC  ffffffffffffffff  PADDING
+0x34B4  ffffffffffffffff  PADDING
+0x34BC  ffffffffffffffff  PADDING
+0x34C4  ffffffffffffffff  PADDING
+0x34CC  ffffffffffffffff  PADDING
+0x34D4  ffffffffffffffff  PADDING
+0x34DC  ffffffffffffffff  PADDING
+0x34E4  ffffffffffffffff  PADDING
+0x34EC  ffffffffffffffff  PADDING
+0x34F4  ffffffffffffffff  PADDING
+0x34FC  ffffffffffffffff  PADDING
+0x3504  ffffffffffffffff  PADDING
+0x350C  ffffffffffffffff  PADDING
+0x3514  ffffffffffffffff  PADDING
+0x351C  ffffffffffffffff  PADDING
+0x3524  ffffffffffffffff  PADDING
+0x352C  ffffffffffffffff  PADDING
+0x3534  ffffffffffffffff  PADDING
+0x353C  ffffffffffffffff  PADDING
+0x3544  ffffffffffffffff  PADDING
+0x354C  ffffffffffffffff  PADDING
+0x3554  ffffffffffffffff  PADDING
+0x355C  ffffffffffffffff  PADDING
+0x3564  ffffffffffffffff  PADDING
+0x356C  ffffffffffffffff  PADDING
+0x3574  ffffffffffffffff  PADDING
+0x357C  ffffffffffffffff  PADDING
+0x3584  ffffffffffffffff  PADDING
+0x358C  ffffffffffffffff  PADDING
+0x3594  ffffffffffffffff  PADDING
+0x359C  ffffffffffffffff  PADDING
+0x35A4  ffffffffffffffff  PADDING
+0x35AC  ffffffffffffffff  PADDING
+0x35B4  ffffffffffffffff  PADDING
+0x35BC  ffffffffffffffff  PADDING
+0x35C4  ffffffffffffffff  PADDING
+0x35CC  ffffffffffffffff  PADDING
+0x35D4  ffffffffffffffff  PADDING
+0x35DC  ffffffffffffffff  PADDING
+0x35E4  ffffffffffffffff  PADDING
+0x35EC  ffffffffffffffff  PADDING
+
+Macros:
+--------------------------------------------------------------------------------
+[profile2] [M3] 0x35F8  f63c8000  PRESS VOL_INC delay=128ms
+[profile2] [M3] 0x35FC  f65c8000  RELEASE VOL_INC delay=128ms
+[profile2] [M3] 0x3600  00fcc800  END
+
+
+Padding:
+--------------------------------------------------------------------------------
+0x3604  ffffffffffffffff  PADDING
+0x360C  ffffffffffffffff  PADDING
+0x3614  ffffffffffffffff  PADDING
+0x361C  ffffffffffffffff  PADDING
+0x3624  ffffffffffffffff  PADDING
+0x362C  ffffffffffffffff  PADDING
+0x3634  ffffffffffffffff  PADDING
+0x363C  ffffffffffffffff  PADDING
+0x3644  ffffffffffffffff  PADDING
+0x364C  ffffffffffffffff  PADDING
+0x3654  ffffffffffffffff  PADDING
+0x365C  ffffffffffffffff  PADDING
+0x3664  ffffffffffffffff  PADDING
+0x366C  ffffffffffffffff  PADDING
+0x3674  ffffffffffffffff  PADDING
+0x367C  ffffffffffffffff  PADDING
+0x3684  ffffffffffffffff  PADDING
+0x368C  ffffffffffffffff  PADDING
+0x3694  ffffffffffffffff  PADDING
+0x369C  ffffffffffffffff  PADDING
+0x36A4  ffffffffffffffff  PADDING
+0x36AC  ffffffffffffffff  PADDING
+0x36B4  ffffffffffffffff  PADDING
+0x36BC  ffffffffffffffff  PADDING
+0x36C4  ffffffffffffffff  PADDING
+0x36CC  ffffffffffffffff  PADDING
+0x36D4  ffffffffffffffff  PADDING
+0x36DC  ffffffffffffffff  PADDING
+0x36E4  ffffffffffffffff  PADDING
+0x36EC  ffffffffffffffff  PADDING
+0x36F4  ffffffffffffffff  PADDING
+0x36FC  ffffffffffffffff  PADDING
+0x3704  ffffffffffffffff  PADDING
+0x370C  ffffffffffffffff  PADDING
+0x3714  ffffffffffffffff  PADDING
+0x371C  ffffffffffffffff  PADDING
+0x3724  ffffffffffffffff  PADDING
+0x372C  ffffffffffffffff  PADDING
+0x3734  ffffffffffffffff  PADDING
+0x373C  ffffffffffffffff  PADDING
+0x3744  ffffffffffffffff  PADDING
+0x374C  ffffffffffffffff  PADDING
+0x3754  ffffffffffffffff  PADDING
+0x375C  ffffffffffffffff  PADDING
+0x3764  ffffffffffffffff  PADDING
+0x376C  ffffffffffffffff  PADDING
+0x3774  ffffffffffffffff  PADDING
+0x377C  ffffffffffffffff  PADDING
+0x3784  ffffffffffffffff  PADDING
+0x378C  ffffffffffffffff  PADDING
+0x3794  ffffffffffffffff  PADDING
+0x379C  ffffffffffffffff  PADDING
+0x37A4  ffffffffffffffff  PADDING
+0x37AC  ffffffffffffffff  PADDING
+0x37B4  ffffffffffffffff  PADDING
+0x37BC  ffffffffffffffff  PADDING
+0x37C4  ffffffffffffffff  PADDING
+0x37CC  ffffffffffffffff  PADDING
+0x37D4  ffffffffffffffff  PADDING
+0x37DC  ffffffffffffffff  PADDING
+0x37E4  ffffffffffffffff  PADDING
+0x37EC  ffffffffffffffff  PADDING
+0x37F4  ffffffffffffffff  PADDING
+0x37FC  ffffffffffffffff  PADDING
+0x3804  ffffffffffffffff  PADDING
+0x380C  ffffffffffffffff  PADDING
+0x3814  ffffffffffffffff  PADDING
+0x381C  ffffffffffffffff  PADDING
+0x3824  ffffffffffffffff  PADDING
+0x382C  ffffffffffffffff  PADDING
+0x3834  ffffffffffffffff  PADDING
+0x383C  ffffffffffffffff  PADDING
+0x3844  ffffffffffffffff  PADDING
+0x384C  ffffffffffffffff  PADDING
+0x3854  ffffffffffffffff  PADDING
+0x385C  ffffffffffffffff  PADDING
+0x3864  ffffffffffffffff  PADDING
+0x386C  ffffffffffffffff  PADDING
+
+Macros:
+--------------------------------------------------------------------------------
+[profile2] [M4] 0x3878  f43c8000  PRESS MUTE delay=128ms
+[profile2] [M4] 0x387C  f45c8000  RELEASE MUTE delay=128ms
+[profile2] [M4] 0x3880  00fcc800  END
+
+
+Padding:
+--------------------------------------------------------------------------------
+0x3884  ffffffffffffffff  PADDING
+0x388C  ffffffffffffffff  PADDING
+0x3894  ffffffffffffffff  PADDING
+0x389C  ffffffffffffffff  PADDING
+0x38A4  ffffffffffffffff  PADDING
+0x38AC  ffffffffffffffff  PADDING
+0x38B4  ffffffffffffffff  PADDING
+0x38BC  ffffffffffffffff  PADDING
+0x38C4  ffffffffffffffff  PADDING
+0x38CC  ffffffffffffffff  PADDING
+0x38D4  ffffffffffffffff  PADDING
+0x38DC  ffffffffffffffff  PADDING
+0x38E4  ffffffffffffffff  PADDING
+0x38EC  ffffffffffffffff  PADDING
+0x38F4  ffffffffffffffff  PADDING
+0x38FC  ffffffffffffffff  PADDING
+0x3904  ffffffffffffffff  PADDING
+0x390C  ffffffffffffffff  PADDING
+0x3914  ffffffffffffffff  PADDING
+0x391C  ffffffffffffffff  PADDING
+0x3924  ffffffffffffffff  PADDING
+0x392C  ffffffffffffffff  PADDING
+0x3934  ffffffffffffffff  PADDING
+0x393C  ffffffffffffffff  PADDING
+0x3944  ffffffffffffffff  PADDING
+0x394C  ffffffffffffffff  PADDING
+0x3954  ffffffffffffffff  PADDING
+0x395C  ffffffffffffffff  PADDING
+0x3964  ffffffffffffffff  PADDING
+0x396C  ffffffffffffffff  PADDING
+0x3974  ffffffffffffffff  PADDING
+0x397C  ffffffffffffffff  PADDING
+0x3984  ffffffffffffffff  PADDING
+0x398C  ffffffffffffffff  PADDING
+0x3994  ffffffffffffffff  PADDING
+0x399C  ffffffffffffffff  PADDING
+0x39A4  ffffffffffffffff  PADDING
+0x39AC  ffffffffffffffff  PADDING
+0x39B4  ffffffffffffffff  PADDING
+0x39BC  ffffffffffffffff  PADDING
+0x39C4  ffffffffffffffff  PADDING
+0x39CC  ffffffffffffffff  PADDING
+0x39D4  ffffffffffffffff  PADDING
+0x39DC  ffffffffffffffff  PADDING
+0x39E4  ffffffffffffffff  PADDING
+0x39EC  ffffffffffffffff  PADDING
+0x39F4  ffffffffffffffff  PADDING
+0x39FC  ffffffffffffffff  PADDING
+0x3A04  ffffffffffffffff  PADDING
+0x3A0C  ffffffffffffffff  PADDING
+0x3A14  ffffffffffffffff  PADDING
+0x3A1C  ffffffffffffffff  PADDING
+0x3A24  ffffffffffffffff  PADDING
+0x3A2C  ffffffffffffffff  PADDING
+0x3A34  ffffffffffffffff  PADDING
+0x3A3C  ffffffffffffffff  PADDING
+0x3A44  ffffffffffffffff  PADDING
+0x3A4C  ffffffffffffffff  PADDING
+0x3A54  ffffffffffffffff  PADDING
+0x3A5C  ffffffffffffffff  PADDING
+0x3A64  ffffffffffffffff  PADDING
+0x3A6C  ffffffffffffffff  PADDING
+0x3A74  ffffffffffffffff  PADDING
+0x3A7C  ffffffffffffffff  PADDING
+0x3A84  ffffffffffffffff  PADDING
+0x3A8C  ffffffffffffffff  PADDING
+0x3A94  ffffffffffffffff  PADDING
+0x3A9C  ffffffffffffffff  PADDING
+0x3AA4  ffffffffffffffff  PADDING
+0x3AAC  ffffffffffffffff  PADDING
+0x3AB4  ffffffffffffffff  PADDING
+0x3ABC  ffffffffffffffff  PADDING
+0x3AC4  ffffffffffffffff  PADDING
+0x3ACC  ffffffffffffffff  PADDING
+0x3AD4  ffffffffffffffff  PADDING
+0x3ADC  ffffffffffffffff  PADDING
+0x3AE4  ffffffffffffffff  PADDING
+0x3AEC  ffffffffffffffff  PADDING
+
+Macros:
+--------------------------------------------------------------------------------
+[profile2] [M5] 0x3AF8  f03c8000  PRESS PLAY_PAUSE delay=128ms
+[profile2] [M5] 0x3AFC  f05c8000  RELEASE PLAY_PAUSE delay=128ms
+[profile2] [M5] 0x3B00  00fcc800  END
+
+
+Padding:
+--------------------------------------------------------------------------------
+0x3B04  ffffffffffffffff  PADDING
+0x3B0C  ffffffffffffffff  PADDING
+0x3B14  ffffffffffffffff  PADDING
+0x3B1C  ffffffffffffffff  PADDING
+0x3B24  ffffffffffffffff  PADDING
+0x3B2C  ffffffffffffffff  PADDING
+0x3B34  ffffffffffffffff  PADDING
+0x3B3C  ffffffffffffffff  PADDING
+0x3B44  ffffffffffffffff  PADDING
+0x3B4C  ffffffffffffffff  PADDING
+0x3B54  ffffffffffffffff  PADDING
+0x3B5C  ffffffffffffffff  PADDING
+0x3B64  ffffffffffffffff  PADDING
+0x3B6C  ffffffffffffffff  PADDING
+0x3B74  ffffffffffffffff  PADDING
+0x3B7C  ffffffffffffffff  PADDING
+0x3B84  ffffffffffffffff  PADDING
+0x3B8C  ffffffffffffffff  PADDING
+0x3B94  ffffffffffffffff  PADDING
+0x3B9C  ffffffffffffffff  PADDING
+0x3BA4  ffffffffffffffff  PADDING
+0x3BAC  ffffffffffffffff  PADDING
+0x3BB4  ffffffffffffffff  PADDING
+0x3BBC  ffffffffffffffff  PADDING
+0x3BC4  ffffffffffffffff  PADDING
+0x3BCC  ffffffffffffffff  PADDING
+0x3BD4  ffffffffffffffff  PADDING
+0x3BDC  ffffffffffffffff  PADDING
+0x3BE4  ffffffffffffffff  PADDING
+0x3BEC  ffffffffffffffff  PADDING
+0x3BF4  ffffffffffffffff  PADDING
+0x3BFC  ffffffffffffffff  PADDING
+0x3C04  ffffffffffffffff  PADDING
+0x3C0C  ffffffffffffffff  PADDING
+0x3C14  ffffffffffffffff  PADDING
+0x3C1C  ffffffffffffffff  PADDING
+0x3C24  ffffffffffffffff  PADDING
+0x3C2C  ffffffffffffffff  PADDING
+0x3C34  ffffffffffffffff  PADDING
+0x3C3C  ffffffffffffffff  PADDING
+0x3C44  ffffffffffffffff  PADDING
+0x3C4C  ffffffffffffffff  PADDING
+0x3C54  ffffffffffffffff  PADDING
+0x3C5C  ffffffffffffffff  PADDING
+0x3C64  ffffffffffffffff  PADDING
+0x3C6C  ffffffffffffffff  PADDING
+0x3C74  ffffffffffffffff  PADDING
+0x3C7C  ffffffffffffffff  PADDING
+0x3C84  ffffffffffffffff  PADDING
+0x3C8C  ffffffffffffffff  PADDING
+0x3C94  ffffffffffffffff  PADDING
+0x3C9C  ffffffffffffffff  PADDING
+0x3CA4  ffffffffffffffff  PADDING
+0x3CAC  ffffffffffffffff  PADDING
+0x3CB4  ffffffffffffffff  PADDING
+0x3CBC  ffffffffffffffff  PADDING
+0x3CC4  ffffffffffffffff  PADDING
+0x3CCC  ffffffffffffffff  PADDING
+0x3CD4  ffffffffffffffff  PADDING
+0x3CDC  ffffffffffffffff  PADDING
+0x3CE4  ffffffffffffffff  PADDING
+0x3CEC  ffffffffffffffff  PADDING
+0x3CF4  ffffffffffffffff  PADDING
+0x3CFC  ffffffffffffffff  PADDING
+0x3D04  ffffffffffffffff  PADDING
+0x3D0C  ffffffffffffffff  PADDING
+0x3D14  ffffffffffffffff  PADDING
+0x3D1C  ffffffffffffffff  PADDING
+0x3D24  ffffffffffffffff  PADDING
+0x3D2C  ffffffffffffffff  PADDING
+0x3D34  ffffffffffffffff  PADDING
+0x3D3C  ffffffffffffffff  PADDING
+0x3D44  ffffffffffffffff  PADDING
+0x3D4C  ffffffffffffffff  PADDING
+0x3D54  ffffffffffffffff  PADDING
+0x3D5C  ffffffffffffffff  PADDING
+0x3D64  ffffffffffffffff  PADDING
+0x3D6C  ffffffffffffffff  PADDING
+
+Macros:
+--------------------------------------------------------------------------------
+[profile3] [M1] 0x3D78  e23c0001  PRESS L_ALT delay=256ms
+[profile3] [M1] 0x3D7C  e13c0001  PRESS L_SHIFT delay=256ms
+[profile3] [M1] 0x3D80  283c0001  PRESS ENTER delay=256ms
+[profile3] [M1] 0x3D84  285c0001  RELEASE ENTER delay=256ms
+[profile3] [M1] 0x3D88  e15c0001  RELEASE L_SHIFT delay=256ms
+[profile3] [M1] 0x3D8C  e25c0001  RELEASE L_ALT delay=256ms
+[profile3] [M1] 0x3D90  00fcc800  END
+
+
+Padding:
+--------------------------------------------------------------------------------
+0x3D94  ffffffffffffffff  PADDING
+0x3D9C  ffffffffffffffff  PADDING
+0x3DA4  ffffffffffffffff  PADDING
+0x3DAC  ffffffffffffffff  PADDING
+0x3DB4  ffffffffffffffff  PADDING
+0x3DBC  ffffffffffffffff  PADDING
+0x3DC4  ffffffffffffffff  PADDING
+0x3DCC  ffffffffffffffff  PADDING
+0x3DD4  ffffffffffffffff  PADDING
+0x3DDC  ffffffffffffffff  PADDING
+0x3DE4  ffffffffffffffff  PADDING
+0x3DEC  ffffffffffffffff  PADDING
+0x3DF4  ffffffffffffffff  PADDING
+0x3DFC  ffffffffffffffff  PADDING
+0x3E04  ffffffffffffffff  PADDING
+0x3E0C  ffffffffffffffff  PADDING
+0x3E14  ffffffffffffffff  PADDING
+0x3E1C  ffffffffffffffff  PADDING
+0x3E24  ffffffffffffffff  PADDING
+0x3E2C  ffffffffffffffff  PADDING
+0x3E34  ffffffffffffffff  PADDING
+0x3E3C  ffffffffffffffff  PADDING
+0x3E44  ffffffffffffffff  PADDING
+0x3E4C  ffffffffffffffff  PADDING
+0x3E54  ffffffffffffffff  PADDING
+0x3E5C  ffffffffffffffff  PADDING
+0x3E64  ffffffffffffffff  PADDING
+0x3E6C  ffffffffffffffff  PADDING
+0x3E74  ffffffffffffffff  PADDING
+0x3E7C  ffffffffffffffff  PADDING
+0x3E84  ffffffffffffffff  PADDING
+0x3E8C  ffffffffffffffff  PADDING
+0x3E94  ffffffffffffffff  PADDING
+0x3E9C  ffffffffffffffff  PADDING
+0x3EA4  ffffffffffffffff  PADDING
+0x3EAC  ffffffffffffffff  PADDING
+0x3EB4  ffffffffffffffff  PADDING
+0x3EBC  ffffffffffffffff  PADDING
+0x3EC4  ffffffffffffffff  PADDING
+0x3ECC  ffffffffffffffff  PADDING
+0x3ED4  ffffffffffffffff  PADDING
+0x3EDC  ffffffffffffffff  PADDING
+0x3EE4  ffffffffffffffff  PADDING
+0x3EEC  ffffffffffffffff  PADDING
+0x3EF4  ffffffffffffffff  PADDING
+0x3EFC  ffffffffffffffff  PADDING
+0x3F04  ffffffffffffffff  PADDING
+0x3F0C  ffffffffffffffff  PADDING
+0x3F14  ffffffffffffffff  PADDING
+0x3F1C  ffffffffffffffff  PADDING
+0x3F24  ffffffffffffffff  PADDING
+0x3F2C  ffffffffffffffff  PADDING
+0x3F34  ffffffffffffffff  PADDING
+0x3F3C  ffffffffffffffff  PADDING
+0x3F44  ffffffffffffffff  PADDING
+0x3F4C  ffffffffffffffff  PADDING
+0x3F54  ffffffffffffffff  PADDING
+0x3F5C  ffffffffffffffff  PADDING
+0x3F64  ffffffffffffffff  PADDING
+0x3F6C  ffffffffffffffff  PADDING
+0x3F74  ffffffffffffffff  PADDING
+0x3F7C  ffffffffffffffff  PADDING
+0x3F84  ffffffffffffffff  PADDING
+0x3F8C  ffffffffffffffff  PADDING
+0x3F94  ffffffffffffffff  PADDING
+0x3F9C  ffffffffffffffff  PADDING
+0x3FA4  ffffffffffffffff  PADDING
+0x3FAC  ffffffffffffffff  PADDING
+0x3FB4  ffffffffffffffff  PADDING
+0x3FBC  ffffffffffffffff  PADDING
+0x3FC4  ffffffffffffffff  PADDING
+0x3FCC  ffffffffffffffff  PADDING
+0x3FD4  ffffffffffffffff  PADDING
+0x3FDC  ffffffffffffffff  PADDING
+0x3FE4  ffffffffffffffff  PADDING
+0x3FEC  ffffffffffffffff  PADDING
+
+Macros:
+--------------------------------------------------------------------------------
+[profile3] [M2] 0x3FF8  e23c8000  PRESS L_ALT delay=128ms
+[profile3] [M2] 0x3FFC  2b3c8000  PRESS TAB delay=128ms
+[profile3] [M2] 0x4000  2b5c8000  RELEASE TAB delay=128ms
+[profile3] [M2] 0x4004  e25c8000  RELEASE L_ALT delay=128ms
+[profile3] [M2] 0x4008  00fcc800  END
+
+
+Padding:
+--------------------------------------------------------------------------------
+0x400C  ffffffffffffffff  PADDING
+0x4014  ffffffffffffffff  PADDING
+0x401C  ffffffffffffffff  PADDING
+0x4024  ffffffffffffffff  PADDING
+0x402C  ffffffffffffffff  PADDING
+0x4034  ffffffffffffffff  PADDING
+0x403C  ffffffffffffffff  PADDING
+0x4044  ffffffffffffffff  PADDING
+0x404C  ffffffffffffffff  PADDING
+0x4054  ffffffffffffffff  PADDING
+0x405C  ffffffffffffffff  PADDING
+0x4064  ffffffffffffffff  PADDING
+0x406C  ffffffffffffffff  PADDING
+0x4074  ffffffffffffffff  PADDING
+0x407C  ffffffffffffffff  PADDING
+0x4084  ffffffffffffffff  PADDING
+0x408C  ffffffffffffffff  PADDING
+0x4094  ffffffffffffffff  PADDING
+0x409C  ffffffffffffffff  PADDING
+0x40A4  ffffffffffffffff  PADDING
+0x40AC  ffffffffffffffff  PADDING
+0x40B4  ffffffffffffffff  PADDING
+0x40BC  ffffffffffffffff  PADDING
+0x40C4  ffffffffffffffff  PADDING
+0x40CC  ffffffffffffffff  PADDING
+0x40D4  ffffffffffffffff  PADDING
+0x40DC  ffffffffffffffff  PADDING
+0x40E4  ffffffffffffffff  PADDING
+0x40EC  ffffffffffffffff  PADDING
+0x40F4  ffffffffffffffff  PADDING
+0x40FC  ffffffffffffffff  PADDING
+0x4104  ffffffffffffffff  PADDING
+0x410C  ffffffffffffffff  PADDING
+0x4114  ffffffffffffffff  PADDING
+0x411C  ffffffffffffffff  PADDING
+0x4124  ffffffffffffffff  PADDING
+0x412C  ffffffffffffffff  PADDING
+0x4134  ffffffffffffffff  PADDING
+0x413C  ffffffffffffffff  PADDING
+0x4144  ffffffffffffffff  PADDING
+0x414C  ffffffffffffffff  PADDING
+0x4154  ffffffffffffffff  PADDING
+0x415C  ffffffffffffffff  PADDING
+0x4164  ffffffffffffffff  PADDING
+0x416C  ffffffffffffffff  PADDING
+0x4174  ffffffffffffffff  PADDING
+0x417C  ffffffffffffffff  PADDING
+0x4184  ffffffffffffffff  PADDING
+0x418C  ffffffffffffffff  PADDING
+0x4194  ffffffffffffffff  PADDING
+0x419C  ffffffffffffffff  PADDING
+0x41A4  ffffffffffffffff  PADDING
+0x41AC  ffffffffffffffff  PADDING
+0x41B4  ffffffffffffffff  PADDING
+0x41BC  ffffffffffffffff  PADDING
+0x41C4  ffffffffffffffff  PADDING
+0x41CC  ffffffffffffffff  PADDING
+0x41D4  ffffffffffffffff  PADDING
+0x41DC  ffffffffffffffff  PADDING
+0x41E4  ffffffffffffffff  PADDING
+0x41EC  ffffffffffffffff  PADDING
+0x41F4  ffffffffffffffff  PADDING
+0x41FC  ffffffffffffffff  PADDING
+0x4204  ffffffffffffffff  PADDING
+0x420C  ffffffffffffffff  PADDING
+0x4214  ffffffffffffffff  PADDING
+0x421C  ffffffffffffffff  PADDING
+0x4224  ffffffffffffffff  PADDING
+0x422C  ffffffffffffffff  PADDING
+0x4234  ffffffffffffffff  PADDING
+0x423C  ffffffffffffffff  PADDING
+0x4244  ffffffffffffffff  PADDING
+0x424C  ffffffffffffffff  PADDING
+0x4254  ffffffffffffffff  PADDING
+0x425C  ffffffffffffffff  PADDING
+0x4264  ffffffffffffffff  PADDING
+0x426C  ffffffffffffffff  PADDING
+
+Macros:
+--------------------------------------------------------------------------------
+[profile3] [M3] 0x4278  f63c8000  PRESS VOL_INC delay=128ms
+[profile3] [M3] 0x427C  f65c8000  RELEASE VOL_INC delay=128ms
+[profile3] [M3] 0x4280  00fcc800  END
+
+
+Padding:
+--------------------------------------------------------------------------------
+0x4284  ffffffffffffffff  PADDING
+0x428C  ffffffffffffffff  PADDING
+0x4294  ffffffffffffffff  PADDING
+0x429C  ffffffffffffffff  PADDING
+0x42A4  ffffffffffffffff  PADDING
+0x42AC  ffffffffffffffff  PADDING
+0x42B4  ffffffffffffffff  PADDING
+0x42BC  ffffffffffffffff  PADDING
+0x42C4  ffffffffffffffff  PADDING
+0x42CC  ffffffffffffffff  PADDING
+0x42D4  ffffffffffffffff  PADDING
+0x42DC  ffffffffffffffff  PADDING
+0x42E4  ffffffffffffffff  PADDING
+0x42EC  ffffffffffffffff  PADDING
+0x42F4  ffffffffffffffff  PADDING
+0x42FC  ffffffffffffffff  PADDING
+0x4304  ffffffffffffffff  PADDING
+0x430C  ffffffffffffffff  PADDING
+0x4314  ffffffffffffffff  PADDING
+0x431C  ffffffffffffffff  PADDING
+0x4324  ffffffffffffffff  PADDING
+0x432C  ffffffffffffffff  PADDING
+0x4334  ffffffffffffffff  PADDING
+0x433C  ffffffffffffffff  PADDING
+0x4344  ffffffffffffffff  PADDING
+0x434C  ffffffffffffffff  PADDING
+0x4354  ffffffffffffffff  PADDING
+0x435C  ffffffffffffffff  PADDING
+0x4364  ffffffffffffffff  PADDING
+0x436C  ffffffffffffffff  PADDING
+0x4374  ffffffffffffffff  PADDING
+0x437C  ffffffffffffffff  PADDING
+0x4384  ffffffffffffffff  PADDING
+0x438C  ffffffffffffffff  PADDING
+0x4394  ffffffffffffffff  PADDING
+0x439C  ffffffffffffffff  PADDING
+0x43A4  ffffffffffffffff  PADDING
+0x43AC  ffffffffffffffff  PADDING
+0x43B4  ffffffffffffffff  PADDING
+0x43BC  ffffffffffffffff  PADDING
+0x43C4  ffffffffffffffff  PADDING
+0x43CC  ffffffffffffffff  PADDING
+0x43D4  ffffffffffffffff  PADDING
+0x43DC  ffffffffffffffff  PADDING
+0x43E4  ffffffffffffffff  PADDING
+0x43EC  ffffffffffffffff  PADDING
+0x43F4  ffffffffffffffff  PADDING
+0x43FC  ffffffffffffffff  PADDING
+0x4404  ffffffffffffffff  PADDING
+0x440C  ffffffffffffffff  PADDING
+0x4414  ffffffffffffffff  PADDING
+0x441C  ffffffffffffffff  PADDING
+0x4424  ffffffffffffffff  PADDING
+0x442C  ffffffffffffffff  PADDING
+0x4434  ffffffffffffffff  PADDING
+0x443C  ffffffffffffffff  PADDING
+0x4444  ffffffffffffffff  PADDING
+0x444C  ffffffffffffffff  PADDING
+0x4454  ffffffffffffffff  PADDING
+0x445C  ffffffffffffffff  PADDING
+0x4464  ffffffffffffffff  PADDING
+0x446C  ffffffffffffffff  PADDING
+0x4474  ffffffffffffffff  PADDING
+0x447C  ffffffffffffffff  PADDING
+0x4484  ffffffffffffffff  PADDING
+0x448C  ffffffffffffffff  PADDING
+0x4494  ffffffffffffffff  PADDING
+0x449C  ffffffffffffffff  PADDING
+0x44A4  ffffffffffffffff  PADDING
+0x44AC  ffffffffffffffff  PADDING
+0x44B4  ffffffffffffffff  PADDING
+0x44BC  ffffffffffffffff  PADDING
+0x44C4  ffffffffffffffff  PADDING
+0x44CC  ffffffffffffffff  PADDING
+0x44D4  ffffffffffffffff  PADDING
+0x44DC  ffffffffffffffff  PADDING
+0x44E4  ffffffffffffffff  PADDING
+0x44EC  ffffffffffffffff  PADDING
+
+Macros:
+--------------------------------------------------------------------------------
+[profile3] [M4] 0x44F8  f43c8000  PRESS MUTE delay=128ms
+[profile3] [M4] 0x44FC  f45c8000  RELEASE MUTE delay=128ms
+[profile3] [M4] 0x4500  00fcc800  END
+
+
+Padding:
+--------------------------------------------------------------------------------
+0x4504  ffffffffffffffff  PADDING
+0x450C  ffffffffffffffff  PADDING
+0x4514  ffffffffffffffff  PADDING
+0x451C  ffffffffffffffff  PADDING
+0x4524  ffffffffffffffff  PADDING
+0x452C  ffffffffffffffff  PADDING
+0x4534  ffffffffffffffff  PADDING
+0x453C  ffffffffffffffff  PADDING
+0x4544  ffffffffffffffff  PADDING
+0x454C  ffffffffffffffff  PADDING
+0x4554  ffffffffffffffff  PADDING
+0x455C  ffffffffffffffff  PADDING
+0x4564  ffffffffffffffff  PADDING
+0x456C  ffffffffffffffff  PADDING
+0x4574  ffffffffffffffff  PADDING
+0x457C  ffffffffffffffff  PADDING
+0x4584  ffffffffffffffff  PADDING
+0x458C  ffffffffffffffff  PADDING
+0x4594  ffffffffffffffff  PADDING
+0x459C  ffffffffffffffff  PADDING
+0x45A4  ffffffffffffffff  PADDING
+0x45AC  ffffffffffffffff  PADDING
+0x45B4  ffffffffffffffff  PADDING
+0x45BC  ffffffffffffffff  PADDING
+0x45C4  ffffffffffffffff  PADDING
+0x45CC  ffffffffffffffff  PADDING
+0x45D4  ffffffffffffffff  PADDING
+0x45DC  ffffffffffffffff  PADDING
+0x45E4  ffffffffffffffff  PADDING
+0x45EC  ffffffffffffffff  PADDING
+0x45F4  ffffffffffffffff  PADDING
+0x45FC  ffffffffffffffff  PADDING
+0x4604  ffffffffffffffff  PADDING
+0x460C  ffffffffffffffff  PADDING
+0x4614  ffffffffffffffff  PADDING
+0x461C  ffffffffffffffff  PADDING
+0x4624  ffffffffffffffff  PADDING
+0x462C  ffffffffffffffff  PADDING
+0x4634  ffffffffffffffff  PADDING
+0x463C  ffffffffffffffff  PADDING
+0x4644  ffffffffffffffff  PADDING
+0x464C  ffffffffffffffff  PADDING
+0x4654  ffffffffffffffff  PADDING
+0x465C  ffffffffffffffff  PADDING
+0x4664  ffffffffffffffff  PADDING
+0x466C  ffffffffffffffff  PADDING
+0x4674  ffffffffffffffff  PADDING
+0x467C  ffffffffffffffff  PADDING
+0x4684  ffffffffffffffff  PADDING
+0x468C  ffffffffffffffff  PADDING
+0x4694  ffffffffffffffff  PADDING
+0x469C  ffffffffffffffff  PADDING
+0x46A4  ffffffffffffffff  PADDING
+0x46AC  ffffffffffffffff  PADDING
+0x46B4  ffffffffffffffff  PADDING
+0x46BC  ffffffffffffffff  PADDING
+0x46C4  ffffffffffffffff  PADDING
+0x46CC  ffffffffffffffff  PADDING
+0x46D4  ffffffffffffffff  PADDING
+0x46DC  ffffffffffffffff  PADDING
+0x46E4  ffffffffffffffff  PADDING
+0x46EC  ffffffffffffffff  PADDING
+0x46F4  ffffffffffffffff  PADDING
+0x46FC  ffffffffffffffff  PADDING
+0x4704  ffffffffffffffff  PADDING
+0x470C  ffffffffffffffff  PADDING
+0x4714  ffffffffffffffff  PADDING
+0x471C  ffffffffffffffff  PADDING
+0x4724  ffffffffffffffff  PADDING
+0x472C  ffffffffffffffff  PADDING
+0x4734  ffffffffffffffff  PADDING
+0x473C  ffffffffffffffff  PADDING
+0x4744  ffffffffffffffff  PADDING
+0x474C  ffffffffffffffff  PADDING
+0x4754  ffffffffffffffff  PADDING
+0x475C  ffffffffffffffff  PADDING
+0x4764  ffffffffffffffff  PADDING
+0x476C  ffffffffffffffff  PADDING
+
+Macros:
+--------------------------------------------------------------------------------
+[profile3] [M5] 0x4778  f03c8000  PRESS PLAY_PAUSE delay=128ms
+[profile3] [M5] 0x477C  f05c8000  RELEASE PLAY_PAUSE delay=128ms
+[profile3] [M5] 0x4780  00fcc800  END
+
+
+Padding:
+--------------------------------------------------------------------------------
+0x4784  ffffffffffffffff  PADDING
+0x478C  ffffffffffffffff  PADDING
+0x4794  ffffffffffffffff  PADDING
+0x479C  ffffffffffffffff  PADDING
+0x47A4  ffffffffffffffff  PADDING
+0x47AC  ffffffffffffffff  PADDING
+0x47B4  ffffffffffffffff  PADDING
+0x47BC  ffffffffffffffff  PADDING
+0x47C4  ffffffffffffffff  PADDING
+0x47CC  ffffffffffffffff  PADDING
+0x47D4  ffffffffffffffff  PADDING
+0x47DC  ffffffffffffffff  PADDING
+0x47E4  ffffffffffffffff  PADDING
+0x47EC  ffffffffffffffff  PADDING
+0x47F4  ffffffffffffffff  PADDING
+0x47FC  ffffffffffffffff  PADDING
+0x4804  ffffffffffffffff  PADDING
+0x480C  ffffffffffffffff  PADDING
+0x4814  ffffffffffffffff  PADDING
+0x481C  ffffffffffffffff  PADDING
+0x4824  ffffffffffffffff  PADDING
+0x482C  ffffffffffffffff  PADDING
+0x4834  ffffffffffffffff  PADDING
+0x483C  ffffffffffffffff  PADDING
+0x4844  ffffffffffffffff  PADDING
+0x484C  ffffffffffffffff  PADDING
+0x4854  ffffffffffffffff  PADDING
+0x485C  ffffffffffffffff  PADDING
+0x4864  ffffffffffffffff  PADDING
+0x486C  ffffffffffffffff  PADDING
+0x4874  ffffffffffffffff  PADDING
+0x487C  ffffffffffffffff  PADDING
+0x4884  ffffffffffffffff  PADDING
+0x488C  ffffffffffffffff  PADDING
+0x4894  ffffffffffffffff  PADDING
+0x489C  ffffffffffffffff  PADDING
+0x48A4  ffffffffffffffff  PADDING
+0x48AC  ffffffffffffffff  PADDING
+0x48B4  ffffffffffffffff  PADDING
+0x48BC  ffffffffffffffff  PADDING
+0x48C4  ffffffffffffffff  PADDING
+0x48CC  ffffffffffffffff  PADDING
+0x48D4  ffffffffffffffff  PADDING
+0x48DC  ffffffffffffffff  PADDING
+0x48E4  ffffffffffffffff  PADDING
+0x48EC  ffffffffffffffff  PADDING
+0x48F4  ffffffffffffffff  PADDING
+0x48FC  ffffffffffffffff  PADDING
+0x4904  ffffffffffffffff  PADDING
+0x490C  ffffffffffffffff  PADDING
+0x4914  ffffffffffffffff  PADDING
+0x491C  ffffffffffffffff  PADDING
+0x4924  ffffffffffffffff  PADDING
+0x492C  ffffffffffffffff  PADDING
+0x4934  ffffffffffffffff  PADDING
+0x493C  ffffffffffffffff  PADDING
+0x4944  ffffffffffffffff  PADDING
+0x494C  ffffffffffffffff  PADDING
+0x4954  ffffffffffffffff  PADDING
+0x495C  ffffffffffffffff  PADDING
+0x4964  ffffffffffffffff  PADDING
+0x496C  ffffffffffffffff  PADDING
+0x4974  ffffffffffffffff  PADDING

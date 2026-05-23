@@ -1,0 +1,14 @@
+version: 1
+layout: ANSI
+profiles:
+  profile1:
+    base:
+      A: M_test
+  profile2: {}
+  profile3: {}
+macros:
+  test:
+    - action: press
+      key: B
+    - action: release
+      key: B

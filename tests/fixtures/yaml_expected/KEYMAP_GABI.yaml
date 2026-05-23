@@ -1,0 +1,68 @@
+version: 1
+layout: ANSI
+website_compat:
+  tex_padding: true
+  null_fn_positions:
+    profile1:
+      fn1:
+      - 1
+    profile2:
+      fn1:
+      - 2
+    profile3:
+      fn1:
+      - 2
+  fn_overshadowed_maps:
+    profile1:
+      G12: L_CTRL
+  fn_ineffective_maps:
+    profile1:
+      fn1:
+        G12: L_CTRL
+      fn2:
+        G12: L_CTRL
+      fn3:
+        G12: L_CTRL
+    profile2:
+      fn1:
+        G12: G12
+    profile3:
+      fn1:
+        G12: G12
+profiles:
+  profile1:
+    base:
+      PGUP: END
+      END: W3BACK
+      PGDN: W3FORWARD
+      W3BACK: PGDN
+      W3FORWARD: PGUP
+    fn1:
+      ESC: BAD_ESC
+      MUTE: BAD_MUTE
+      VOL_DEC: BAD_VOL_DEC
+      VOL_INC: BAD_VOL_INC
+  profile2:
+    base:
+      PGUP: END
+      END: W3BACK
+      PGDN: W3FORWARD
+      W3BACK: PGDN
+      W3FORWARD: PGUP
+    fn1:
+      ESC: BAD_ESC
+      MUTE: BAD_MUTE
+      VOL_DEC: BAD_VOL_DEC
+      VOL_INC: BAD_VOL_INC
+  profile3:
+    base:
+      PGUP: END
+      END: W3BACK
+      PGDN: W3FORWARD
+      W3BACK: PGDN
+      W3FORWARD: PGUP
+    fn1:
+      ESC: BAD_ESC
+      MUTE: BAD_MUTE
+      VOL_DEC: BAD_VOL_DEC
+      VOL_INC: BAD_VOL_INC
